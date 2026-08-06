@@ -1,0 +1,53 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# FreeCAD temporary/backup files
+*.FCBak
+*.FCStd1
+*.FCStd2
+*.FCStd3
+*.autosave
+*.lck
+
+# Build and packaging outputs
+build/
+dist/
+*.egg
+
+# Simulation/runtime logs and generated binary traces
+*.log
+*.tmp
+*.trace
+sim/runs/
+sim/output/
+sim/recordings/
+
+# Generated compiler artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.elf
+*.hex
+*.bin
+
+# Local IDE and operating-system files
+.vscode/
+.idea/
+*.code-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Keep CAD deliverables (FCStd/STEP/STL), drawings, manifests, and reports tracked.
