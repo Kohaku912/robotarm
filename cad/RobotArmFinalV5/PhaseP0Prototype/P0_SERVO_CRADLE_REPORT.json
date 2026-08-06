@@ -1,0 +1,28 @@
+{
+  "document": "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\PhaseP0Prototype\\ROBOT_ARM_V5_3_P0_MANUFACTURING.FCStd",
+  "parts": [
+    "P14_P0_MG996R_CRADLE",
+    "P14C_P0_MG996R_CRADLE",
+    "P15_P0_MG90S_CRADLE",
+    "P15C_P0_MG90S_CRADLE"
+  ],
+  "mg90s": {
+    "nominal_mm": [
+      22.8,
+      12.2,
+      28.5
+    ],
+    "clearance_per_side_mm": 0.15
+  },
+  "mg996r": {
+    "nominal_mm": [
+      40.7,
+      19.7,
+      42.9
+    ],
+    "clearance_per_side_mm": 0.2
+  },
+  "m3_clearance_mm": 3.25,
+  "retention": "independent clamp caps; servo mounting-ear holes not required",
+  "validation": "all parts are one valid solid"
+}

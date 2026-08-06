@@ -1,0 +1,305 @@
+{
+  "tests": {
+    "print_size": {
+      "ok": true,
+      "details": [
+        {
+          "file": "01_base_plate.stl",
+          "bbox": [
+            129.92,
+            129.96,
+            6.0
+          ]
+        },
+        {
+          "file": "02_base_column.stl",
+          "bbox": [
+            70.5,
+            37.3,
+            50.0
+          ]
+        },
+        {
+          "file": "03_turret.stl",
+          "bbox": [
+            68.0,
+            52.0,
+            67.0
+          ]
+        },
+        {
+          "file": "04_shoulder_horn_clamp.stl",
+          "bbox": [
+            60.0,
+            36.0,
+            8.0
+          ]
+        },
+        {
+          "file": "05_shoulder_idler_cap.stl",
+          "bbox": [
+            32.0,
+            26.0,
+            10.5
+          ]
+        },
+        {
+          "file": "06_upper_arm_a.stl",
+          "bbox": [
+            75.0,
+            30.0,
+            24.0
+          ]
+        },
+        {
+          "file": "07_upper_arm_b.stl",
+          "bbox": [
+            107.5,
+            31.9,
+            34.5
+          ]
+        },
+        {
+          "file": "08_elbow_horn_clamp.stl",
+          "bbox": [
+            47.0,
+            26.0,
+            7.0
+          ]
+        },
+        {
+          "file": "09_elbow_idler.stl",
+          "bbox": [
+            24.0,
+            20.0,
+            9.0
+          ]
+        },
+        {
+          "file": "10_forearm_a.stl",
+          "bbox": [
+            65.0,
+            28.0,
+            22.0
+          ]
+        },
+        {
+          "file": "11_forearm_b.stl",
+          "bbox": [
+            95.5,
+            28.0,
+            33.5
+          ]
+        },
+        {
+          "file": "12_wrist_pitch_yoke.stl",
+          "bbox": [
+            60.0,
+            26.2,
+            36.5
+          ]
+        },
+        {
+          "file": "13_wrist_roll_carrier.stl",
+          "bbox": [
+            55.0,
+            31.99,
+            31.98
+          ]
+        },
+        {
+          "file": "14_wrist_yaw_flange.stl",
+          "bbox": [
+            28.0,
+            28.0,
+            5.0
+          ]
+        },
+        {
+          "file": "15_gripper_body.stl",
+          "bbox": [
+            50.0,
+            36.0,
+            26.0
+          ]
+        },
+        {
+          "file": "16_finger_left.stl",
+          "bbox": [
+            40.0,
+            14.0,
+            10.0
+          ]
+        },
+        {
+          "file": "17_finger_right.stl",
+          "bbox": [
+            40.0,
+            14.0,
+            10.0
+          ]
+        },
+        {
+          "file": "18_gripper_link.stl",
+          "bbox": [
+            28.0,
+            6.0,
+            3.0
+          ]
+        },
+        {
+          "file": "19_camera_bracket.stl",
+          "bbox": [
+            68.6,
+            24.0,
+            11.2
+          ]
+        },
+        {
+          "file": "20_camera_tilt_mount.stl",
+          "bbox": [
+            44.5,
+            25.8,
+            34.5
+          ]
+        }
+      ]
+    },
+    "fastener_features": {
+      "ok": true,
+      "no_glue": true,
+      "shaft_fit_mm": 4.95,
+      "requirements": {
+        "01_base_plate": [
+          "m4_mount"
+        ],
+        "02_base_column": [
+          "servo_pocket",
+          "bearing_seat",
+          "tab_holes"
+        ],
+        "03_turret": [
+          "horn_screws",
+          "bearing_seat",
+          "m3_insert",
+          "shaft",
+          "soft_stop"
+        ],
+        "04_shoulder_horn_clamp": [
+          "horn_screws",
+          "m3_insert"
+        ],
+        "05_shoulder_idler_cap": [
+          "shaft_press_boss",
+          "m3_insert"
+        ],
+        "06_upper_arm_a": [
+          "m3_split",
+          "dowel"
+        ],
+        "07_upper_arm_b": [
+          "m3_split",
+          "servo_pocket",
+          "bearing_seat",
+          "soft_stop"
+        ],
+        "08_elbow_horn_clamp": [
+          "horn_screws",
+          "m3_insert"
+        ],
+        "09_elbow_idler": [
+          "shaft_press_boss",
+          "m3_insert"
+        ],
+        "10_forearm_a": [
+          "m3_split",
+          "dowel"
+        ],
+        "11_forearm_b": [
+          "m3_split",
+          "servo_pocket",
+          "bearing_seat"
+        ],
+        "12_wrist_pitch_yoke": [
+          "horn_screws",
+          "servo_pocket",
+          "bearing_seat",
+          "shaft"
+        ],
+        "13_wrist_roll_carrier": [
+          "horn_screws",
+          "servo_pocket",
+          "bearing_seat",
+          "shaft"
+        ],
+        "14_wrist_yaw_flange": [
+          "horn_screws",
+          "m3_insert"
+        ],
+        "15_gripper_body": [
+          "servo_pocket",
+          "m3_clear"
+        ],
+        "19_camera_bracket": [
+          "horn_screws"
+        ],
+        "20_camera_tilt_mount": [
+          "servo_pocket",
+          "m3_insert"
+        ]
+      },
+      "missing_stl": []
+    },
+    "fk_reach": {
+      "ok": true,
+      "home_m": [
+        0.3936666666666667,
+        0.0,
+        0.123
+      ],
+      "stretch_horiz_mm": 393.7,
+      "design_reach_mm": 362.0,
+      "target_band": [
+        280,
+        420
+      ]
+    },
+    "collision": {
+      "ok": true,
+      "hard_failures": [],
+      "soft_overlap_count": 6,
+      "note": "AABB proxy; hard fail = base vs gripper/camera only",
+      "poses": [
+        "home",
+        "folded",
+        "max_reach",
+        "wrist_twist"
+      ]
+    },
+    "servo_drive": {
+      "ok": true,
+      "j1": 0.0,
+      "j2": 0.7,
+      "j3": 0.0,
+      "target_j2": 0.7,
+      "tip_delta_m": 0.2103,
+      "note": "j2 tracks; others locked at 0; tip moves with shoulder",
+      "joints": [
+        "camera_tilt",
+        "gripper",
+        "j1",
+        "j2",
+        "j3",
+        "j4",
+        "j5",
+        "j6"
+      ]
+    },
+    "self_collision_flag": {
+      "ok": true,
+      "penetrations": [],
+      "note": "non-adjacent robot-robot at home"
+    }
+  },
+  "ok": true
+}

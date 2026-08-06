@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+<title>2D sketch: gripper_body</title>
+<rect width="100%" height="100%" fill="#f7f7f4"/>
+<text x="12" y="20" font-family="Segoe UI,sans-serif" font-size="14">2D sketch: gripper_body</text>
+<g stroke="#1a1a1a" stroke-width="1.2" fill="none">
+<path d="M193.80 225.20 L286.20 225.20 L286.20 154.80 L193.80 154.80 Z" />
+<text x="16" y="344" font-family="Segoe UI,sans-serif" font-size="11" fill="#333">gripper_body</text>
+</g></svg>

@@ -1,0 +1,8 @@
+﻿{
+    "time":  "2026-07-24T20:05:41.0039909+09:00",
+    "state":  "TIMEOUT",
+    "message":  "Bootloader port was not detected",
+    "port":  "",
+    "binary":  "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\PhaseP0Prototype\\Firmware\\commissioning_build\\robot_arm_p0_commissioning.ino.bin",
+    "servo_power_enable_forced_low":  true
+}

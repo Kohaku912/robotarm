@@ -1,0 +1,38 @@
+{
+  "fcstd": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/BodyPrototypeV2PrintedShafts/ROBOT_ARM_BODY_PROTOTYPE_V2_PRINTED_SHAFTS.FCStd",
+  "stl_dir": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/BodyPrototypeV2PrintedShafts/STL",
+  "plate_07": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/BodyPrototypeV2PrintedShafts/STL/BODY_PLATE_07_PRINTED_SHAFTS.stl",
+  "plate_07b": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/BodyPrototypeV2PrintedShafts/STL/BODY_PLATE_07B_PRINTED_SHAFTS_HORIZONTAL.stl",
+  "plate_size_mm": [
+    124.80000000000001,
+    4.7650025956706585,
+    64.0
+  ],
+  "shafts": {
+    "J1": {
+      "single_solid": true,
+      "valid": true,
+      "length_mm": 52.0
+    },
+    "J2": {
+      "single_solid": true,
+      "valid": true,
+      "length_mm": 64.0
+    },
+    "J3": {
+      "single_solid": true,
+      "valid": true,
+      "length_mm": 53.0
+    },
+    "J4": {
+      "single_solid": true,
+      "valid": true,
+      "length_mm": 53.0
+    },
+    "J5": {
+      "single_solid": true,
+      "valid": true,
+      "length_mm": 48.0
+    }
+  }
+}

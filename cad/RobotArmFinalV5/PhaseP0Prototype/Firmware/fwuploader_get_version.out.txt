@@ -1,0 +1,2 @@
+Error: opening port at 1200bps
+Couldn't get firmware version: exit status 3

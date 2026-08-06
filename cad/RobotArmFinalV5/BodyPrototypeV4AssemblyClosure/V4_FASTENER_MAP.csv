@@ -1,0 +1,17 @@
+﻿assembly,fastener,quantity,notes
+J1 lower bearing retainer,M3x16 + nyloc nut,4,B10 to B01
+J1 upper bearing retainer,M3x20 + nyloc nut,4,B10 to B02
+J1 turntable + 75T gear + hub,M3x25 + nyloc nut,4,B16-B03-B09 stack
+Shoulder yoke feet,M3x12 + nyloc nut,12,4 brackets; two side screws and one base screw each
+J2/J3/J4 bearing retainer + servo anchor,M3x16 + nyloc nut,12,Four per driven pitch axis
+J2 servo standoffs,M4x50 + nyloc nut,4,38 mm printed standoffs
+J3 servo standoffs,M4x45 + nyloc nut,4,32 mm printed standoffs
+J4 servo standoffs,M4x25 + nyloc nut,4,12 mm printed standoffs
+J5 servo standoffs,M4x16 + nyloc nut,4,5 mm printed standoffs
+Upper/forearm/wrist spacers,M3x40 + nyloc nut,6,Two dedicated spacer bolts per link pair
+J5 carrier to wrist plates,M3x50 + nyloc nut,4,Four through-bolts
+Split flange hubs,M3x16 + nyloc nut,8,Tangential clamp bolt
+J4 gear split hub,M3x12 + nyloc nut,4,Three gear bolts plus one clamp bolt
+Axial collars,M3x14 + nyloc nut,2,J1 bottom and J5 rear
+J1 servo base,M4x16 + nyloc nut,4,Captive pockets under B01
+Pinion to MG90S horn,M2x8 self-tapping/bolt,4,Two screws per pinion plus center horn screw

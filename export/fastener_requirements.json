@@ -1,0 +1,79 @@
+{
+  "01_base_plate": [
+    "m4_mount"
+  ],
+  "02_base_column": [
+    "servo_pocket",
+    "bearing_seat",
+    "tab_holes"
+  ],
+  "03_turret": [
+    "horn_screws",
+    "bearing_seat",
+    "m3_insert",
+    "shaft",
+    "soft_stop"
+  ],
+  "04_shoulder_horn_clamp": [
+    "horn_screws",
+    "m3_insert"
+  ],
+  "05_shoulder_idler_cap": [
+    "shaft_press_boss",
+    "m3_insert"
+  ],
+  "06_upper_arm_a": [
+    "m3_split",
+    "dowel"
+  ],
+  "07_upper_arm_b": [
+    "m3_split",
+    "servo_pocket",
+    "bearing_seat",
+    "soft_stop"
+  ],
+  "08_elbow_horn_clamp": [
+    "horn_screws",
+    "m3_insert"
+  ],
+  "09_elbow_idler": [
+    "shaft_press_boss",
+    "m3_insert"
+  ],
+  "10_forearm_a": [
+    "m3_split",
+    "dowel"
+  ],
+  "11_forearm_b": [
+    "m3_split",
+    "servo_pocket",
+    "bearing_seat"
+  ],
+  "12_wrist_pitch_yoke": [
+    "horn_screws",
+    "servo_pocket",
+    "bearing_seat",
+    "shaft"
+  ],
+  "13_wrist_roll_carrier": [
+    "horn_screws",
+    "servo_pocket",
+    "bearing_seat",
+    "shaft"
+  ],
+  "14_wrist_yaw_flange": [
+    "horn_screws",
+    "m3_insert"
+  ],
+  "15_gripper_body": [
+    "servo_pocket",
+    "m3_clear"
+  ],
+  "19_camera_bracket": [
+    "horn_screws"
+  ],
+  "20_camera_tilt_mount": [
+    "servo_pocket",
+    "m3_insert"
+  ]
+}

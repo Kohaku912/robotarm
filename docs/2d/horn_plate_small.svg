@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+<title>2D sketch: horn_plate_small</title>
+<rect width="100%" height="100%" fill="#f7f7f4"/>
+<text x="12" y="20" font-family="Segoe UI,sans-serif" font-size="14">2D sketch: horn_plate_small</text>
+<g stroke="#1a1a1a" stroke-width="1.2" fill="none">
+<path d="M213.60 216.40 L266.40 216.40 L266.40 163.60 L213.60 163.60 Z" />
+<text x="16" y="344" font-family="Segoe UI,sans-serif" font-size="11" fill="#333">horn_plate_small</text>
+</g></svg>

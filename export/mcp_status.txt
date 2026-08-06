@@ -1,0 +1,17 @@
+{
+  "ok": false,
+  "n_parts": 20,
+  "envelope_mm": [
+    411.2,
+    110.0,
+    112.5
+  ],
+  "envelope_ok": false,
+  "errors": [
+    {
+      "p": "envelope",
+      "e": "home envelope 411.2x110.0x112.5 exceeds target 280.0x120.0x160.0"
+    }
+  ],
+  "urdf": "C:\\Users\\kohak\\programs\\robotarm\\urdf\\robot_arm.urdf"
+}

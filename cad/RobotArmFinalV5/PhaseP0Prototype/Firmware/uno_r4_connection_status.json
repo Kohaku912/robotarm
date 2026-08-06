@@ -1,0 +1,15 @@
+{
+  "board_detected": true,
+  "board": "Arduino UNO R4 WiFi",
+  "normal_port": "COM3",
+  "fqbn": "arduino:renesas_uno:unor4wifi",
+  "core_version": "1.5.3",
+  "arduino_json_version": "7.4.2",
+  "servo_library_installed": true,
+  "full_firmware_compile": "PASS",
+  "safe_commissioning_compile": "PASS",
+  "upload": "BLOCKED_BY_NONFUNCTIONING_COM3_ENDPOINT",
+  "windows_pnp_status": "OK",
+  "serial_open_error": "A device attached to the system is not functioning.",
+  "required_physical_action": "Double-press RESET, then run upload_safe_commissioning.ps1."
+}

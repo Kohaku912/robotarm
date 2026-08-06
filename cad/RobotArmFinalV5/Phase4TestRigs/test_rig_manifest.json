@@ -1,0 +1,119 @@
+{
+  "revision": "V5.0-phase4",
+  "parts": [
+    {
+      "part": "TR01_UNIVERSAL_TEST_BASE",
+      "label": "Universal slotted joint-test base",
+      "qty": 1,
+      "volume_cm3": 133.598,
+      "valid": true,
+      "purpose": "170 x 100 mm base with M3 grid and four M5 bench-fixing holes."
+    },
+    {
+      "part": "TR02_F695ZZ_BEARING_TOWER",
+      "label": "Adjustable F695ZZ test bearing tower",
+      "qty": 2,
+      "volume_cm3": 53.333,
+      "valid": true,
+      "purpose": "Pair supports an independent M5 output shaft; mounting grid allows variable spacing."
+    },
+    {
+      "part": "TR03_MG996R_SLIDING_CRADLE",
+      "label": "MG996R sliding test cradle",
+      "qty": 1,
+      "volume_cm3": 32.778,
+      "valid": true,
+      "purpose": "Allows direct-drive pitch-joint torque and speed testing while adjusting servo alignment."
+    },
+    {
+      "part": "TR04_MG90S_SLIDING_CRADLE",
+      "label": "MG90S sliding gear-test cradle",
+      "qty": 1,
+      "volume_cm3": 14.557,
+      "valid": true,
+      "purpose": "Adjustable center distance for J1 and J4 gear-pair efficiency/backlash tests."
+    },
+    {
+      "part": "TR05_CALIBRATED_TORQUE_ARM",
+      "label": "150 mm calibrated torque arm",
+      "qty": 1,
+      "volume_cm3": 23.293,
+      "valid": true,
+      "purpose": "Weight/load-cell holes every 10 mm from 20 to 150 mm; connects to M5 split hub."
+    },
+    {
+      "part": "TR06_LOAD_CELL_ADAPTER",
+      "label": "Universal small load-cell adapter",
+      "qty": 1,
+      "volume_cm3": 16.316,
+      "valid": true,
+      "purpose": "Adapter has multiple M4/M3 candidate holes; final pattern must be matched to the selected load cell."
+    },
+    {
+      "part": "TR07_ENCODER_MAGNET_HOLDER",
+      "label": "M5 shaft encoder magnet holder",
+      "qty": 5,
+      "volume_cm3": 1.298,
+      "valid": true,
+      "purpose": "Holds nominal 6 mm diametric magnet; slit and cross screw retain holder on M5 shaft."
+    },
+    {
+      "part": "TR08_WEIGHT_HOOK_GUARD",
+      "label": "Guarded test-weight hook",
+      "qty": 1,
+      "volume_cm3": 8.01,
+      "valid": false,
+      "purpose": "Connects calibrated weights to TR05; keeps weights from sliding off during static torque tests."
+    }
+  ],
+  "exports": [
+    {
+      "part": "TR01_UNIVERSAL_TEST_BASE",
+      "qty": 1,
+      "stl": "TR01_UNIVERSAL_TEST_BASE.stl",
+      "step": "TR01_UNIVERSAL_TEST_BASE.step"
+    },
+    {
+      "part": "TR02_F695ZZ_BEARING_TOWER",
+      "qty": 2,
+      "stl": "TR02_F695ZZ_BEARING_TOWER.stl",
+      "step": "TR02_F695ZZ_BEARING_TOWER.step"
+    },
+    {
+      "part": "TR03_MG996R_SLIDING_CRADLE",
+      "qty": 1,
+      "stl": "TR03_MG996R_SLIDING_CRADLE.stl",
+      "step": "TR03_MG996R_SLIDING_CRADLE.step"
+    },
+    {
+      "part": "TR04_MG90S_SLIDING_CRADLE",
+      "qty": 1,
+      "stl": "TR04_MG90S_SLIDING_CRADLE.stl",
+      "step": "TR04_MG90S_SLIDING_CRADLE.step"
+    },
+    {
+      "part": "TR05_CALIBRATED_TORQUE_ARM",
+      "qty": 1,
+      "stl": "TR05_CALIBRATED_TORQUE_ARM.stl",
+      "step": "TR05_CALIBRATED_TORQUE_ARM.step"
+    },
+    {
+      "part": "TR06_LOAD_CELL_ADAPTER",
+      "qty": 1,
+      "stl": "TR06_LOAD_CELL_ADAPTER.stl",
+      "step": "TR06_LOAD_CELL_ADAPTER.step"
+    },
+    {
+      "part": "TR07_ENCODER_MAGNET_HOLDER",
+      "qty": 5,
+      "stl": "TR07_ENCODER_MAGNET_HOLDER.stl",
+      "step": "TR07_ENCODER_MAGNET_HOLDER.step"
+    },
+    {
+      "part": "TR08_WEIGHT_HOOK_GUARD",
+      "qty": 1,
+      "stl": "TR08_WEIGHT_HOOK_GUARD.stl",
+      "step": "TR08_WEIGHT_HOOK_GUARD.step"
+    }
+  ]
+}

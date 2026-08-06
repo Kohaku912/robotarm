@@ -1,0 +1,20 @@
+{
+  "diameter_mm": 4.8,
+  "end_chamfer_mm": 0.5,
+  "shafts_mm": {
+    "J1": 52.0,
+    "J2": 64.0,
+    "J3": 53.0,
+    "J4": 53.0,
+    "J5": 48.0
+  },
+  "files": {
+    "freecad": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/PrintedShaftsV1/ROBOT_ARM_PRINTED_SHAFTS_V1.FCStd",
+    "individual_stl_dir": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/PrintedShaftsV1/STL",
+    "vertical_set": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/PrintedShaftsV1/STL/PRINTED_SHAFT_SET_VERTICAL.stl",
+    "horizontal_set": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/PrintedShaftsV1/STL/PRINTED_SHAFT_SET_HORIZONTAL.stl",
+    "completed_preview": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV2PrintedShafts/ROBOT_ARM_COMPLETED_PREVIEW_V2_PRINTED_SHAFTS.FCStd",
+    "preview_image": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV2PrintedShafts/ROBOT_ARM_COMPLETED_PREVIEW_V2_PRINTED_SHAFTS.png"
+  },
+  "warning": "Temporary no-load/low-speed test only. Do not use printed shafts for payload, endurance, or high-speed operation."
+}

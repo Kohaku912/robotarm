@@ -1,0 +1,184 @@
+[
+  {
+    "plate": "BODY_PLATE_V5_M3_01",
+    "size_mm": [
+      168.0,
+      176.0,
+      36.0
+    ],
+    "count": 3,
+    "parts": [
+      "B01_BASE_LOWER",
+      "B05_UPPER_ARM_PLATE",
+      "B23_MG996R_SLIDING_JAW"
+    ]
+  },
+  {
+    "plate": "BODY_PLATE_V5_M3_02",
+    "size_mm": [
+      169.98,
+      176.0,
+      6.0
+    ],
+    "count": 5,
+    "parts": [
+      "B05_UPPER_ARM_PLATE",
+      "B04_SHOULDER_YOKE_PLATE",
+      "B04_SHOULDER_YOKE_PLATE",
+      "B07_WRIST_PITCH_PLATE",
+      "B07_WRIST_PITCH_PLATE"
+    ]
+  },
+  {
+    "plate": "BODY_PLATE_V5_M3_03",
+    "size_mm": [
+      172.0,
+      172.0,
+      12.0
+    ],
+    "count": 5,
+    "parts": [
+      "B06_FOREARM_PLATE",
+      "B06_FOREARM_PLATE",
+      "B02_BASE_UPPER",
+      "B22_MG996R_ADJUSTABLE_BASE",
+      "B24_SERVO_EAR_CLAMP"
+    ]
+  },
+  {
+    "plate": "BODY_PLATE_V5_M3_04",
+    "size_mm": [
+      172.0,
+      173.98,
+      20.0
+    ],
+    "count": 6,
+    "parts": [
+      "B03_J1_TURNTABLE",
+      "B22_MG996R_ADJUSTABLE_BASE",
+      "B32_MG996R_AXIS_ANCHOR",
+      "B24_SERVO_EAR_CLAMP",
+      "B24_SERVO_EAR_CLAMP",
+      "B21_MG90S_CABLE_STOP"
+    ]
+  },
+  {
+    "plate": "BODY_PLATE_V5_M3_05",
+    "size_mm": [
+      175.24,
+      172.22,
+      14.0
+    ],
+    "count": 9,
+    "parts": [
+      "B16_J1_OUTPUT_GEAR_75T",
+      "B32_MG996R_AXIS_ANCHOR",
+      "B24_SERVO_EAR_CLAMP",
+      "B24_SERVO_EAR_CLAMP",
+      "B14_FIXED_GRIPPER_FINGER",
+      "B14_FIXED_GRIPPER_FINGER",
+      "B33_MG90S_AXIS_ANCHOR",
+      "B33_MG90S_AXIS_ANCHOR",
+      "B19_MG90S_ADJUSTABLE_BASE"
+    ]
+  },
+  {
+    "plate": "BODY_PLATE_V5_M3_06",
+    "size_mm": [
+      173.53,
+      169.82,
+      34.0
+    ],
+    "count": 20,
+    "parts": [
+      "B19_MG90S_ADJUSTABLE_BASE",
+      "B19_MG90S_ADJUSTABLE_BASE",
+      "B13_FIXED_GRIPPER_PALM",
+      "B23_MG996R_SLIDING_JAW",
+      "B08_J5_BEARING_CARRIER",
+      "B21_MG90S_CABLE_STOP",
+      "B21_MG90S_CABLE_STOP",
+      "B44_MG90S_HORN_CLAMP_CAP",
+      "B44_MG90S_HORN_CLAMP_CAP",
+      "B20_MG90S_SLIDING_JAW",
+      "B20_MG90S_SLIDING_JAW",
+      "B20_MG90S_SLIDING_JAW",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B40_J1_HORN_DRIVEN_PINION",
+      "B41_J4_HORN_DRIVEN_PINION",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B30_SHOULDER_FOOT_BRACKET"
+    ]
+  },
+  {
+    "plate": "BODY_PLATE_V5_M3_07",
+    "size_mm": [
+      173.96,
+      161.77,
+      88.0
+    ],
+    "count": 57,
+    "parts": [
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B09_M5_SPLIT_FLANGE_HUB",
+      "B18_J4_OUTPUT_GEAR_36T",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B10_F695ZZ_RETAINER",
+      "B31_J4_GEAR_SPLIT_HUB",
+      "B30_SHOULDER_FOOT_BRACKET",
+      "B30_SHOULDER_FOOT_BRACKET",
+      "B30_SHOULDER_FOOT_BRACKET",
+      "B38_M5_SPLIT_SHAFT_COLLAR",
+      "B38_M5_SPLIT_SHAFT_COLLAR",
+      "B42_J1_RISER_POST_36",
+      "B42_J1_RISER_POST_36",
+      "B42_J1_RISER_POST_36",
+      "B42_J1_RISER_POST_36",
+      "B11_LINK_SPACER_28",
+      "B11_LINK_SPACER_28",
+      "B11_LINK_SPACER_28",
+      "B11_LINK_SPACER_28",
+      "B11_LINK_SPACER_28",
+      "B11_LINK_SPACER_28",
+      "B12_YOKE_SPACER_38",
+      "B12_YOKE_SPACER_38",
+      "B12_YOKE_SPACER_38",
+      "B34_M4_STANDOFF_38",
+      "B34_M4_STANDOFF_38",
+      "B34_M4_STANDOFF_38",
+      "B34_M4_STANDOFF_38",
+      "B35_M4_STANDOFF_32",
+      "B35_M4_STANDOFF_32",
+      "B35_M4_STANDOFF_32",
+      "B35_M4_STANDOFF_32",
+      "B39_MG90S_HORN_WASHER",
+      "B39_MG90S_HORN_WASHER",
+      "B37_M4_STANDOFF_5",
+      "B37_M4_STANDOFF_5",
+      "B37_M4_STANDOFF_5",
+      "B37_M4_STANDOFF_5",
+      "B36_M4_STANDOFF_12",
+      "B36_M4_STANDOFF_12",
+      "B36_M4_STANDOFF_12",
+      "B36_M4_STANDOFF_12",
+      "B25_PRINTED_SHAFT_J1",
+      "B26_PRINTED_SHAFT_J2",
+      "B27_PRINTED_SHAFT_J3",
+      "B28_PRINTED_SHAFT_J4",
+      "B29_PRINTED_SHAFT_J5",
+      "B43_PRINTED_SHAFT_J1_88"
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+{
+  "revision": "V3",
+  "bearing_seat_diameter_mm": 13.15,
+  "increase_mm": 0.1,
+  "affected": {
+    "B01_BASE_LOWER": {
+      "seats": 1,
+      "valid": true,
+      "solids": 1
+    },
+    "B02_BASE_UPPER": {
+      "seats": 1,
+      "valid": true,
+      "solids": 1
+    },
+    "B04_SHOULDER_YOKE_PLATE": {
+      "seats": 1,
+      "valid": true,
+      "solids": 1
+    },
+    "B05_UPPER_ARM_PLATE": {
+      "seats": 1,
+      "valid": true,
+      "solids": 1
+    },
+    "B06_FOREARM_PLATE": {
+      "seats": 1,
+      "valid": true,
+      "solids": 1
+    },
+    "B08_J5_BEARING_CARRIER": {
+      "seats": 2,
+      "valid": true,
+      "solids": 1
+    },
+    "BODY_PLATE_01": {
+      "seats": 3,
+      "valid": true,
+      "solids": 4
+    },
+    "BODY_PLATE_02": {
+      "seats": 3,
+      "valid": true,
+      "solids": 11
+    },
+    "BODY_PLATE_03": {
+      "seats": 2,
+      "valid": true,
+      "solids": 7
+    },
+    "BODY_PLATE_05": {
+      "seats": 2,
+      "valid": true,
+      "solids": 16
+    }
+  },
+  "verification": {
+    "B01_BASE_LOWER": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 1
+    },
+    "B02_BASE_UPPER": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 1
+    },
+    "B04_SHOULDER_YOKE_PLATE": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 1
+    },
+    "B05_UPPER_ARM_PLATE": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 1
+    },
+    "B06_FOREARM_PLATE": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 1
+    },
+    "B08_J5_BEARING_CARRIER": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 2
+    },
+    "BODY_PLATE_01": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 3
+    },
+    "BODY_PLATE_02": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 3
+    },
+    "BODY_PLATE_03": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 2
+    },
+    "BODY_PLATE_05": {
+      "old_13.05_faces": 0,
+      "new_13.15_faces": 2
+    }
+  },
+  "folder": "C:\\Users\\kohak/Documents/RobotArmFinalV5/BodyPrototypeV3BearingClearance",
+  "fcstd": "C:\\Users\\kohak/Documents/RobotArmFinalV5/BodyPrototypeV3BearingClearance\\ROBOT_ARM_BODY_PROTOTYPE_V3_BEARING_CLEARANCE.FCStd"
+}

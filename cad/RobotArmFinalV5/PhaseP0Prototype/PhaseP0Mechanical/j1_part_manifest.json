@@ -1,0 +1,236 @@
+{
+  "parts": [
+    {
+      "part": "P01_BASE_BEARING_TOWER",
+      "label": "P01 base bearing tower",
+      "size_mm": [
+        120.0,
+        120.0,
+        42.0
+      ],
+      "volume_mm3": 142906.5685682404
+    },
+    {
+      "part": "P02_J1_TURNTABLE",
+      "label": "P02 J1 turntable",
+      "size_mm": [
+        100.0,
+        99.96891820008163,
+        16.0
+      ],
+      "volume_mm3": 53442.13528504053
+    },
+    {
+      "part": "P03_J1_PINION_12T",
+      "label": "P03 J1 12T pinion",
+      "size_mm": [
+        17.482792341715168,
+        17.48279234171518,
+        14.0
+      ],
+      "volume_mm3": 1897.8561009614145
+    },
+    {
+      "part": "P04_J1_OUTPUT_GEAR_75T",
+      "label": "P04 J1 75T gear",
+      "size_mm": [
+        96.2234814617151,
+        96.24458949064709,
+        14.0
+      ],
+      "volume_mm3": 71287.1219619493
+    },
+    {
+      "part": "P16_M5_SPLIT_CLAMP_HUB",
+      "label": "P16 M5 close-fit hub",
+      "size_mm": [
+        21.964970384126445,
+        21.999962897442543,
+        12.0
+      ],
+      "volume_mm3": 3638.672814574542
+    },
+    {
+      "part": "P18_NC_HOME_SENSOR_BRACKET",
+      "label": "P18 NC sensor bracket",
+      "size_mm": [
+        30.0,
+        18.0,
+        24.0
+      ],
+      "volume_mm3": 3257.3106295473776
+    },
+    {
+      "part": "P031_MG90S_ADJUSTABLE_BASE",
+      "label": "P031 adjustable MG90S base",
+      "size_mm": [
+        52.0,
+        38.0,
+        4.0
+      ],
+      "volume_mm3": 4845.860040117385
+    },
+    {
+      "part": "P032_MG90S_SLIDING_JAW",
+      "label": "P032 MG90S sliding jaw",
+      "size_mm": [
+        13.0,
+        34.0,
+        24.0
+      ],
+      "volume_mm3": 2896.993031153804
+    },
+    {
+      "part": "P033_MG90S_CABLE_END_STOP",
+      "label": "P033 cable stop",
+      "size_mm": [
+        36.0,
+        12.0,
+        20.0
+      ],
+      "volume_mm3": 3416.478291071159
+    },
+    {
+      "part": "P037_SERVO_EAR_CLAMP",
+      "label": "P037 servo ear clamp",
+      "size_mm": [
+        64.0,
+        10.0,
+        5.0
+      ],
+      "volume_mm3": 2456.2887249838113
+    },
+    {
+      "part": "P043_J1_BENCH_ADAPTER",
+      "label": "P043 J1 bench adapter",
+      "size_mm": [
+        170.0,
+        90.0,
+        6.000000000000002
+      ],
+      "volume_mm3": 65880.16197745781
+    },
+    {
+      "part": "P044_F695ZZ_RETAINER",
+      "label": "P044 F695ZZ outer-race retainer",
+      "size_mm": [
+        18.0,
+        18.0,
+        1.6
+      ],
+      "volume_mm3": 255.09732347149122
+    },
+    {
+      "part": "P045_M5_SHAFT_COLLAR",
+      "label": "P045 M5 removable shaft collar",
+      "size_mm": [
+        12.361902647381804,
+        14.0,
+        7.0
+      ],
+      "volume_mm3": 761.1050392315917
+    },
+    {
+      "part": "P046_J1_LIMIT_CAM",
+      "label": "P046 J1 adjustable limit cam",
+      "size_mm": [
+        26.0,
+        17.995813291048037,
+        5.0
+      ],
+      "volume_mm3": 1371.1193781906384
+    },
+    {
+      "part": "P047_J1_SCALE_RING",
+      "label": "P047 J1 visual scale ring",
+      "size_mm": [
+        35.97580925947048,
+        38.0,
+        1.2
+      ],
+      "volume_mm3": 415.8975970215153
+    },
+    {
+      "part": "P048_LIMIT_SWITCH_BRACKET",
+      "label": "P048 compact NC limit bracket",
+      "size_mm": [
+        24.0,
+        12.0,
+        16.0
+      ],
+      "volume_mm3": 1082.682084003611
+    }
+  ],
+  "plates": [
+    {
+      "plate": "J1_PLATE_A_BASE",
+      "parts": [
+        "P01_BASE_BEARING_TOWER"
+      ],
+      "footprint_mm": [
+        129.0,
+        123.0
+      ]
+    },
+    {
+      "plate": "J1_PLATE_B_TURNTABLE",
+      "parts": [
+        "P02_J1_TURNTABLE"
+      ],
+      "footprint_mm": [
+        109.0,
+        103.0
+      ]
+    },
+    {
+      "plate": "J1_PLATE_C_DRIVE",
+      "parts": [
+        "P04_J1_OUTPUT_GEAR_75T",
+        "P16_M5_SPLIT_CLAMP_HUB",
+        "P03_J1_PINION_12T"
+      ],
+      "footprint_mm": [
+        156.6898979776271,
+        99.24458949064709
+      ]
+    },
+    {
+      "plate": "J1_PLATE_D_ADJUSTABLE",
+      "parts": [
+        "P031_MG90S_ADJUSTABLE_BASE",
+        "P032_MG90S_SLIDING_JAW",
+        "P033_MG90S_CABLE_END_STOP",
+        "P037_SERVO_EAR_CLAMP"
+      ],
+      "footprint_mm": [
+        122.00000000000001,
+        57.0
+      ]
+    },
+    {
+      "plate": "J1_PLATE_E_ACCESSORIES",
+      "parts": [
+        "P044_F695ZZ_RETAINER",
+        "P045_M5_SHAFT_COLLAR",
+        "P046_J1_LIMIT_CAM",
+        "P047_J1_SCALE_RING",
+        "P048_LIMIT_SWITCH_BRACKET",
+        "P18_NC_HOME_SENSOR_BRACKET"
+      ],
+      "footprint_mm": [
+        149.3619026473818,
+        65.0
+      ]
+    },
+    {
+      "plate": "J1_PLATE_F_BENCH",
+      "parts": [
+        "P043_J1_BENCH_ADAPTER"
+      ],
+      "footprint_mm": [
+        179.0,
+        93.0
+      ]
+    }
+  ]
+}

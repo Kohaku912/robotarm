@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "revision": "V5 M3 Standard",
+  "m3": {
+    "clearance_diameter_mm": 3.3,
+    "insert_diameter_mm": 5.0,
+    "insert_depth_mm": 4.0,
+    "screw_head_actual_diameter_mm": 5.0,
+    "head_relief_diameter_mm": 5.2,
+    "head_relief_depth_mm": 1.0
+  },
+  "unique_parts": 42,
+  "total_parts": 105,
+  "plates": 7,
+  "fcstd": "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\BodyPrototypeV5M3Standard\\ROBOT_ARM_BODY_PROTOTYPE_V5_M3_STANDARD.FCStd",
+  "stl_dir": "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\BodyPrototypeV5M3Standard\\STL",
+  "step_dir": "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\BodyPrototypeV5M3Standard\\STEP",
+  "zip": "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\ROBOT_ARM_BODY_PROTOTYPE_V5_M3_STANDARD.zip",
+  "validation": "m3_final_validation.json"
+}

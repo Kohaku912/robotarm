@@ -1,0 +1,376 @@
+{
+  "revision": "V5.0-phase3",
+  "parts": [
+    {
+      "part_number": "P01_BASE_BEARING_TOWER",
+      "label": "Base plate and J1 two-bearing tower",
+      "quantity": 1,
+      "volume_cm3": 142.907,
+      "single_solid_valid": true,
+      "process": "FDM + light reaming",
+      "orientation": "Base plate flat on bed",
+      "notes": "Two F695ZZ seats separated vertically; four M5 bench holes; four M3 heat-insert pilots."
+    },
+    {
+      "part_number": "P02_J1_TURNTABLE",
+      "label": "J1 rotating turntable",
+      "quantity": 1,
+      "volume_cm3": 53.442,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Large disk flat on bed",
+      "notes": "Clamps to independent M5 shaft through P16 split hub; eight M3 shoulder-frame holes."
+    },
+    {
+      "part_number": "P03_J1_PINION_12T",
+      "label": "J1 12-tooth servo pinion",
+      "quantity": 1,
+      "volume_cm3": 1.898,
+      "single_solid_valid": true,
+      "process": "FDM fine layer",
+      "orientation": "Gear face flat",
+      "notes": "Involute approximation, module 1.25, 20 degree pressure angle. Ream bore to measured spline adapter."
+    },
+    {
+      "part_number": "P04_J1_OUTPUT_GEAR_75T",
+      "label": "J1 75-tooth output gear",
+      "quantity": 1,
+      "volume_cm3": 71.287,
+      "single_solid_valid": true,
+      "process": "FDM fine layer",
+      "orientation": "Gear face flat",
+      "notes": "Module 1.25, 6.25:1 pair. Attach to P16 split hub; validate center distance coupon before full print."
+    },
+    {
+      "part_number": "P05_SHOULDER_SIDE_PLATE",
+      "label": "J2 shoulder bearing side plate",
+      "quantity": 2,
+      "volume_cm3": 19.22,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Plate flat; mirror second part in assembly",
+      "notes": "One F695ZZ per side, service window and bearing-retainer holes."
+    },
+    {
+      "part_number": "P06_UPPER_ARM_SIDE_PLATE",
+      "label": "Upper-arm side plate, J2 clamp to J3 bearing",
+      "quantity": 2,
+      "volume_cm3": 11.165,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Plate flat; mirror second part",
+      "notes": "82 mm axis spacing; distal F695ZZ seat; proximal split-clamp interface."
+    },
+    {
+      "part_number": "P07_FOREARM_SIDE_PLATE",
+      "label": "Forearm side plate, J3 clamp to J4 bearing",
+      "quantity": 2,
+      "volume_cm3": 8.165,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Plate flat; mirror second part",
+      "notes": "70 mm axis spacing; distal F695ZZ seat; two lightening windows."
+    },
+    {
+      "part_number": "P08_WRIST_PITCH_FORK",
+      "label": "J4 wrist-pitch fork",
+      "quantity": 1,
+      "volume_cm3": 22.895,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Bridge on bed; side beams vertical",
+      "notes": "46 mm J4-J5 package length; mounts P11 J5 carrier; uses P16 hub at J4."
+    },
+    {
+      "part_number": "P09_J4_PINION_12T",
+      "label": "J4 12-tooth pinion",
+      "quantity": 1,
+      "volume_cm3": 0.58,
+      "single_solid_valid": true,
+      "process": "FDM fine layer",
+      "orientation": "Gear face flat",
+      "notes": "Module 0.8, 20 degree pressure angle."
+    },
+    {
+      "part_number": "P10_J4_OUTPUT_GEAR_36T",
+      "label": "J4 36-tooth output gear",
+      "quantity": 1,
+      "volume_cm3": 5.176,
+      "single_solid_valid": true,
+      "process": "FDM fine layer",
+      "orientation": "Gear face flat",
+      "notes": "3:1 J4 reduction; attach to P16 split hub."
+    },
+    {
+      "part_number": "P11_J5_TWO_BEARING_CARRIER",
+      "label": "J5 roll two-bearing carrier",
+      "quantity": 1,
+      "volume_cm3": 29.899,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "One flat side on bed",
+      "notes": "Two F695ZZ seats on J5 axis; open center for shaft, encoder magnet and cable."
+    },
+    {
+      "part_number": "P12_GRIPPER_PALM",
+      "label": "Modular gripper palm",
+      "quantity": 1,
+      "volume_cm3": 33.215,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Largest flat side on bed",
+      "notes": "Fixed palm with reserved cavity for later gripper actuator; J5 shaft/hub interface."
+    },
+    {
+      "part_number": "P13_GRIPPER_FINGER",
+      "label": "Replaceable gripper finger",
+      "quantity": 2,
+      "volume_cm3": 6.909,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Finger side flat",
+      "notes": "Replaceable tip; TPU pad bonded or screwed after validation."
+    },
+    {
+      "part_number": "P14_MG996R_CRADLE",
+      "label": "Serviceable MG996R cradle",
+      "quantity": 2,
+      "volume_cm3": 19.379,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Feet on bed",
+      "notes": "Open service cradle; servo retained by original ears and removable M3 screws."
+    },
+    {
+      "part_number": "P15_MG90S_CRADLE",
+      "label": "Serviceable MG90S cradle",
+      "quantity": 3,
+      "volume_cm3": 6.62,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Feet on bed",
+      "notes": "For J1/J4/J5 continuous MG90S; cable opening and removable fasteners."
+    },
+    {
+      "part_number": "P16_M5_SPLIT_CLAMP_HUB",
+      "label": "M5 split-clamp output hub",
+      "quantity": 5,
+      "volume_cm3": 3.639,
+      "single_solid_valid": true,
+      "process": "FDM fine layer + ream",
+      "orientation": "Circular face flat",
+      "notes": "Transfers torque to M5 output shaft without relying only on friction fit; M3 clamp and four plate/gear holes."
+    },
+    {
+      "part_number": "P17_OUTPUT_ENCODER_BRACKET",
+      "label": "Absolute encoder shaft bracket",
+      "quantity": 5,
+      "volume_cm3": 3.186,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Platform flat",
+      "notes": "Holds 12-bit magnetic encoder concentric with output shaft; exact PCB holes must be updated after sensor selection."
+    },
+    {
+      "part_number": "P18_NC_HOME_SENSOR_BRACKET",
+      "label": "Adjustable NC home/limit sensor bracket",
+      "quantity": 5,
+      "volume_cm3": 3.257,
+      "single_solid_valid": true,
+      "process": "FDM",
+      "orientation": "Base flat",
+      "notes": "Adjustable slot and two sensor holes; final pattern depends on selected NC sensor."
+    },
+    {
+      "part_number": "C01_F695ZZ_FIT_COUPON",
+      "label": "F695ZZ bearing-seat fit coupon",
+      "quantity": 1,
+      "volume_cm3": 17.689,
+      "single_solid_valid": true,
+      "process": "FDM coupon",
+      "orientation": "Flat on bed",
+      "notes": "Hole diameters 12.90, 13.00, 13.05, 13.10, 13.20 mm. Record press force and retention."
+    },
+    {
+      "part_number": "C02_M5_SHAFT_FIT_COUPON",
+      "label": "M5 shaft-hole fit coupon",
+      "quantity": 1,
+      "volume_cm3": 18.053,
+      "single_solid_valid": true,
+      "process": "FDM coupon",
+      "orientation": "Flat on bed",
+      "notes": "Hole diameters 5.00, 5.10, 5.20, 5.30 mm. Test with actual shafts after print cooling."
+    },
+    {
+      "part_number": "C03_M3_INSERT_COUPON",
+      "label": "M3 heat-set insert pilot coupon",
+      "quantity": 1,
+      "volume_cm3": 18.242,
+      "single_solid_valid": true,
+      "process": "FDM coupon",
+      "orientation": "Flat on bed",
+      "notes": "Pilot diameters 4.20, 4.35, 4.50, 4.65, 4.80 mm; test pull-out and anti-rotation."
+    },
+    {
+      "part_number": "C04_J4_GEAR_SPACING_COUPON",
+      "label": "J4 module-0.8 gear center-distance coupon",
+      "quantity": 1,
+      "volume_cm3": 19.375,
+      "single_solid_valid": true,
+      "process": "FDM coupon",
+      "orientation": "Flat on bed",
+      "notes": "Output axis at x=18. Candidate pinion centers: 19.20, 19.35, 19.50 mm. Use printed P09/P10 pair."
+    },
+    {
+      "part_number": "C05_J1_GEAR_SPACING_COUPON",
+      "label": "J1 module-1.25 gear center-distance coupon",
+      "quantity": 1,
+      "volume_cm3": 27.925,
+      "single_solid_valid": true,
+      "process": "FDM coupon",
+      "orientation": "Flat on bed",
+      "notes": "Output axis at x=20. Candidate pinion centers: 54.375, 54.55, 54.70 mm. Use P03/P04."
+    }
+  ],
+  "exports": [
+    {
+      "part": "P01_BASE_BEARING_TOWER",
+      "stl": "P01_BASE_BEARING_TOWER.stl",
+      "step": "P01_BASE_BEARING_TOWER.step",
+      "quantity": 1
+    },
+    {
+      "part": "P02_J1_TURNTABLE",
+      "stl": "P02_J1_TURNTABLE.stl",
+      "step": "P02_J1_TURNTABLE.step",
+      "quantity": 1
+    },
+    {
+      "part": "P03_J1_PINION_12T",
+      "stl": "P03_J1_PINION_12T.stl",
+      "step": "P03_J1_PINION_12T.step",
+      "quantity": 1
+    },
+    {
+      "part": "P04_J1_OUTPUT_GEAR_75T",
+      "stl": "P04_J1_OUTPUT_GEAR_75T.stl",
+      "step": "P04_J1_OUTPUT_GEAR_75T.step",
+      "quantity": 1
+    },
+    {
+      "part": "P05_SHOULDER_SIDE_PLATE",
+      "stl": "P05_SHOULDER_SIDE_PLATE.stl",
+      "step": "P05_SHOULDER_SIDE_PLATE.step",
+      "quantity": 2
+    },
+    {
+      "part": "P06_UPPER_ARM_SIDE_PLATE",
+      "stl": "P06_UPPER_ARM_SIDE_PLATE.stl",
+      "step": "P06_UPPER_ARM_SIDE_PLATE.step",
+      "quantity": 2
+    },
+    {
+      "part": "P07_FOREARM_SIDE_PLATE",
+      "stl": "P07_FOREARM_SIDE_PLATE.stl",
+      "step": "P07_FOREARM_SIDE_PLATE.step",
+      "quantity": 2
+    },
+    {
+      "part": "P08_WRIST_PITCH_FORK",
+      "stl": "P08_WRIST_PITCH_FORK.stl",
+      "step": "P08_WRIST_PITCH_FORK.step",
+      "quantity": 1
+    },
+    {
+      "part": "P09_J4_PINION_12T",
+      "stl": "P09_J4_PINION_12T.stl",
+      "step": "P09_J4_PINION_12T.step",
+      "quantity": 1
+    },
+    {
+      "part": "P10_J4_OUTPUT_GEAR_36T",
+      "stl": "P10_J4_OUTPUT_GEAR_36T.stl",
+      "step": "P10_J4_OUTPUT_GEAR_36T.step",
+      "quantity": 1
+    },
+    {
+      "part": "P11_J5_TWO_BEARING_CARRIER",
+      "stl": "P11_J5_TWO_BEARING_CARRIER.stl",
+      "step": "P11_J5_TWO_BEARING_CARRIER.step",
+      "quantity": 1
+    },
+    {
+      "part": "P12_GRIPPER_PALM",
+      "stl": "P12_GRIPPER_PALM.stl",
+      "step": "P12_GRIPPER_PALM.step",
+      "quantity": 1
+    },
+    {
+      "part": "P13_GRIPPER_FINGER",
+      "stl": "P13_GRIPPER_FINGER.stl",
+      "step": "P13_GRIPPER_FINGER.step",
+      "quantity": 2
+    },
+    {
+      "part": "P14_MG996R_CRADLE",
+      "stl": "P14_MG996R_CRADLE.stl",
+      "step": "P14_MG996R_CRADLE.step",
+      "quantity": 2
+    },
+    {
+      "part": "P15_MG90S_CRADLE",
+      "stl": "P15_MG90S_CRADLE.stl",
+      "step": "P15_MG90S_CRADLE.step",
+      "quantity": 3
+    },
+    {
+      "part": "P16_M5_SPLIT_CLAMP_HUB",
+      "stl": "P16_M5_SPLIT_CLAMP_HUB.stl",
+      "step": "P16_M5_SPLIT_CLAMP_HUB.step",
+      "quantity": 5
+    },
+    {
+      "part": "P17_OUTPUT_ENCODER_BRACKET",
+      "stl": "P17_OUTPUT_ENCODER_BRACKET.stl",
+      "step": "P17_OUTPUT_ENCODER_BRACKET.step",
+      "quantity": 5
+    },
+    {
+      "part": "P18_NC_HOME_SENSOR_BRACKET",
+      "stl": "P18_NC_HOME_SENSOR_BRACKET.stl",
+      "step": "P18_NC_HOME_SENSOR_BRACKET.step",
+      "quantity": 5
+    },
+    {
+      "part": "C01_F695ZZ_FIT_COUPON",
+      "stl": "C01_F695ZZ_FIT_COUPON.stl",
+      "step": "C01_F695ZZ_FIT_COUPON.step",
+      "quantity": 1
+    },
+    {
+      "part": "C02_M5_SHAFT_FIT_COUPON",
+      "stl": "C02_M5_SHAFT_FIT_COUPON.stl",
+      "step": "C02_M5_SHAFT_FIT_COUPON.step",
+      "quantity": 1
+    },
+    {
+      "part": "C03_M3_INSERT_COUPON",
+      "stl": "C03_M3_INSERT_COUPON.stl",
+      "step": "C03_M3_INSERT_COUPON.step",
+      "quantity": 1
+    },
+    {
+      "part": "C04_J4_GEAR_SPACING_COUPON",
+      "stl": "C04_J4_GEAR_SPACING_COUPON.stl",
+      "step": "C04_J4_GEAR_SPACING_COUPON.step",
+      "quantity": 1
+    },
+    {
+      "part": "C05_J1_GEAR_SPACING_COUPON",
+      "stl": "C05_J1_GEAR_SPACING_COUPON.stl",
+      "step": "C05_J1_GEAR_SPACING_COUPON.step",
+      "quantity": 1
+    }
+  ],
+  "invalid": []
+}

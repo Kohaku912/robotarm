@@ -1,0 +1,222 @@
+{
+  "parts": {
+    "01_base_plate": {
+      "bbox": [
+        110.0,
+        110.0,
+        6.0
+      ],
+      "volume_mm3": 54575.6,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\01_base_plate.stl"
+    },
+    "02_base_column": {
+      "bbox": [
+        64.5,
+        32.9,
+        43.0
+      ],
+      "volume_mm3": 50962.7,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\02_base_column.stl"
+    },
+    "03_turret": {
+      "bbox": [
+        56.0,
+        48.0,
+        64.0
+      ],
+      "volume_mm3": 37715.0,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\03_turret.stl"
+    },
+    "04_shoulder_horn_clamp": {
+      "bbox": [
+        49.0,
+        30.0,
+        7.0
+      ],
+      "volume_mm3": 7152.4,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\04_shoulder_horn_clamp.stl"
+    },
+    "05_shoulder_idler_cap": {
+      "bbox": [
+        28.0,
+        22.0,
+        9.5
+      ],
+      "volume_mm3": 3527.7,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\05_shoulder_idler_cap.stl"
+    },
+    "06_upper_arm_a": {
+      "bbox": [
+        59.5,
+        36.0,
+        28.0
+      ],
+      "volume_mm3": 16574.7,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\06_upper_arm_a.stl"
+    },
+    "07_upper_arm_b": {
+      "bbox": [
+        89.5,
+        36.0,
+        32.5
+      ],
+      "volume_mm3": 39193.1,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\07_upper_arm_b.stl"
+    },
+    "08_elbow_horn_clamp": {
+      "bbox": [
+        39.0,
+        22.0,
+        6.0
+      ],
+      "volume_mm3": 3586.4,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\08_elbow_horn_clamp.stl"
+    },
+    "09_elbow_idler": {
+      "bbox": [
+        20.0,
+        18.0,
+        8.5
+      ],
+      "volume_mm3": 1780.1,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\09_elbow_idler.stl"
+    },
+    "10_forearm_a": {
+      "bbox": [
+        52.5,
+        34.0,
+        26.0
+      ],
+      "volume_mm3": 12685.8,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\10_forearm_a.stl"
+    },
+    "11_forearm_b": {
+      "bbox": [
+        81.5,
+        34.0,
+        31.5
+      ],
+      "volume_mm3": 31486.3,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\11_forearm_b.stl"
+    },
+    "12_wrist_pitch_yoke": {
+      "bbox": [
+        48.0,
+        23.2,
+        33.5
+      ],
+      "volume_mm3": 8199.6,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\12_wrist_pitch_yoke.stl"
+    },
+    "13_wrist_roll_carrier": {
+      "bbox": [
+        45.0,
+        28.0,
+        28.0
+      ],
+      "volume_mm3": 6764.0,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\13_wrist_roll_carrier.stl"
+    },
+    "14_wrist_yaw_flange": {
+      "bbox": [
+        24.0,
+        24.0,
+        4.5
+      ],
+      "volume_mm3": 2004.9,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\14_wrist_yaw_flange.stl"
+    },
+    "15_gripper_body": {
+      "bbox": [
+        42.0,
+        32.0,
+        24.0
+      ],
+      "volume_mm3": 22915.6,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\15_gripper_body.stl"
+    },
+    "16_finger_left": {
+      "bbox": [
+        35.0,
+        11.0,
+        8.4
+      ],
+      "volume_mm3": 1987.5,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\16_finger_left.stl"
+    },
+    "17_finger_right": {
+      "bbox": [
+        35.0,
+        11.0,
+        8.4
+      ],
+      "volume_mm3": 1987.5,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\17_finger_right.stl"
+    },
+    "18_gripper_link": {
+      "bbox": [
+        24.0,
+        5.0,
+        2.5
+      ],
+      "volume_mm3": 264.7,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\18_gripper_link.stl"
+    },
+    "19_camera_bracket": {
+      "bbox": [
+        66.6,
+        20.0,
+        9.5
+      ],
+      "volume_mm3": 6032.5,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\19_camera_bracket.stl"
+    },
+    "20_camera_tilt_mount": {
+      "bbox": [
+        40.5,
+        22.4,
+        32.5
+      ],
+      "volume_mm3": 20090.6,
+      "stl": "C:\\Users\\kohak\\programs\\robotarm\\export\\stl\\20_camera_tilt_mount.stl"
+    }
+  },
+  "errors": [
+    {
+      "stage": "envelope",
+      "error": "home envelope 411.2x110.0x112.5 exceeds target 280.0x120.0x160.0"
+    }
+  ],
+  "ok": false,
+  "reach_mm_approx": 323.0,
+  "svg": [
+    "00_link_layout.svg",
+    "base_plate.svg",
+    "camera_slot.svg",
+    "fore_ibeam.svg",
+    "gripper_body.svg",
+    "horn_plate_large.svg",
+    "horn_plate_small.svg",
+    "j2_u_cheek.svg",
+    "mg90s_pocket.svg",
+    "mg996r_pocket.svg",
+    "upper_ibeam.svg"
+  ],
+  "vendor": [
+    "MG996R",
+    "MG90S",
+    "F695ZZ",
+    "F685ZZ",
+    "horn_MG996R",
+    "horn_MG90S"
+  ],
+  "envelope_mm": [
+    411.2,
+    110.0,
+    112.5
+  ],
+  "envelope_ok": false,
+  "urdf": "C:\\Users\\kohak\\programs\\robotarm\\urdf\\robot_arm.urdf",
+  "fcstd_parts": "C:\\Users\\kohak\\programs\\robotarm\\export\\fcstd\\RobotArm_Parts.FCStd",
+  "fcstd_assembly": "C:\\Users\\kohak\\programs\\robotarm\\export\\fcstd\\RobotArm.FCStd"
+}

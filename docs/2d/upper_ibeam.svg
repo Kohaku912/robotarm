@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+<title>2D sketch: upper_ibeam</title>
+<rect width="100%" height="100%" fill="#f7f7f4"/>
+<text x="12" y="20" font-family="Segoe UI,sans-serif" font-size="14">2D sketch: upper_ibeam</text>
+<g stroke="#1a1a1a" stroke-width="1.2" fill="none">
+<path d="M240.00 220.80 L361.00 220.80 L361.00 159.20 L240.00 159.20 Z" />
+<text x="16" y="344" font-family="Segoe UI,sans-serif" font-size="11" fill="#333">upper_ibeam</text>
+</g></svg>

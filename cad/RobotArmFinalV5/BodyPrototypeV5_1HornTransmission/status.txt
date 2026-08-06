@@ -1,0 +1,4 @@
+PASS
+Measured horn 36 x 19 mm, centre boss 7 mm
+Pocket 36.6 x 19.6 mm, boss relief 7.4 mm
+Four M3 inserts 5.0 x 4.0 mm; cap holes 3.3 mm; head relief 5.2 x 1.0 mm

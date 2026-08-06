@@ -1,0 +1,25 @@
+{
+  "revision": "V4 Assembly Closure",
+  "pose": "straight home",
+  "visible_shape_objects": 230,
+  "included": {
+    "printed_body": "V4 modified parts",
+    "servos": "3x MG90S + 2x MG996R nominal external models",
+    "bearings": "10x F695ZZ",
+    "printed_shafts": "5",
+    "v4_closure_parts": "anchors, brackets, standoffs, collars, J4 gear hub, washers",
+    "principal_bolts_preview": 40
+  },
+  "files": {
+    "freecad": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV4AssemblyClosure/ROBOT_ARM_COMPLETED_PREVIEW_V4_ASSEMBLY_CLOSURE.FCStd",
+    "step": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV4AssemblyClosure/ROBOT_ARM_COMPLETED_PREVIEW_V4_ASSEMBLY_CLOSURE.step",
+    "axon": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV4AssemblyClosure/ROBOT_ARM_COMPLETED_PREVIEW_V4_AXON.png",
+    "front": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV4AssemblyClosure/ROBOT_ARM_COMPLETED_PREVIEW_V4_FRONT.png",
+    "top": "C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV4AssemblyClosure/ROBOT_ARM_COMPLETED_PREVIEW_V4_TOP.png"
+  },
+  "limitations": [
+    "Printed shafts are only for no-load low-speed tests",
+    "Servo case and horn dimensions may vary by clone",
+    "Bolt thread geometry is simplified for display"
+  ]
+}

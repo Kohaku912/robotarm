@@ -1,0 +1,659 @@
+[
+  {
+    "plate": "J2_A_SHOULDER",
+    "footprint_mm": [
+      139.0,
+      85.0
+    ],
+    "items": [
+      {
+        "joint": "J2",
+        "part": "P05_SHOULDER_SIDE_PLATE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 62.0,
+        "height": 82.0
+      },
+      {
+        "joint": "J2",
+        "part": "P05_SHOULDER_SIDE_PLATE",
+        "copy": 2,
+        "x": 71.0,
+        "y": 3.0,
+        "width": 62.0,
+        "height": 82.0
+      }
+    ]
+  },
+  {
+    "plate": "J2_B_UPPER_ARM",
+    "footprint_mm": [
+      119.0,
+      65.0
+    ],
+    "items": [
+      {
+        "joint": "J2",
+        "part": "P06_UPPER_ARM_SIDE_PLATE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 110.0,
+        "height": 28.0
+      },
+      {
+        "joint": "J2",
+        "part": "P06_UPPER_ARM_SIDE_PLATE",
+        "copy": 2,
+        "x": 3.0,
+        "y": 37.0,
+        "width": 110.0,
+        "height": 28.0
+      }
+    ]
+  },
+  {
+    "plate": "J2_C_SERVO_AND_HUB",
+    "footprint_mm": [
+      178.0,
+      85.0
+    ],
+    "items": [
+      {
+        "joint": "J2",
+        "part": "P034_MG996R_ADJUSTABLE_BASE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 75.0,
+        "height": 54.0
+      },
+      {
+        "joint": "J2",
+        "part": "P035_MG996R_SLIDING_JAW",
+        "copy": 1,
+        "x": 84.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 50.0
+      },
+      {
+        "joint": "J2",
+        "part": "P037_SERVO_EAR_CLAMP",
+        "copy": 1,
+        "x": 108.0,
+        "y": 3.0,
+        "width": 64.0,
+        "height": 10.0
+      },
+      {
+        "joint": "J2",
+        "part": "P16_M5_SPLIT_CLAMP_HUB",
+        "copy": 1,
+        "x": 3.0,
+        "y": 63.0,
+        "width": 21.98362417419679,
+        "height": 22.0
+      },
+      {
+        "joint": "J2",
+        "part": "P18_NC_HOME_SENSOR_BRACKET",
+        "copy": 1,
+        "x": 30.98362417419679,
+        "y": 63.0,
+        "width": 30.0,
+        "height": 18.0
+      }
+    ]
+  },
+  {
+    "plate": "J2_D_BEARING_AND_SPRING",
+    "footprint_mm": [
+      156.72380529476362,
+      61.0
+    ],
+    "items": [
+      {
+        "joint": "J2",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J2",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 2,
+        "x": 27.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J2",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 1,
+        "x": 51.0,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J2",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 2,
+        "x": 69.36190264738181,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J2",
+        "part": "CB_J2_ROTATING_LEVER",
+        "copy": 1,
+        "x": 87.72380529476362,
+        "y": 3.0,
+        "width": 63.0,
+        "height": 24.0
+      },
+      {
+        "joint": "J2",
+        "part": "CB_J2_FIXED_ANCHOR",
+        "copy": 1,
+        "x": 3.0,
+        "y": 33.0,
+        "width": 55.0,
+        "height": 20.0
+      },
+      {
+        "joint": "J2",
+        "part": "CB_J2_SPRING_GUARD",
+        "copy": 1,
+        "x": 64.0,
+        "y": 33.0,
+        "width": 67.0,
+        "height": 28.0
+      }
+    ]
+  },
+  {
+    "plate": "J3_A_FOREARM",
+    "footprint_mm": [
+      103.0,
+      57.0
+    ],
+    "items": [
+      {
+        "joint": "J3",
+        "part": "P07_FOREARM_SIDE_PLATE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 94.0,
+        "height": 24.0
+      },
+      {
+        "joint": "J3",
+        "part": "P07_FOREARM_SIDE_PLATE",
+        "copy": 2,
+        "x": 3.0,
+        "y": 33.0,
+        "width": 94.0,
+        "height": 24.0
+      }
+    ]
+  },
+  {
+    "plate": "J3_B_SERVO_AND_HUB",
+    "footprint_mm": [
+      178.0,
+      85.0
+    ],
+    "items": [
+      {
+        "joint": "J3",
+        "part": "P034_MG996R_ADJUSTABLE_BASE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 75.0,
+        "height": 54.0
+      },
+      {
+        "joint": "J3",
+        "part": "P035_MG996R_SLIDING_JAW",
+        "copy": 1,
+        "x": 84.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 50.0
+      },
+      {
+        "joint": "J3",
+        "part": "P037_SERVO_EAR_CLAMP",
+        "copy": 1,
+        "x": 108.0,
+        "y": 3.0,
+        "width": 64.0,
+        "height": 10.0
+      },
+      {
+        "joint": "J3",
+        "part": "P16_M5_SPLIT_CLAMP_HUB",
+        "copy": 1,
+        "x": 3.0,
+        "y": 63.0,
+        "width": 21.98362417419679,
+        "height": 22.0
+      },
+      {
+        "joint": "J3",
+        "part": "P18_NC_HOME_SENSOR_BRACKET",
+        "copy": 1,
+        "x": 30.98362417419679,
+        "y": 63.0,
+        "width": 30.0,
+        "height": 18.0
+      }
+    ]
+  },
+  {
+    "plate": "J3_C_BEARING_AND_SPRING",
+    "footprint_mm": [
+      149.72380529476362,
+      61.0
+    ],
+    "items": [
+      {
+        "joint": "J3",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J3",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 2,
+        "x": 27.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J3",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 1,
+        "x": 51.0,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J3",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 2,
+        "x": 69.36190264738181,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J3",
+        "part": "CB_J3_ROTATING_LEVER",
+        "copy": 1,
+        "x": 87.72380529476362,
+        "y": 3.0,
+        "width": 56.0,
+        "height": 24.0
+      },
+      {
+        "joint": "J3",
+        "part": "CB_J3_FIXED_ANCHOR",
+        "copy": 1,
+        "x": 3.0,
+        "y": 33.0,
+        "width": 48.0,
+        "height": 20.0
+      },
+      {
+        "joint": "J3",
+        "part": "CB_J3_SPRING_GUARD",
+        "copy": 1,
+        "x": 57.0,
+        "y": 33.0,
+        "width": 60.0,
+        "height": 28.0
+      }
+    ]
+  },
+  {
+    "plate": "J4_A_WRIST_DRIVE",
+    "footprint_mm": [
+      136.5666471543197,
+      43.0
+    ],
+    "items": [
+      {
+        "joint": "J4",
+        "part": "P08_WRIST_PITCH_FORK",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 46.0,
+        "height": 40.0
+      },
+      {
+        "joint": "J4",
+        "part": "P09_J4_PINION_12T",
+        "copy": 1,
+        "x": 55.0,
+        "y": 3.0,
+        "width": 11.18898709869768,
+        "height": 11.188987098697737
+      },
+      {
+        "joint": "J4",
+        "part": "P10_J4_OUTPUT_GEAR_36T",
+        "copy": 1,
+        "x": 72.18898709869768,
+        "y": 3.0,
+        "width": 30.394035881425225,
+        "height": 30.394035881425168
+      },
+      {
+        "joint": "J4",
+        "part": "P16_M5_SPLIT_CLAMP_HUB",
+        "copy": 1,
+        "x": 108.5830229801229,
+        "y": 3.0,
+        "width": 21.98362417419679,
+        "height": 22.0
+      }
+    ]
+  },
+  {
+    "plate": "J4_B_SERVO",
+    "footprint_mm": [
+      122.00000000000001,
+      65.0
+    ],
+    "items": [
+      {
+        "joint": "J4",
+        "part": "P031_MG90S_ADJUSTABLE_BASE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 52.000000000000014,
+        "height": 38.0
+      },
+      {
+        "joint": "J4",
+        "part": "P032_MG90S_SLIDING_JAW",
+        "copy": 1,
+        "x": 61.000000000000014,
+        "y": 3.0,
+        "width": 13.0,
+        "height": 34.0
+      },
+      {
+        "joint": "J4",
+        "part": "P033_MG90S_CABLE_END_STOP",
+        "copy": 1,
+        "x": 80.00000000000001,
+        "y": 3.0,
+        "width": 36.0,
+        "height": 12.0
+      },
+      {
+        "joint": "J4",
+        "part": "P037_SERVO_EAR_CLAMP",
+        "copy": 1,
+        "x": 3.0,
+        "y": 47.0,
+        "width": 64.0,
+        "height": 10.0
+      },
+      {
+        "joint": "J4",
+        "part": "P18_NC_HOME_SENSOR_BRACKET",
+        "copy": 1,
+        "x": 73.0,
+        "y": 47.0,
+        "width": 30.0,
+        "height": 18.0
+      }
+    ]
+  },
+  {
+    "plate": "J4_C_BEARING_AND_SPRING",
+    "footprint_mm": [
+      142.72380529476362,
+      61.0
+    ],
+    "items": [
+      {
+        "joint": "J4",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J4",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 2,
+        "x": 27.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J4",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 1,
+        "x": 51.0,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J4",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 2,
+        "x": 69.36190264738181,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J4",
+        "part": "CB_J4_ROTATING_LEVER",
+        "copy": 1,
+        "x": 87.72380529476362,
+        "y": 3.0,
+        "width": 49.0,
+        "height": 24.0
+      },
+      {
+        "joint": "J4",
+        "part": "CB_J4_FIXED_ANCHOR",
+        "copy": 1,
+        "x": 3.0,
+        "y": 33.0,
+        "width": 42.0,
+        "height": 20.0
+      },
+      {
+        "joint": "J4",
+        "part": "CB_J4_SPRING_GUARD",
+        "copy": 1,
+        "x": 51.0,
+        "y": 33.0,
+        "width": 54.0,
+        "height": 28.0
+      }
+    ]
+  },
+  {
+    "plate": "J5_A_CARRIER_AND_TOOL",
+    "footprint_mm": [
+      163.0,
+      75.0
+    ],
+    "items": [
+      {
+        "joint": "J5",
+        "part": "P11_J5_TWO_BEARING_CARRIER",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 38.0,
+        "height": 38.0
+      },
+      {
+        "joint": "J5",
+        "part": "P12_GRIPPER_PALM",
+        "copy": 1,
+        "x": 47.0,
+        "y": 3.0,
+        "width": 52.0,
+        "height": 50.0
+      },
+      {
+        "joint": "J5",
+        "part": "P13_GRIPPER_FINGER",
+        "copy": 1,
+        "x": 105.0,
+        "y": 3.0,
+        "width": 52.0,
+        "height": 16.0
+      },
+      {
+        "joint": "J5",
+        "part": "P13_GRIPPER_FINGER",
+        "copy": 2,
+        "x": 3.0,
+        "y": 59.0,
+        "width": 52.0,
+        "height": 16.0
+      }
+    ]
+  },
+  {
+    "plate": "J5_B_SERVO_AND_HUB",
+    "footprint_mm": [
+      136.9836241741968,
+      69.0
+    ],
+    "items": [
+      {
+        "joint": "J5",
+        "part": "P031_MG90S_ADJUSTABLE_BASE",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 52.000000000000014,
+        "height": 38.0
+      },
+      {
+        "joint": "J5",
+        "part": "P032_MG90S_SLIDING_JAW",
+        "copy": 1,
+        "x": 61.000000000000014,
+        "y": 3.0,
+        "width": 13.0,
+        "height": 34.0
+      },
+      {
+        "joint": "J5",
+        "part": "P033_MG90S_CABLE_END_STOP",
+        "copy": 1,
+        "x": 80.00000000000001,
+        "y": 3.0,
+        "width": 36.0,
+        "height": 12.0
+      },
+      {
+        "joint": "J5",
+        "part": "P037_SERVO_EAR_CLAMP",
+        "copy": 1,
+        "x": 3.0,
+        "y": 47.0,
+        "width": 64.0,
+        "height": 10.0
+      },
+      {
+        "joint": "J5",
+        "part": "P16_M5_SPLIT_CLAMP_HUB",
+        "copy": 1,
+        "x": 73.0,
+        "y": 47.0,
+        "width": 21.98362417419679,
+        "height": 22.0
+      },
+      {
+        "joint": "J5",
+        "part": "P18_NC_HOME_SENSOR_BRACKET",
+        "copy": 1,
+        "x": 100.98362417419679,
+        "y": 47.0,
+        "width": 30.0,
+        "height": 18.0
+      }
+    ]
+  },
+  {
+    "plate": "J5_C_BEARING",
+    "footprint_mm": [
+      87.72380529476362,
+      21.0
+    ],
+    "items": [
+      {
+        "joint": "J5",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 1,
+        "x": 3.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J5",
+        "part": "P044_F695ZZ_RETAINER",
+        "copy": 2,
+        "x": 27.0,
+        "y": 3.0,
+        "width": 18.0,
+        "height": 18.0
+      },
+      {
+        "joint": "J5",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 1,
+        "x": 51.0,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      },
+      {
+        "joint": "J5",
+        "part": "P045_M5_SHAFT_COLLAR",
+        "copy": 2,
+        "x": 69.36190264738181,
+        "y": 3.0,
+        "width": 12.361902647381804,
+        "height": 14.010166609296277
+      }
+    ]
+  }
+]

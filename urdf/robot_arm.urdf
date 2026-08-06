@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<robot name="robotarm">
+  <link name="base_link">
+    <inertial>
+      <mass value="0.06767"/>
+      <inertia ixx="0.00006860" ixy="0" ixz="0" iyy="0.00006860" iyz="0" izz="0.00013648"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/01_base_plate.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1100 0.1100 0.0080"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="turret_link">
+    <inertial>
+      <mass value="0.04677"/>
+      <inertia ixx="0.00002153" ixy="0" ixz="0" iyy="0.00002401" iyz="0" izz="0.00002196"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/03_turret.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0560 0.0500 0.0550"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="upper_link">
+    <inertial>
+      <mass value="0.02055"/>
+      <inertia ixx="0.00000356" ixy="0" ixz="0" iyy="0.00002207" iyz="0" izz="0.00002294"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/06_upper_arm_a.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0.0550 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.1100 0.0360 0.0280"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="fore_link">
+    <inertial>
+      <mass value="0.01573"/>
+      <inertia ixx="0.00000223" ixy="0" ixz="0" iyy="0.00001272" iyz="0" izz="0.00001317"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/10_forearm_a.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0.0475 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0950 0.0320 0.0260"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="wrist_pitch_link">
+    <inertial>
+      <mass value="0.01017"/>
+      <inertia ixx="0.00000125" ixy="0" ixz="0" iyy="0.00000212" iyz="0" izz="0.00000184"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/12_wrist_pitch_yoke.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0.0200 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0400 0.0240 0.0300"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="wrist_roll_link">
+    <inertial>
+      <mass value="0.01000"/>
+      <inertia ixx="0.00000131" ixy="0" ixz="0" iyy="0.00000199" iyz="0" izz="0.00000199"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/13_wrist_roll_carrier.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0.0200 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0400 0.0280 0.0280"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="wrist_yaw_link">
+    <inertial>
+      <mass value="0.01000"/>
+      <inertia ixx="0.00000053" ixy="0" ixz="0" iyy="0.00000053" iyz="0" izz="0.00000096"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/14_wrist_yaw_flange.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0240 0.0240 0.0080"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="gripper_link">
+    <inertial>
+      <mass value="0.02842"/>
+      <inertia ixx="0.00000379" ixy="0" ixz="0" iyy="0.00000554" iyz="0" izz="0.00000660"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/15_gripper_body.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0420 0.0320 0.0240"/>
+      </geometry>
+    </collision>
+  </link>
+  <link name="camera_link">
+    <inertial>
+      <mass value="0.01000"/>
+      <inertia ixx="0.00000042" ixy="0" ixz="0" iyy="0.00000308" iyz="0" izz="0.00000333"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <mesh filename="meshes/19_camera_bracket.stl" scale="0.001 0.001 0.001"/>
+      </geometry>
+      <material name="pla"><color rgba="0.75 0.78 0.82 1"/></material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.0600 0.0200 0.0100"/>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="j1" type="revolute">
+    <parent link="base_link"/>
+    <child link="turret_link"/>
+    <origin xyz="0.00000 0.00000 0.04800" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="20" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="j2" type="revolute">
+    <parent link="turret_link"/>
+    <child link="upper_link"/>
+    <origin xyz="0.02200 0.00000 0.01000" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.2" upper="1.2" effort="20" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="j3" type="revolute">
+    <parent link="upper_link"/>
+    <child link="fore_link"/>
+    <origin xyz="0.11000 0.00000 0.00000" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.4" upper="1.4" effort="5" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="j4" type="revolute">
+    <parent link="fore_link"/>
+    <child link="wrist_pitch_link"/>
+    <origin xyz="0.09500 0.00000 0.00000" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-1.57" upper="1.57" effort="5" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="j5" type="revolute">
+    <parent link="wrist_pitch_link"/>
+    <child link="wrist_roll_link"/>
+    <origin xyz="0.01833 0.00000 0.00000" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57" upper="1.57" effort="5" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="j6" type="revolute">
+    <parent link="wrist_roll_link"/>
+    <child link="wrist_yaw_link"/>
+    <origin xyz="0.01833 0.00000 0.00000" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57" upper="1.57" effort="5" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="gripper" type="revolute">
+    <parent link="wrist_yaw_link"/>
+    <child link="gripper_link"/>
+    <origin xyz="0.02000 0.00000 0.00000" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="0.0" upper="0.7" effort="5" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+  <joint name="camera_tilt" type="revolute">
+    <parent link="gripper_link"/>
+    <child link="camera_link"/>
+    <origin xyz="0.00000 0.00000 0.02800" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.8" upper="0.8" effort="5" velocity="2"/>
+    <dynamics damping="0.08" friction="0.02"/>
+  </joint>
+</robot>

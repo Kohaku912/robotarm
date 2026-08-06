@@ -1,0 +1,96 @@
+{
+  "revision": "V4 Assembly Closure",
+  "passed": true,
+  "checks": {
+    "J1_lower_bearing_retainer_interface": true,
+    "J1_upper_bearing_retainer_interface": true,
+    "J2_yoke_retainer_interface": true,
+    "J3_upper_arm_retainer_interface": true,
+    "J4_forearm_retainer_interface": true,
+    "J5_carrier_retainer_interface": true,
+    "J1_gear_turntable_hub_4bolt_path": true,
+    "J4_gear_compact_hub_3bolt_path": true,
+    "split_hub_clamp_nut_capture": true,
+    "axial_collars_present": true,
+    "shoulder_foot_brackets_present": true,
+    "upper_arm_spacer_holes": true,
+    "forearm_spacer_holes": true,
+    "wrist_spacer_holes": true,
+    "J5_carrier_four_bolt_attachment": true,
+    "J1_servo_floor_mount": true,
+    "MG996R_anchor_frames": true,
+    "MG90S_anchor_frames": true,
+    "servo_standoff_sets": true,
+    "pinion_horn_bolt_holes": true,
+    "all_unique_parts_valid_single_solid": true,
+    "all_print_plates_within_180x180": true
+  },
+  "issues_fixed": [
+    {
+      "interface": "J1 bearing retention",
+      "problem": "B01/B02 lacked retainer screw interfaces",
+      "fix": "Added four M3 holes to each bearing seat"
+    },
+    {
+      "interface": "J5 bearing retention",
+      "problem": "Carrier had no holes matching retainer rings",
+      "fix": "Added four longitudinal M3 holes clamping both ends"
+    },
+    {
+      "interface": "J1 torque transfer",
+      "problem": "75T gear had only a shaft hole",
+      "fix": "Added four-bolt gear/turntable/flange-hub stack"
+    },
+    {
+      "interface": "J4 torque transfer",
+      "problem": "36T gear had no shaft clamp",
+      "fix": "Added three-bolt compact split gear hub"
+    },
+    {
+      "interface": "Servo pinions",
+      "problem": "Pinions could not bolt to the supplied horn",
+      "fix": "Added two horn screw holes and clamping washers"
+    },
+    {
+      "interface": "Flange hubs",
+      "problem": "Clamp screw had no head seat or nut restraint",
+      "fix": "Added head recess and anti-rotation nut pocket"
+    },
+    {
+      "interface": "Shaft axial retention",
+      "problem": "J1/J5 shafts could slide axially",
+      "fix": "Added two split shaft collars"
+    },
+    {
+      "interface": "Shoulder structure",
+      "problem": "Yoke plates were not mechanically attached to turntable",
+      "fix": "Added four adjustable L foot brackets"
+    },
+    {
+      "interface": "Link rigidity",
+      "problem": "Printed spacers had no dedicated corresponding holes",
+      "fix": "Added two spacer-bolt holes to each link pair"
+    },
+    {
+      "interface": "Wrist/J5 carrier",
+      "problem": "Only one bolt row aligned",
+      "fix": "Added the second row for four through-bolts"
+    },
+    {
+      "interface": "Servo mounting",
+      "problem": "J2-J5 servo bases floated outside the side plates",
+      "fix": "Added coaxial anchor frames and four standoff sets"
+    },
+    {
+      "interface": "J1 servo mounting",
+      "problem": "Servo base had no corresponding floor holes",
+      "fix": "Added four M4 holes and underside captive pockets"
+    }
+  ],
+  "remaining_constraints": [
+    "Printed 4.8 mm shafts remain no-load/low-speed prototype parts.",
+    "MG90S horn hole spacing can differ by supplied horn; the two pilot holes may require hand reaming.",
+    "Servo standoff lengths use the nominal completed-preview geometry; washers may be required for clone case variation.",
+    "Use nyloc nuts or thread locker on all clamp and gear bolts."
+  ]
+}

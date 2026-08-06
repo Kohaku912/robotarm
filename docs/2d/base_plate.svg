@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="360" viewBox="0 0 480 360">
+<title>2D sketch: base_plate</title>
+<rect width="100%" height="100%" fill="#f7f7f4"/>
+<text x="12" y="20" font-family="Segoe UI,sans-serif" font-size="14">2D sketch: base_plate</text>
+<g stroke="#1a1a1a" stroke-width="1.2" fill="none">
+<path d="M361.00 190.00 L358.68 166.39 L351.79 143.70 L340.61 122.78 L325.56 104.44 L307.22 89.39 L286.30 78.21 L263.61 71.32 L240.00 69.00 L216.39 71.32 L193.70 78.21 L172.78 89.39 L154.44 104.44 L139.39 122.78 L128.21 143.70 L121.32 166.39 L119.00 190.00 L121.32 213.61 L128.21 236.30 L139.39 257.22 L154.44 275.56 L172.78 290.61 L193.70 301.79 L216.39 308.68 L240.00 311.00 L263.61 308.68 L286.30 301.79 L307.22 290.61 L325.56 275.56 L340.61 257.22 L351.79 236.30 L358.68 213.61 Z" />
+<text x="16" y="344" font-family="Segoe UI,sans-serif" font-size="11" fill="#333">base_plate</text>
+</g></svg>

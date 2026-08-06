@@ -1,0 +1,70 @@
+{
+  "revision": "BODY-V1",
+  "status": "PRINTABLE_BODY_DESIGN_COMPLETE",
+  "coupons_included": false,
+  "axes": 5,
+  "bearing_count": 10,
+  "bearing_seat_mm": 13.05,
+  "m5_close_fit_mm": 5.0,
+  "m5_clearance_mm": 5.3,
+  "j1_center_distance_mm": 54.55,
+  "j4_center_distance_mm": 19.35,
+  "unique_parts": 24,
+  "total_printed_parts": 64,
+  "print_plate_count": 6,
+  "validation": {
+    "all_unique_parts_valid_single_solid": true,
+    "all_plates_fit_180x180": true,
+    "parts_separated_by_bbox_gap_mm": 4.0
+  },
+  "plates": [
+    {
+      "plate": "BODY_PLATE_01",
+      "x_mm": 180.0,
+      "y_mm": 176.0,
+      "z_mm": 36.0,
+      "parts": 4,
+      "minimum_bbox_gap_mm": 4.0
+    },
+    {
+      "plate": "BODY_PLATE_02",
+      "x_mm": 174.0,
+      "y_mm": 174.0,
+      "z_mm": 28.0,
+      "parts": 11,
+      "minimum_bbox_gap_mm": 4.0
+    },
+    {
+      "plate": "BODY_PLATE_03",
+      "x_mm": 180.0,
+      "y_mm": 170.0,
+      "z_mm": 34.0,
+      "parts": 7,
+      "minimum_bbox_gap_mm": 4.0
+    },
+    {
+      "plate": "BODY_PLATE_04",
+      "x_mm": 179.0,
+      "y_mm": 180.0,
+      "z_mm": 34.0,
+      "parts": 9,
+      "minimum_bbox_gap_mm": 4.0
+    },
+    {
+      "plate": "BODY_PLATE_05",
+      "x_mm": 174.0,
+      "y_mm": 159.22,
+      "z_mm": 38.0,
+      "parts": 16,
+      "minimum_bbox_gap_mm": 4.0
+    },
+    {
+      "plate": "BODY_PLATE_06",
+      "x_mm": 175.84,
+      "y_mm": 127.69,
+      "z_mm": 12.0,
+      "parts": 17,
+      "minimum_bbox_gap_mm": 4.0
+    }
+  ]
+}

@@ -1,0 +1,4751 @@
+{
+  "file": "C:\\Users\\kohak\\Documents\\RobotArmFinalV5\\CompletedPreviewV5_2CradleAlignment\\ROBOT_ARM_COMPLETED_PREVIEW_V5_2_CRADLE_ALIGNMENT.FCStd",
+  "n": 272,
+  "objects": [
+    {
+      "name": "PrintedBody",
+      "label": "Printed body parts (from exported STL source geometry)",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        352.0,
+        142.9,
+        219.0
+      ],
+      "vol": 565571.7,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "RealServos",
+      "label": "TowerPro nominal servo geometry",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        225.5,
+        77.4,
+        188.7
+      ],
+      "vol": 107674.1,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "BearingsAndShafts",
+      "label": "NSK F695ZZ bearings and M5 shafts",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        225.4,
+        54.0,
+        155.5
+      ],
+      "vol": 5682.3,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "Transmission",
+      "label": "Gears and output hubs",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        280.1,
+        96.2,
+        145.0
+      ],
+      "vol": 110942.2,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "Fasteners",
+      "label": "Screws, collars and spacers",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        272.2,
+        108.5,
+        175.9
+      ],
+      "vol": 8575.3,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "Cables",
+      "label": "Servo cables and connectors",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        177.5,
+        53.4,
+        187.7
+      ],
+      "vol": 4795.1,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "Documentation",
+      "label": "Dimensions and source notes",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        297.0,
+        180.0,
+        167.0
+      ],
+      "vol": 65082.7,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "P_BaseLower",
+      "label": "Base lower / bearing tower",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        140.0,
+        140.0,
+        36.0
+      ],
+      "vol": 173871.7,
+      "pos": [
+        -70.0,
+        -70.0,
+        0.0
+      ]
+    },
+    {
+      "name": "P_BaseUpper",
+      "label": "Base upper bearing bridge",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        100.0,
+        100.0,
+        12.0
+      ],
+      "vol": 81736.8,
+      "pos": [
+        -50.0,
+        -50.0,
+        72.0
+      ]
+    },
+    {
+      "name": "P_J1Turntable",
+      "label": "J1 rotating turntable",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        100.0,
+        100.0,
+        8.0
+      ],
+      "vol": 62108.0,
+      "pos": [
+        0.0,
+        0.0,
+        84.0
+      ]
+    },
+    {
+      "name": "P_ShoulderLeft",
+      "label": "Shoulder yoke left",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        60.0,
+        6.0,
+        102.0
+      ],
+      "vol": 21126.6,
+      "pos": [
+        0.0,
+        -19.0,
+        84.0
+      ]
+    },
+    {
+      "name": "P_ShoulderRight",
+      "label": "Shoulder yoke right",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        60.0,
+        6.0,
+        102.0
+      ],
+      "vol": 21126.6,
+      "pos": [
+        0.0,
+        25.0,
+        84.0
+      ]
+    },
+    {
+      "name": "P_YokeSpacer1",
+      "label": "Yoke spacer 38 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        38.0,
+        10.0
+      ],
+      "vol": 2659.5,
+      "pos": [
+        -24.0,
+        -19.0,
+        100.0
+      ]
+    },
+    {
+      "name": "P_YokeSpacer2",
+      "label": "Yoke spacer 38 mm001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        38.0,
+        10.0
+      ],
+      "vol": 2659.5,
+      "pos": [
+        24.0,
+        -19.0,
+        100.0
+      ]
+    },
+    {
+      "name": "P_YokeSpacer3",
+      "label": "Yoke spacer 38 mm002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        38.0,
+        10.0
+      ],
+      "vol": 2659.5,
+      "pos": [
+        -24.0,
+        -19.0,
+        136.0
+      ]
+    },
+    {
+      "name": "P_YokeSpacer4",
+      "label": "Yoke spacer 38 mm003",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        38.0,
+        10.0
+      ],
+      "vol": 2659.5,
+      "pos": [
+        24.0,
+        -19.0,
+        136.0
+      ]
+    },
+    {
+      "name": "P_UpperArmLeft",
+      "label": "Upper arm left",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        114.0,
+        5.5,
+        32.0
+      ],
+      "vol": 15040.8,
+      "pos": [
+        0.0,
+        -19.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_UpperArmRight",
+      "label": "Upper arm right",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        114.0,
+        5.5,
+        32.0
+      ],
+      "vol": 15040.8,
+      "pos": [
+        0.0,
+        24.5,
+        164.0
+      ]
+    },
+    {
+      "name": "P_ForearmLeft",
+      "label": "Forearm left",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        102.0,
+        5.5,
+        32.0
+      ],
+      "vol": 13720.8,
+      "pos": [
+        82.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_ForearmRight",
+      "label": "Forearm right",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        102.0,
+        5.5,
+        32.0
+      ],
+      "vol": 13720.8,
+      "pos": [
+        82.0,
+        19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "P_WristPitchLeft",
+      "label": "Wrist pitch left",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        76.0,
+        5.5,
+        30.0
+      ],
+      "vol": 10874.4,
+      "pos": [
+        152.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_WristPitchRight",
+      "label": "Wrist pitch right",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        76.0,
+        5.5,
+        30.0
+      ],
+      "vol": 10874.4,
+      "pos": [
+        152.0,
+        19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "P_LinkSpacer1",
+      "label": "Link spacer 28 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.0,
+        10.0
+      ],
+      "vol": 1959.6,
+      "pos": [
+        30.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_LinkSpacer2",
+      "label": "Link spacer 28 mm001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.0,
+        10.0
+      ],
+      "vol": 1959.6,
+      "pos": [
+        62.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_LinkSpacer3",
+      "label": "Link spacer 28 mm002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.0,
+        10.0
+      ],
+      "vol": 1959.6,
+      "pos": [
+        104.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_LinkSpacer4",
+      "label": "Link spacer 28 mm003",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.0,
+        10.0
+      ],
+      "vol": 1959.6,
+      "pos": [
+        134.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_LinkSpacer5",
+      "label": "Link spacer 28 mm004",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.0,
+        10.0
+      ],
+      "vol": 1959.6,
+      "pos": [
+        168.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_LinkSpacer6",
+      "label": "Link spacer 28 mm005",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.0,
+        10.0
+      ],
+      "vol": 1959.6,
+      "pos": [
+        188.0,
+        -14.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_J5Carrier",
+      "label": "J5 two-bearing carrier",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        44.0,
+        34.0,
+        34.0
+      ],
+      "vol": 36517.7,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_GripperPalm",
+      "label": "Fixed gripper palm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        50.0,
+        42.0
+      ],
+      "vol": 15904.4,
+      "pos": [
+        220.0,
+        -25.0,
+        185.0
+      ]
+    },
+    {
+      "name": "P_GripperFingerTop",
+      "label": "Fixed gripper finger Top",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        62.0,
+        12.0,
+        10.0
+      ],
+      "vol": 6173.7,
+      "pos": [
+        220.0,
+        -6.0,
+        182.0
+      ]
+    },
+    {
+      "name": "P_GripperFingerBottom",
+      "label": "Fixed gripper finger Bottom",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        62.0,
+        12.0,
+        10.0
+      ],
+      "vol": 6173.7,
+      "pos": [
+        220.0,
+        -6.0,
+        136.0
+      ]
+    },
+    {
+      "name": "T_J1_OutputGear",
+      "label": "J1 75T output gear - assembled",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        96.2,
+        96.2,
+        14.0
+      ],
+      "vol": 70778.7,
+      "pos": [
+        -46.1,
+        -50.1,
+        58.0
+      ]
+    },
+    {
+      "name": "T_J1_Pinion",
+      "label": "J1 horn cassette and 12T pinion",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        44.0,
+        28.0,
+        20.8
+      ],
+      "vol": 8063.4,
+      "pos": [
+        54.5,
+        0.0,
+        50.2
+      ]
+    },
+    {
+      "name": "T_J4_OutputGear",
+      "label": "J4 36T output gear - assembled",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        30.4,
+        10.0,
+        30.4
+      ],
+      "vol": 4903.5,
+      "pos": [
+        136.8,
+        5.0,
+        148.8
+      ]
+    },
+    {
+      "name": "T_J4_Pinion",
+      "label": "J4 horn cassette and 12T pinion",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        44.0,
+        15.8,
+        28.0
+      ],
+      "vol": 6810.5,
+      "pos": [
+        131.8,
+        -15.3,
+        164.0
+      ]
+    },
+    {
+      "name": "T_J2_Hub",
+      "label": "J2 M5 split flange hub",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        34.0,
+        12.0,
+        34.0
+      ],
+      "vol": 6058.7,
+      "pos": [
+        0.0,
+        -28.0,
+        164.0
+      ]
+    },
+    {
+      "name": "T_J3_Hub",
+      "label": "J3 M5 split flange hub",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        34.0,
+        12.0,
+        34.0
+      ],
+      "vol": 6058.7,
+      "pos": [
+        82.0,
+        -22.0,
+        164.0
+      ]
+    },
+    {
+      "name": "T_J4_Hub",
+      "label": "V4 J4 split gear clamp hub",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        21.0,
+        21.0,
+        8.0
+      ],
+      "vol": 2210.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "T_J5_Hub",
+      "label": "J5 M5 split flange hub",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        12.0,
+        34.0,
+        34.0
+      ],
+      "vol": 6058.7,
+      "pos": [
+        220.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "S_J1",
+      "label": "J1 printed shaft 4.8 x 88 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        4.8,
+        88.0
+      ],
+      "vol": 1590.2,
+      "pos": [
+        0.0,
+        0.0,
+        8.0
+      ]
+    },
+    {
+      "name": "BR_J1_18",
+      "label": "J1 F695ZZ bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        15.0,
+        4.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        0.0,
+        0.0,
+        16.0
+      ]
+    },
+    {
+      "name": "BR_J1_43",
+      "label": "J1 F695ZZ bearing001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        15.0,
+        4.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        0.0,
+        0.0,
+        77.0
+      ]
+    },
+    {
+      "name": "S_J2",
+      "label": "J2 M5 output shaft",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        64.0,
+        5.0
+      ],
+      "vol": 1256.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "BR_J2_L",
+      "label": "J2 F695ZZ left bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        4.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        0.0,
+        -27.0,
+        164.0
+      ]
+    },
+    {
+      "name": "BR_J2_R",
+      "label": "J2 F695ZZ right bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        4.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        0.0,
+        23.0,
+        164.0
+      ]
+    },
+    {
+      "name": "S_J3",
+      "label": "J3 M5 output shaft",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        53.0,
+        5.0
+      ],
+      "vol": 1040.7,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "BR_J3_L",
+      "label": "J3 F695ZZ left bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        4.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        82.0,
+        -21.5,
+        164.0
+      ]
+    },
+    {
+      "name": "BR_J3_R",
+      "label": "J3 F695ZZ right bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        4.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        82.0,
+        17.5,
+        164.0
+      ]
+    },
+    {
+      "name": "S_J4",
+      "label": "J4 M5 output shaft",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        53.0,
+        5.0
+      ],
+      "vol": 1040.7,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "BR_J4_L",
+      "label": "J4 F695ZZ left bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        4.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        152.0,
+        -21.5,
+        164.0
+      ]
+    },
+    {
+      "name": "BR_J4_R",
+      "label": "J4 F695ZZ right bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.0,
+        4.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        152.0,
+        17.5,
+        164.0
+      ]
+    },
+    {
+      "name": "S_J5",
+      "label": "J5 M5 output shaft",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        48.0,
+        5.0,
+        5.0
+      ],
+      "vol": 942.5,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "BR_J5_L",
+      "label": "J5 F695ZZ rear bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        15.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        178.1,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "BR_J5_R",
+      "label": "J5 F695ZZ front bearing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        15.0,
+        15.0
+      ],
+      "vol": 568.2,
+      "pos": [
+        213.9,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J1_Housing",
+      "label": "TowerPro MG90S Housing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        12.2,
+        21.0
+      ],
+      "vol": 5841.4,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_Bottom",
+      "label": "TowerPro MG90S Bottom",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        12.2,
+        3.2
+      ],
+      "vol": 890.1,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_Top",
+      "label": "TowerPro MG90S Top",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        12.2,
+        4.3
+      ],
+      "vol": 1196.1,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_MountingEars",
+      "label": "TowerPro MG90S MountingEars",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        32.1,
+        12.4,
+        1.8
+      ],
+      "vol": 701.5,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_OutputBoss",
+      "label": "TowerPro MG90S OutputBoss",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.6,
+        8.6,
+        2.7
+      ],
+      "vol": 156.8,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_Spline",
+      "label": "TowerPro MG90S Spline",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.7,
+        4.7,
+        4.2
+      ],
+      "vol": 72.9,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_MotorCap",
+      "label": "TowerPro MG90S MotorCap",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        8.0,
+        1.7
+      ],
+      "vol": 85.5,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_Label",
+      "label": "TowerPro MG90S Label",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        12.0,
+        7.0,
+        0.5
+      ],
+      "vol": 46.2,
+      "pos": [
+        54.5,
+        0.0,
+        46.0
+      ]
+    },
+    {
+      "name": "SV_J1_Horn",
+      "label": "MG90S horn 36x19 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        36.0,
+        19.0,
+        1.5
+      ],
+      "vol": 461.9,
+      "pos": [
+        54.5,
+        0.0,
+        50.2
+      ]
+    },
+    {
+      "name": "SV_J2_Housing",
+      "label": "TowerPro MG996R Housing",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        40.7,
+        34.5,
+        19.7
+      ],
+      "vol": 27661.8,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_Bottom",
+      "label": "TowerPro MG996R Bottom",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        40.7,
+        4.0,
+        19.7
+      ],
+      "vol": 3207.2,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_Top",
+      "label": "TowerPro MG996R Top",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        40.7,
+        5.7,
+        19.7
+      ],
+      "vol": 4570.2,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_MountingEars",
+      "label": "TowerPro MG996R MountingEars",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        54.0,
+        2.4,
+        20.0
+      ],
+      "vol": 2471.4,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_OutputBoss",
+      "label": "TowerPro MG996R OutputBoss",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        12.4,
+        3.2,
+        12.4
+      ],
+      "vol": 386.4,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_Spline",
+      "label": "TowerPro MG996R Spline",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.8,
+        5.0,
+        5.8
+      ],
+      "vol": 132.1,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_MotorCap",
+      "label": "TowerPro MG996R MotorCap",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        14.4,
+        2.0,
+        14.4
+      ],
+      "vol": 325.7,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_Label",
+      "label": "TowerPro MG996R Label",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        20.0,
+        0.7,
+        12.0
+      ],
+      "vol": 168.0,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J2_Horn",
+      "label": "TowerPro MG996R Horn",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        38.0,
+        2.0,
+        20.0
+      ],
+      "vol": 810.4,
+      "pos": [
+        0.0,
+        -25.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_Housing",
+      "label": "TowerPro MG996R Housing001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        40.7,
+        34.5,
+        19.7
+      ],
+      "vol": 27661.8,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_Bottom",
+      "label": "TowerPro MG996R Bottom001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        40.7,
+        4.0,
+        19.7
+      ],
+      "vol": 3207.2,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_Top",
+      "label": "TowerPro MG996R Top001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        40.7,
+        5.7,
+        19.7
+      ],
+      "vol": 4570.2,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_MountingEars",
+      "label": "TowerPro MG996R MountingEars001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        54.0,
+        2.4,
+        20.0
+      ],
+      "vol": 2471.4,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_OutputBoss",
+      "label": "TowerPro MG996R OutputBoss001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        12.4,
+        3.2,
+        12.4
+      ],
+      "vol": 386.4,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_Spline",
+      "label": "TowerPro MG996R Spline001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.8,
+        5.0,
+        5.8
+      ],
+      "vol": 132.1,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_MotorCap",
+      "label": "TowerPro MG996R MotorCap001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        14.4,
+        2.0,
+        14.4
+      ],
+      "vol": 325.7,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_Label",
+      "label": "TowerPro MG996R Label001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        20.0,
+        0.7,
+        12.0
+      ],
+      "vol": 168.0,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J3_Horn",
+      "label": "TowerPro MG996R Horn001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        38.0,
+        2.0,
+        20.0
+      ],
+      "vol": 810.4,
+      "pos": [
+        82.0,
+        -19.5,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J4_Housing",
+      "label": "TowerPro MG90S Housing001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        21.0,
+        12.2
+      ],
+      "vol": 5841.4,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_Bottom",
+      "label": "TowerPro MG90S Bottom001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        3.2,
+        12.2
+      ],
+      "vol": 890.1,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_Top",
+      "label": "TowerPro MG90S Top001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        4.3,
+        12.2
+      ],
+      "vol": 1196.1,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_MountingEars",
+      "label": "TowerPro MG90S MountingEars001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        32.1,
+        1.8,
+        12.4
+      ],
+      "vol": 701.5,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_OutputBoss",
+      "label": "TowerPro MG90S OutputBoss001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.6,
+        2.7,
+        8.6
+      ],
+      "vol": 156.8,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_Spline",
+      "label": "TowerPro MG90S Spline001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.7,
+        4.2,
+        4.7
+      ],
+      "vol": 72.9,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_MotorCap",
+      "label": "TowerPro MG90S MotorCap001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        1.7,
+        8.0
+      ],
+      "vol": 85.5,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_Label",
+      "label": "TowerPro MG90S Label001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        12.0,
+        0.6,
+        7.0
+      ],
+      "vol": 46.2,
+      "pos": [
+        131.8,
+        -19.5,
+        200.0
+      ]
+    },
+    {
+      "name": "SV_J4_Horn",
+      "label": "MG90S horn 36x19 mm001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        36.0,
+        1.5,
+        19.0
+      ],
+      "vol": 461.9,
+      "pos": [
+        131.8,
+        -15.3,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_Housing",
+      "label": "TowerPro MG90S Housing002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        21.0,
+        12.2,
+        22.8
+      ],
+      "vol": 5841.4,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_Bottom",
+      "label": "TowerPro MG90S Bottom002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        3.2,
+        12.2,
+        22.8
+      ],
+      "vol": 890.1,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_Top",
+      "label": "TowerPro MG90S Top002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.3,
+        12.2,
+        22.8
+      ],
+      "vol": 1196.1,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_MountingEars",
+      "label": "TowerPro MG90S MountingEars002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        1.8,
+        12.4,
+        32.1
+      ],
+      "vol": 701.5,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_OutputBoss",
+      "label": "TowerPro MG90S OutputBoss002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.7,
+        8.6,
+        8.6
+      ],
+      "vol": 156.8,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_Spline",
+      "label": "TowerPro MG90S Spline002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.2,
+        4.7,
+        4.7
+      ],
+      "vol": 72.9,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_MotorCap",
+      "label": "TowerPro MG90S MotorCap002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        1.7,
+        8.0,
+        8.0
+      ],
+      "vol": 85.5,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_Label",
+      "label": "TowerPro MG90S Label002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        0.6,
+        7.0,
+        12.0
+      ],
+      "vol": 46.2,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "SV_J5_Horn",
+      "label": "TowerPro MG90S Horn002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        1.5,
+        14.0,
+        29.0
+      ],
+      "vol": 312.7,
+      "pos": [
+        176.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "P_J1ServoBase",
+      "label": "J1 MG90S adjustable cradle",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        52.0,
+        38.0,
+        4.0
+      ],
+      "vol": 4845.9,
+      "pos": [
+        23.4,
+        -19.0,
+        8.0
+      ]
+    },
+    {
+      "name": "P_J4ServoBase",
+      "label": "J4 MG90S adjustable cradle",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        52.0,
+        4.0,
+        38.0
+      ],
+      "vol": 4845.9,
+      "pos": [
+        100.7,
+        -48.0,
+        181.0
+      ]
+    },
+    {
+      "name": "P_J5ServoBase",
+      "label": "J5 MG90S adjustable cradle",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        38.0,
+        52.0
+      ],
+      "vol": 4845.9,
+      "pos": [
+        168.5,
+        -19.0,
+        195.1
+      ]
+    },
+    {
+      "name": "P_J2ServoBase",
+      "label": "J2 MG996R adjustable cradle",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        75.0,
+        5.0,
+        54.0
+      ],
+      "vol": 12467.3,
+      "pos": [
+        -47.6,
+        -67.9,
+        137.0
+      ]
+    },
+    {
+      "name": "P_J3ServoBase",
+      "label": "J3 MG996R adjustable cradle",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        75.0,
+        5.0,
+        54.0
+      ],
+      "vol": 12467.3,
+      "pos": [
+        34.4,
+        -61.6,
+        137.0
+      ]
+    },
+    {
+      "name": "F_Base1",
+      "label": "M5 base mounting screw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.5,
+        8.5,
+        20.2
+      ],
+      "vol": 478.3,
+      "pos": [
+        -50.0,
+        -50.0,
+        0.0
+      ]
+    },
+    {
+      "name": "F_Base2",
+      "label": "M5 base mounting screw001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.5,
+        8.5,
+        20.2
+      ],
+      "vol": 478.3,
+      "pos": [
+        50.0,
+        -50.0,
+        0.0
+      ]
+    },
+    {
+      "name": "F_Base3",
+      "label": "M5 base mounting screw002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.5,
+        8.5,
+        20.2
+      ],
+      "vol": 478.3,
+      "pos": [
+        -50.0,
+        50.0,
+        0.0
+      ]
+    },
+    {
+      "name": "F_Base4",
+      "label": "M5 base mounting screw003",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.5,
+        8.5,
+        20.2
+      ],
+      "vol": 478.3,
+      "pos": [
+        50.0,
+        50.0,
+        0.0
+      ]
+    },
+    {
+      "name": "F_Retainer1",
+      "label": "F695ZZ printed retainer",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        2.2,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        0.0,
+        -29.0,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer2",
+      "label": "F695ZZ printed retainer001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        2.2,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        0.0,
+        29.0,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer3",
+      "label": "F695ZZ printed retainer002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        2.2,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        82.0,
+        -23.5,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer4",
+      "label": "F695ZZ printed retainer003",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        2.2,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        82.0,
+        23.5,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer5",
+      "label": "F695ZZ printed retainer004",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        2.2,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        152.0,
+        -23.5,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer6",
+      "label": "F695ZZ printed retainer005",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        2.2,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        152.0,
+        23.5,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer7",
+      "label": "F695ZZ printed retainer006",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.2,
+        23.8,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        178.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Retainer8",
+      "label": "F695ZZ printed retainer007",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.2,
+        23.8,
+        23.8
+      ],
+      "vol": 740.6,
+      "pos": [
+        218.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "F_Servo1",
+      "label": "M3 servo mounting screw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.5,
+        12.2,
+        5.5
+      ],
+      "vol": 123.0,
+      "pos": [
+        -30.0,
+        -25.0,
+        154.0
+      ]
+    },
+    {
+      "name": "F_Servo2",
+      "label": "M3 servo mounting screw001",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.5,
+        12.2,
+        5.5
+      ],
+      "vol": 123.0,
+      "pos": [
+        8.0,
+        -25.0,
+        154.0
+      ]
+    },
+    {
+      "name": "F_Servo3",
+      "label": "M3 servo mounting screw002",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.5,
+        12.2,
+        5.5
+      ],
+      "vol": 123.0,
+      "pos": [
+        52.0,
+        -19.5,
+        154.0
+      ]
+    },
+    {
+      "name": "F_Servo4",
+      "label": "M3 servo mounting screw003",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.5,
+        12.2,
+        5.5
+      ],
+      "vol": 123.0,
+      "pos": [
+        90.0,
+        -19.5,
+        154.0
+      ]
+    },
+    {
+      "name": "F_Servo5",
+      "label": "M3 servo mounting screw004",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.5,
+        12.2,
+        5.5
+      ],
+      "vol": 123.0,
+      "pos": [
+        120.0,
+        -19.5,
+        156.0
+      ]
+    },
+    {
+      "name": "F_Servo6",
+      "label": "M3 servo mounting screw005",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.5,
+        12.2,
+        5.5
+      ],
+      "vol": 123.0,
+      "pos": [
+        145.0,
+        -19.5,
+        156.0
+      ]
+    },
+    {
+      "name": "J1_1",
+      "label": "J1 cable segment 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.2,
+        26.8,
+        7.7
+      ],
+      "vol": 199.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "J1_2",
+      "label": "J1 cable segment 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        15.4,
+        21.6,
+        7.7
+      ],
+      "vol": 150.1,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "J1_3",
+      "label": "J1 cable segment 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        20.8,
+        7.7,
+        5.8
+      ],
+      "vol": 128.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "J1_Connector",
+      "label": "J1 JR connector",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        5.0,
+        4.0
+      ],
+      "vol": 160.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "J2_1",
+      "label": "J2 cable segment 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        6.0,
+        35.5
+      ],
+      "vol": 250.8,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J2_2",
+      "label": "J2 cable segment 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        17.6,
+        5.0,
+        29.4
+      ],
+      "vol": 225.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J2_3",
+      "label": "J2 cable segment 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        5.0,
+        48.2
+      ],
+      "vol": 361.3,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J2_Connector",
+      "label": "J2 JR connector",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        5.0,
+        4.0
+      ],
+      "vol": 160.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J3_1",
+      "label": "J3 cable segment 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        12.7,
+        6.9,
+        21.4
+      ],
+      "vol": 160.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J3_2",
+      "label": "J3 cable segment 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        32.3,
+        8.0,
+        37.0
+      ],
+      "vol": 327.8,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J3_3",
+      "label": "J3 cable segment 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.8,
+        5.0,
+        56.0
+      ],
+      "vol": 413.9,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J3_Connector",
+      "label": "J3 JR connector",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        5.0,
+        4.0
+      ],
+      "vol": 160.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J4_1",
+      "label": "J4 cable segment 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        17.2,
+        4.6,
+        26.3
+      ],
+      "vol": 155.2,
+      "pos": [
+        -0.8,
+        0.0,
+        72.0
+      ]
+    },
+    {
+      "name": "J4_2",
+      "label": "J4 cable segment 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        46.6,
+        8.6,
+        37.1
+      ],
+      "vol": 304.3,
+      "pos": [
+        -0.8,
+        0.0,
+        72.0
+      ]
+    },
+    {
+      "name": "J4_3",
+      "label": "J4 cable segment 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        46.9,
+        8.6,
+        51.7
+      ],
+      "vol": 358.6,
+      "pos": [
+        -0.8,
+        0.0,
+        72.0
+      ]
+    },
+    {
+      "name": "J4_Connector",
+      "label": "J4 JR connector",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        5.0,
+        4.0
+      ],
+      "vol": 160.0,
+      "pos": [
+        -0.8,
+        0.0,
+        72.0
+      ]
+    },
+    {
+      "name": "J5_1",
+      "label": "J5 cable segment 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        22.1,
+        24.0,
+        17.3
+      ],
+      "vol": 176.8,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J5_2",
+      "label": "J5 cable segment 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        61.6,
+        14.5,
+        47.1
+      ],
+      "vol": 403.3,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J5_3",
+      "label": "J5 cable segment 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        56.7,
+        10.6,
+        47.0
+      ],
+      "vol": 379.7,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "J5_Connector",
+      "label": "J5 JR connector",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        5.0,
+        4.0
+      ],
+      "vol": 160.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "AssemblyInformation",
+      "label": "Completed preview model information",
+      "type": "App::FeaturePython"
+    },
+    {
+      "name": "ReferenceFloor",
+      "label": "180 x 180 mm printer/bench reference",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        180.0,
+        180.0,
+        2.0
+      ],
+      "vol": 64800.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Axis_J1",
+      "label": "J1 rotation axis",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.0,
+        2.0,
+        18.0
+      ],
+      "vol": 56.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "Axis_J2",
+      "label": "J2 rotation axis",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.0,
+        18.0,
+        2.0
+      ],
+      "vol": 56.5,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "Axis_J3",
+      "label": "J3 rotation axis",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.0,
+        18.0,
+        2.0
+      ],
+      "vol": 56.5,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "Axis_J4",
+      "label": "J4 rotation axis",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        2.0,
+        18.0,
+        2.0
+      ],
+      "vol": 56.5,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "Axis_J5",
+      "label": "J5 rotation axis",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        2.0,
+        2.0
+      ],
+      "vol": 56.5,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "GripPadTop",
+      "label": "Rubber grip pad Top",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        28.0,
+        14.0,
+        3.0
+      ],
+      "vol": 1176.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "GripPadBottom",
+      "label": "Rubber grip pad Bottom",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        28.0,
+        14.0,
+        3.0
+      ],
+      "vol": 1176.0,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "PSV2_J1",
+      "label": "J1 3D printed temporary shaft 4.8 x 52 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        4.8,
+        52.0
+      ],
+      "vol": 937.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "PSV2_J2",
+      "label": "J2 3D printed temporary shaft 4.8 x 64 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        64.0,
+        4.8
+      ],
+      "vol": 1154.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "PSV2_J3",
+      "label": "J3 3D printed temporary shaft 4.8 x 53 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        53.0,
+        4.8
+      ],
+      "vol": 955.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "PSV2_J4",
+      "label": "J4 3D printed temporary shaft 4.8 x 53 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        53.0,
+        4.8
+      ],
+      "vol": 955.6,
+      "pos": [
+        -0.8,
+        0.0,
+        72.0
+      ]
+    },
+    {
+      "name": "PSV2_J5",
+      "label": "J5 3D printed temporary shaft 4.8 x 48 mm",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        48.0,
+        4.8,
+        4.8
+      ],
+      "vol": 865.1,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_AssemblyClosure",
+      "label": "V4 assembly closure parts",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        273.0,
+        116.9,
+        218.0
+      ],
+      "vol": 110209.5,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "V4_J1_OutputHub",
+      "label": "J1 gear-to-shaft split hub",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        34.0,
+        34.0,
+        12.0
+      ],
+      "vol": 6058.7,
+      "pos": [
+        0.0,
+        0.0,
+        60.0
+      ]
+    },
+    {
+      "name": "V4_J1_LowerRetainer",
+      "label": "J1 lower F695ZZ retainer",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        23.8,
+        2.2
+      ],
+      "vol": 740.6,
+      "pos": [
+        0.0,
+        0.0,
+        12.0
+      ]
+    },
+    {
+      "name": "V4_J1_UpperRetainer",
+      "label": "J1 upper F695ZZ retainer",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        23.8,
+        23.8,
+        2.2
+      ],
+      "vol": 740.6,
+      "pos": [
+        0.0,
+        0.0,
+        81.8
+      ]
+    },
+    {
+      "name": "V4_J1_ShaftCollar",
+      "label": "J1 lower split axial collar",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        16.0,
+        16.0,
+        8.0
+      ],
+      "vol": 1273.3,
+      "pos": [
+        0.0,
+        0.0,
+        5.0
+      ]
+    },
+    {
+      "name": "V4_J5_ShaftCollar",
+      "label": "J5 outer split axial collar",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        8.0,
+        16.0,
+        16.0
+      ],
+      "vol": 1273.3,
+      "pos": [
+        216.0,
+        0.0,
+        164.0
+      ]
+    },
+    {
+      "name": "V4_J1_HornWasher",
+      "label": "J1 pinion horn washer",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        10.0,
+        1.5
+      ],
+      "vol": 111.6,
+      "pos": [
+        54.5,
+        0.0,
+        43.0
+      ]
+    },
+    {
+      "name": "V4_J4_HornWasher",
+      "label": "J4 pinion horn washer",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        1.5,
+        10.0
+      ],
+      "vol": 111.6,
+      "pos": [
+        131.8,
+        -4.5,
+        200.0
+      ]
+    },
+    {
+      "name": "V4_ShoulderFoot1",
+      "label": "Shoulder-to-turntable foot bracket 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        14.0,
+        18.0
+      ],
+      "vol": 1798.2,
+      "pos": [
+        -27.0,
+        -19.0,
+        92.0
+      ]
+    },
+    {
+      "name": "V4_ShoulderFoot2",
+      "label": "Shoulder-to-turntable foot bracket 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        14.0,
+        18.0
+      ],
+      "vol": 1798.2,
+      "pos": [
+        9.0,
+        -19.0,
+        92.0
+      ]
+    },
+    {
+      "name": "V4_ShoulderFoot3",
+      "label": "Shoulder-to-turntable foot bracket 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        14.0,
+        18.0
+      ],
+      "vol": 1798.2,
+      "pos": [
+        -9.0,
+        19.0,
+        92.0
+      ]
+    },
+    {
+      "name": "V4_ShoulderFoot4",
+      "label": "Shoulder-to-turntable foot bracket 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        14.0,
+        18.0
+      ],
+      "vol": 1798.2,
+      "pos": [
+        27.0,
+        19.0,
+        92.0
+      ]
+    },
+    {
+      "name": "V4_J2_Anchor",
+      "label": "V4 J2 Anchor",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        75.0,
+        4.0,
+        54.0
+      ],
+      "vol": 11995.7,
+      "pos": [
+        -47.6,
+        -21.0,
+        137.0
+      ]
+    },
+    {
+      "name": "V4_J3_Anchor",
+      "label": "V4 J3 Anchor",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        75.0,
+        4.0,
+        54.0
+      ],
+      "vol": 11995.7,
+      "pos": [
+        34.4,
+        -20.5,
+        137.0
+      ]
+    },
+    {
+      "name": "V4_J4_Anchor",
+      "label": "V4 J4 Anchor",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        56.0,
+        4.0,
+        42.0
+      ],
+      "vol": 7281.8,
+      "pos": [
+        100.7,
+        -15.5,
+        181.0
+      ]
+    },
+    {
+      "name": "V4_J5_Anchor",
+      "label": "V4 J5 Anchor",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        42.0,
+        56.0
+      ],
+      "vol": 7281.8,
+      "pos": [
+        172.5,
+        -19.0,
+        195.1
+      ]
+    },
+    {
+      "name": "V4_J2_Standoff1",
+      "label": "J2 corrected cradle standoff 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        42.9,
+        10.0
+      ],
+      "vol": 2746.4,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J2_Standoff2",
+      "label": "J2 corrected cradle standoff 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        42.9,
+        10.0
+      ],
+      "vol": 2746.4,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J2_Standoff3",
+      "label": "J2 corrected cradle standoff 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        42.9,
+        10.0
+      ],
+      "vol": 2746.4,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J2_Standoff4",
+      "label": "J2 corrected cradle standoff 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        42.9,
+        10.0
+      ],
+      "vol": 2746.4,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J3_Standoff1",
+      "label": "J3 corrected cradle standoff 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        37.9,
+        10.0
+      ],
+      "vol": 2426.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J3_Standoff2",
+      "label": "J3 corrected cradle standoff 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        37.9,
+        10.0
+      ],
+      "vol": 2426.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J3_Standoff3",
+      "label": "J3 corrected cradle standoff 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        37.9,
+        10.0
+      ],
+      "vol": 2426.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J3_Standoff4",
+      "label": "J3 corrected cradle standoff 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        37.9,
+        10.0
+      ],
+      "vol": 2426.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J4_Standoff1",
+      "label": "J4 corrected cradle standoff 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.5,
+        10.0
+      ],
+      "vol": 1824.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J4_Standoff2",
+      "label": "J4 corrected cradle standoff 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.5,
+        10.0
+      ],
+      "vol": 1824.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J4_Standoff3",
+      "label": "J4 corrected cradle standoff 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.5,
+        10.0
+      ],
+      "vol": 1824.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J4_Standoff4",
+      "label": "J4 corrected cradle standoff 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        10.0,
+        28.5,
+        10.0
+      ],
+      "vol": 1824.5,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_J5_Standoff1",
+      "label": " J5_Standoff 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        10.0,
+        10.0
+      ],
+      "vol": 316.7,
+      "pos": [
+        172.5,
+        -11.9,
+        157.0
+      ]
+    },
+    {
+      "name": "V4_J5_Standoff2",
+      "label": " J5_Standoff 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        10.0,
+        10.0
+      ],
+      "vol": 316.7,
+      "pos": [
+        172.5,
+        11.9,
+        157.0
+      ]
+    },
+    {
+      "name": "V4_J5_Standoff3",
+      "label": " J5_Standoff 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        10.0,
+        10.0
+      ],
+      "vol": 316.7,
+      "pos": [
+        172.5,
+        -11.9,
+        185.0
+      ]
+    },
+    {
+      "name": "V4_J5_Standoff4",
+      "label": " J5_Standoff 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        10.0,
+        10.0
+      ],
+      "vol": 316.7,
+      "pos": [
+        172.5,
+        11.9,
+        185.0
+      ]
+    },
+    {
+      "name": "V4_CradleHardware",
+      "label": "V4 servo cradle clamps and stops",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        239.4,
+        84.7,
+        205.0
+      ],
+      "vol": 44405.2,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "V4_BoltPreview",
+      "label": "V4 principal assembly bolts",
+      "type": "App::DocumentObjectGroup",
+      "bbox_mm": [
+        256.5,
+        95.9,
+        203.9
+      ],
+      "vol": 12663.2,
+      "shape_err": "'App.DocumentObjectGroup' object has no attribute 'Placement'"
+    },
+    {
+      "name": "V4_Cradle_J1_Jaw",
+      "label": "J1 MG90S sliding jaw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        13.0,
+        34.0,
+        24.0
+      ],
+      "vol": 2897.0,
+      "pos": [
+        25.0,
+        -17.0,
+        12.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J1_Stop",
+      "label": "J1 MG90S cable stop",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        36.0,
+        12.0,
+        20.0
+      ],
+      "vol": 3416.5,
+      "pos": [
+        61.0,
+        -6.0,
+        12.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J1_Clamp",
+      "label": "J1 servo ear clamp with case relief",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        64.0,
+        10.0,
+        5.0
+      ],
+      "vol": 2182.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J4_Jaw",
+      "label": "J4 MG90S sliding jaw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        13.0,
+        24.0,
+        34.0
+      ],
+      "vol": 2897.0,
+      "pos": [
+        96.4,
+        -25.5,
+        183.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J4_Stop",
+      "label": "J4 MG90S cable stop",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        36.0,
+        20.0,
+        12.0
+      ],
+      "vol": 3416.5,
+      "pos": [
+        141.6,
+        -27.5,
+        194.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J4_Clamp",
+      "label": "J4 servo ear clamp with case relief",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        64.0,
+        5.0,
+        10.0
+      ],
+      "vol": 2182.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J5_Jaw",
+      "label": "J5 MG90S sliding jaw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        24.0,
+        34.0,
+        13.0
+      ],
+      "vol": 2897.0,
+      "pos": [
+        146.0,
+        -17.0,
+        157.7
+      ]
+    },
+    {
+      "name": "V4_Cradle_J5_Stop",
+      "label": "J5 MG90S cable stop",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        20.0,
+        12.0,
+        36.0
+      ],
+      "vol": 3416.5,
+      "pos": [
+        148.0,
+        -6.0,
+        154.3
+      ]
+    },
+    {
+      "name": "V4_Cradle_J5_Clamp",
+      "label": "J5 servo ear clamp with case relief",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        10.0,
+        64.0
+      ],
+      "vol": 2182.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J2_Jaw",
+      "label": "J2 MG996R sliding jaw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        34.0,
+        50.0
+      ],
+      "vol": 7438.8,
+      "pos": [
+        -61.8,
+        -33.6,
+        139.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J2_Clamp",
+      "label": "J2 servo ear clamp with case relief",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        64.0,
+        5.0,
+        10.0
+      ],
+      "vol": 2019.6,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J3_Jaw",
+      "label": "J3 MG996R sliding jaw",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        18.0,
+        34.0,
+        50.0
+      ],
+      "vol": 7438.8,
+      "pos": [
+        20.2,
+        -28.1,
+        139.0
+      ]
+    },
+    {
+      "name": "V4_Cradle_J3_Clamp",
+      "label": "J3 servo ear clamp with case relief",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        64.0,
+        5.0,
+        10.0
+      ],
+      "vol": 2019.6,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J2_1",
+      "label": "J2 corrected cradle bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        51.9,
+        4.0
+      ],
+      "vol": 652.2,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J2_2",
+      "label": "J2 corrected cradle bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        51.9,
+        4.0
+      ],
+      "vol": 652.2,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J2_3",
+      "label": "J2 corrected cradle bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        51.9,
+        4.0
+      ],
+      "vol": 652.2,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J2_4",
+      "label": "J2 corrected cradle bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        51.9,
+        4.0
+      ],
+      "vol": 652.2,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J3_1",
+      "label": "J3 corrected cradle bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        46.5,
+        4.0
+      ],
+      "vol": 584.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J3_2",
+      "label": "J3 corrected cradle bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        46.5,
+        4.0
+      ],
+      "vol": 584.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J3_3",
+      "label": "J3 corrected cradle bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        46.5,
+        4.0
+      ],
+      "vol": 584.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J3_4",
+      "label": "J3 corrected cradle bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        46.5,
+        4.0
+      ],
+      "vol": 584.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4_1",
+      "label": "J4 corrected cradle bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        36.5,
+        4.0
+      ],
+      "vol": 458.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4_2",
+      "label": "J4 corrected cradle bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        36.5,
+        4.0
+      ],
+      "vol": 458.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4_3",
+      "label": "J4 corrected cradle bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        36.5,
+        4.0
+      ],
+      "vol": 458.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4_4",
+      "label": "J4 corrected cradle bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        36.5,
+        4.0
+      ],
+      "vol": 458.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5_1",
+      "label": "J5 M4 anchor bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        13.0,
+        7.2,
+        7.2
+      ],
+      "vol": 237.7,
+      "pos": [
+        1.5,
+        0.0,
+        39.1
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5_2",
+      "label": "J5 M4 anchor bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        13.0,
+        7.2,
+        7.2
+      ],
+      "vol": 237.7,
+      "pos": [
+        1.5,
+        0.0,
+        39.1
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5_3",
+      "label": "J5 M4 anchor bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        13.0,
+        7.2,
+        7.2
+      ],
+      "vol": 237.7,
+      "pos": [
+        1.5,
+        0.0,
+        39.1
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5_4",
+      "label": "J5 M4 anchor bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        13.0,
+        7.2,
+        7.2
+      ],
+      "vol": 237.7,
+      "pos": [
+        1.5,
+        0.0,
+        39.1
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1Gear1",
+      "label": "J1 gear stack M3 bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        29.0
+      ],
+      "vol": 260.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1Gear2",
+      "label": "J1 gear stack M3 bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        29.0
+      ],
+      "vol": 260.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1Gear3",
+      "label": "J1 gear stack M3 bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        29.0
+      ],
+      "vol": 260.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1Gear4",
+      "label": "J1 gear stack M3 bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        29.0
+      ],
+      "vol": 260.3,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetL1",
+      "label": "J1 L retainer M3 bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetL2",
+      "label": "J1 L retainer M3 bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetL3",
+      "label": "J1 L retainer M3 bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetL4",
+      "label": "J1 L retainer M3 bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetU1",
+      "label": "J1 U retainer M3 bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetU2",
+      "label": "J1 U retainer M3 bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetU3",
+      "label": "J1 U retainer M3 bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J1RetU4",
+      "label": "J1 U retainer M3 bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        12.0
+      ],
+      "vol": 132.0,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_Shoulder1",
+      "label": "Shoulder foot M3 bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        19.0
+      ],
+      "vol": 184.9,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_Shoulder2",
+      "label": "Shoulder foot M3 bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        19.0
+      ],
+      "vol": 184.9,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_Shoulder3",
+      "label": "Shoulder foot M3 bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        19.0
+      ],
+      "vol": 184.9,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_Shoulder4",
+      "label": "Shoulder foot M3 bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        19.0
+      ],
+      "vol": 184.9,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5Carrier1",
+      "label": "J5 carrier M3 through bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        46.0,
+        6.0
+      ],
+      "vol": 388.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5Carrier2",
+      "label": "J5 carrier M3 through bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        46.0,
+        6.0
+      ],
+      "vol": 388.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5Carrier3",
+      "label": "J5 carrier M3 through bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        46.0,
+        6.0
+      ],
+      "vol": 388.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J5Carrier4",
+      "label": "J5 carrier M3 through bolt 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        46.0,
+        6.0
+      ],
+      "vol": 388.6,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4Gear1",
+      "label": "J4 gear-to-hub M3 bolt 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.6,
+        21.0,
+        5.6
+      ],
+      "vol": 180.1,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4Gear2",
+      "label": "J4 gear-to-hub M3 bolt 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.6,
+        21.0,
+        5.6
+      ],
+      "vol": 180.1,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_Bolt_J4Gear3",
+      "label": "J4 gear-to-hub M3 bolt 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.6,
+        21.0,
+        5.6
+      ],
+      "vol": 180.1,
+      "pos": [
+        0.0,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_AssemblyInformation",
+      "label": "V4_AssemblyInformation",
+      "type": "App::FeaturePython"
+    },
+    {
+      "name": "V4_1_J1_RiserPost1",
+      "label": "J1 36 mm riser post 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        14.0,
+        14.0,
+        36.0
+      ],
+      "vol": 5214.9,
+      "pos": [
+        -42.0,
+        -42.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserPost2",
+      "label": "J1 36 mm riser post 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        14.0,
+        14.0,
+        36.0
+      ],
+      "vol": 5214.9,
+      "pos": [
+        42.0,
+        -42.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserPost3",
+      "label": "J1 36 mm riser post 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        14.0,
+        14.0,
+        36.0
+      ],
+      "vol": 5214.9,
+      "pos": [
+        -42.0,
+        42.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserPost4",
+      "label": "J1 36 mm riser post 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        14.0,
+        14.0,
+        36.0
+      ],
+      "vol": 5214.9,
+      "pos": [
+        42.0,
+        42.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_HornRetention_M2_1",
+      "label": "V4 1 J1 HornRetention M2 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        4.0,
+        23.4
+      ],
+      "vol": 86.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_HornRetention_M2_2",
+      "label": "V4 1 J1 HornRetention M2 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        4.0,
+        23.4
+      ],
+      "vol": 86.7,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_CenterHornScrew_M25",
+      "label": "V4 1 J1 CenterHornScrew M25",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        4.8,
+        7.2
+      ],
+      "vol": 51.2,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserBolt_M3_1",
+      "label": "V4 1 J1 RiserBolt M3 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        51.0
+      ],
+      "vol": 402.9,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserBolt_M3_2",
+      "label": "V4 1 J1 RiserBolt M3 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        51.0
+      ],
+      "vol": 402.9,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserBolt_M3_3",
+      "label": "V4 1 J1 RiserBolt M3 3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        51.0
+      ],
+      "vol": 402.9,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J1_RiserBolt_M3_4",
+      "label": "V4 1 J1 RiserBolt M3 4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        6.0,
+        6.0,
+        51.0
+      ],
+      "vol": 402.9,
+      "pos": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "V4_1_J4_GearSplitHub",
+      "label": "J4 gear-to-shaft split clamp hub",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        21.0,
+        8.0,
+        21.0
+      ],
+      "vol": 2210.0,
+      "pos": [
+        152.0,
+        -5.0,
+        164.0
+      ]
+    },
+    {
+      "name": "V4_1_J4_HornRetention_M2_1",
+      "label": "V4 1 J4 HornRetention M2 1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        21.6,
+        4.0
+      ],
+      "vol": 81.1,
+      "pos": [
+        -0.8,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_J4_HornRetention_M2_2",
+      "label": "V4 1 J4 HornRetention M2 2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.0,
+        21.6,
+        4.0
+      ],
+      "vol": 81.1,
+      "pos": [
+        -0.8,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_J4_CenterHornScrew_M25",
+      "label": "V4 1 J4 CenterHornScrew M25",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        4.8,
+        7.3,
+        4.8
+      ],
+      "vol": 51.7,
+      "pos": [
+        -0.8,
+        0.0,
+        36.0
+      ]
+    },
+    {
+      "name": "V4_1_TransmissionInfo",
+      "label": "V4.1 servo-to-gear transmission closure",
+      "type": "App::FeaturePython"
+    },
+    {
+      "name": "V5_1_J1_HornCap",
+      "label": "J1 horn clamp cap",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        44.0,
+        28.0,
+        3.0
+      ],
+      "vol": 2947.9,
+      "pos": [
+        54.5,
+        0.0,
+        47.2
+      ]
+    },
+    {
+      "name": "V5_1_J4_HornCap",
+      "label": "J4 horn clamp cap",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        44.0,
+        3.0,
+        28.0
+      ],
+      "vol": 2947.9,
+      "pos": [
+        131.8,
+        -18.3,
+        164.0
+      ]
+    },
+    {
+      "name": "V5_1_J1_HornBolt1",
+      "label": "V5_1_J1_HornBolt1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        5.0,
+        7.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        71.5,
+        10.0,
+        47.2
+      ]
+    },
+    {
+      "name": "V5_1_J4_HornBolt1",
+      "label": "V5_1_J4_HornBolt1",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        7.0,
+        5.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        148.8,
+        -18.3,
+        174.0
+      ]
+    },
+    {
+      "name": "V5_1_J1_HornBolt2",
+      "label": "V5_1_J1_HornBolt2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        5.0,
+        7.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        71.5,
+        -10.0,
+        47.2
+      ]
+    },
+    {
+      "name": "V5_1_J4_HornBolt2",
+      "label": "V5_1_J4_HornBolt2",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        7.0,
+        5.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        148.8,
+        -18.3,
+        154.0
+      ]
+    },
+    {
+      "name": "V5_1_J1_HornBolt3",
+      "label": "V5_1_J1_HornBolt3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        5.0,
+        7.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        37.5,
+        10.0,
+        47.2
+      ]
+    },
+    {
+      "name": "V5_1_J4_HornBolt3",
+      "label": "V5_1_J4_HornBolt3",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        7.0,
+        5.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        114.8,
+        -18.3,
+        174.0
+      ]
+    },
+    {
+      "name": "V5_1_J1_HornBolt4",
+      "label": "V5_1_J1_HornBolt4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        5.0,
+        7.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        37.5,
+        -10.0,
+        47.2
+      ]
+    },
+    {
+      "name": "V5_1_J4_HornBolt4",
+      "label": "V5_1_J4_HornBolt4",
+      "type": "PartDesign::Feature",
+      "bbox_mm": [
+        5.0,
+        7.0,
+        5.0
+      ],
+      "vol": 62.0,
+      "pos": [
+        114.8,
+        -18.3,
+        154.0
+      ]
+    },
+    {
+      "name": "V5_1_HORN_TRANSMISSION",
+      "label": "V5_1_HORN_TRANSMISSION",
+      "type": "App::FeaturePython"
+    },
+    {
+      "name": "CRADLE_ALIGNMENT_V5_2",
+      "label": "CRADLE_ALIGNMENT_V5_2",
+      "type": "App::FeaturePython"
+    }
+  ],
+  "buckets": {
+    "servo": [
+      "TowerPro nominal servo geometry",
+      "Servo cables and connectors",
+      "J1 MG90S adjustable cradle",
+      "J4 MG90S adjustable cradle",
+      "J5 MG90S adjustable cradle",
+      "J2 MG996R adjustable cradle",
+      "J3 MG996R adjustable cradle",
+      "M3 servo mounting screw",
+      "M3 servo mounting screw001",
+      "M3 servo mounting screw002",
+      "M3 servo mounting screw003",
+      "M3 servo mounting screw004",
+      "M3 servo mounting screw005",
+      "V4 servo cradle clamps and stops",
+      "J1 servo ear clamp with case relief",
+      "J4 servo ear clamp with case relief",
+      "J5 servo ear clamp with case relief",
+      "J2 servo ear clamp with case relief",
+      "J3 servo ear clamp with case relief",
+      "V4.1 servo-to-gear transmission closure"
+    ],
+    "cradle": [
+      "J1 MG90S adjustable cradle",
+      "J4 MG90S adjustable cradle",
+      "J5 MG90S adjustable cradle",
+      "J2 MG996R adjustable cradle",
+      "J3 MG996R adjustable cradle",
+      "J2 corrected cradle standoff 1",
+      "J2 corrected cradle standoff 2",
+      "J2 corrected cradle standoff 3",
+      "J2 corrected cradle standoff 4",
+      "J3 corrected cradle standoff 1",
+      "J3 corrected cradle standoff 2",
+      "J3 corrected cradle standoff 3",
+      "J3 corrected cradle standoff 4",
+      "J4 corrected cradle standoff 1",
+      "J4 corrected cradle standoff 2",
+      "J4 corrected cradle standoff 3",
+      "J4 corrected cradle standoff 4",
+      "V4 servo cradle clamps and stops",
+      "J1 MG90S sliding jaw",
+      "J1 MG90S cable stop"
+    ],
+    "horn": [
+      "J1 horn cassette and 12T pinion",
+      "J4 horn cassette and 12T pinion",
+      "MG90S horn 36x19 mm",
+      "TowerPro MG996R Horn",
+      "TowerPro MG996R Horn001",
+      "MG90S horn 36x19 mm001",
+      "TowerPro MG90S Horn002",
+      "J1 pinion horn washer",
+      "J4 pinion horn washer",
+      "V4 1 J1 HornRetention M2 1",
+      "V4 1 J1 HornRetention M2 2",
+      "V4 1 J1 CenterHornScrew M25",
+      "V4 1 J4 HornRetention M2 1",
+      "V4 1 J4 HornRetention M2 2",
+      "V4 1 J4 CenterHornScrew M25",
+      "J1 horn clamp cap",
+      "J4 horn clamp cap",
+      "V5_1_J1_HornBolt1",
+      "V5_1_J4_HornBolt1",
+      "V5_1_J1_HornBolt2"
+    ],
+    "bearing": [
+      "NSK F695ZZ bearings and M5 shafts",
+      "Base lower / bearing tower",
+      "Base upper bearing bridge",
+      "J5 two-bearing carrier",
+      "J1 F695ZZ bearing",
+      "J1 F695ZZ bearing001",
+      "J2 F695ZZ left bearing",
+      "J2 F695ZZ right bearing",
+      "J3 F695ZZ left bearing",
+      "J3 F695ZZ right bearing",
+      "J4 F695ZZ left bearing",
+      "J4 F695ZZ right bearing",
+      "J5 F695ZZ rear bearing",
+      "J5 F695ZZ front bearing"
+    ],
+    "base": [
+      "Base lower / bearing tower",
+      "Base upper bearing bridge",
+      "J1 MG90S adjustable cradle",
+      "J4 MG90S adjustable cradle",
+      "J5 MG90S adjustable cradle",
+      "J2 MG996R adjustable cradle",
+      "J3 MG996R adjustable cradle",
+      "M5 base mounting screw",
+      "M5 base mounting screw001",
+      "M5 base mounting screw002",
+      "M5 base mounting screw003"
+    ],
+    "gripper": [
+      "Fixed gripper palm",
+      "Fixed gripper finger Top",
+      "Fixed gripper finger Bottom"
+    ],
+    "link": [
+      "Link spacer 28 mm",
+      "Link spacer 28 mm001",
+      "Link spacer 28 mm002",
+      "Link spacer 28 mm003",
+      "Link spacer 28 mm004",
+      "Link spacer 28 mm005"
+    ],
+    "shaft": [
+      "NSK F695ZZ bearings and M5 shafts",
+      "J1 printed shaft 4.8 x 88 mm",
+      "J2 M5 output shaft",
+      "J3 M5 output shaft",
+      "J4 M5 output shaft",
+      "J5 M5 output shaft",
+      "J1 3D printed temporary shaft 4.8 x 52 mm",
+      "J2 3D printed temporary shaft 4.8 x 64 mm",
+      "J3 3D printed temporary shaft 4.8 x 53 mm",
+      "J4 3D printed temporary shaft 4.8 x 53 mm",
+      "J5 3D printed temporary shaft 4.8 x 48 mm",
+      "J1 gear-to-shaft split hub",
+      "J1 lower split axial collar",
+      "J5 outer split axial collar",
+      "J4 gear-to-shaft split clamp hub"
+    ],
+    "gear": [
+      "Gears and output hubs",
+      "J1 75T output gear - assembled",
+      "J4 36T output gear - assembled",
+      "V4 J4 split gear clamp hub",
+      "TowerPro MG90S MountingEars",
+      "TowerPro MG996R MountingEars",
+      "TowerPro MG996R MountingEars001",
+      "TowerPro MG90S MountingEars001",
+      "TowerPro MG90S MountingEars002",
+      "J1 gear-to-shaft split hub",
+      "J1 gear stack M3 bolt 1",
+      "J1 gear stack M3 bolt 2",
+      "J1 gear stack M3 bolt 3",
+      "J1 gear stack M3 bolt 4",
+      "J4 gear-to-hub M3 bolt 1",
+      "J4 gear-to-hub M3 bolt 2",
+      "J4 gear-to-hub M3 bolt 3",
+      "J4 gear-to-shaft split clamp hub",
+      "V4.1 servo-to-gear transmission closure"
+    ],
+    "j1": [
+      "J1 rotating turntable",
+      "J1 75T output gear - assembled",
+      "J1 horn cassette and 12T pinion",
+      "J1 printed shaft 4.8 x 88 mm",
+      "J1 F695ZZ bearing",
+      "J1 F695ZZ bearing001",
+      "TowerPro MG90S Housing",
+      "TowerPro MG90S Bottom",
+      "TowerPro MG90S Top",
+      "TowerPro MG90S MountingEars",
+      "TowerPro MG90S OutputBoss",
+      "TowerPro MG90S Spline",
+      "TowerPro MG90S MotorCap",
+      "TowerPro MG90S Label",
+      "MG90S horn 36x19 mm",
+      "J1 MG90S adjustable cradle",
+      "J1 cable segment 1",
+      "J1 cable segment 2",
+      "J1 cable segment 3",
+      "J1 JR connector"
+    ],
+    "j2": [
+      "J2 M5 split flange hub",
+      "J2 M5 output shaft",
+      "J2 F695ZZ left bearing",
+      "J2 F695ZZ right bearing",
+      "TowerPro MG996R Housing",
+      "TowerPro MG996R Bottom",
+      "TowerPro MG996R Top",
+      "TowerPro MG996R MountingEars",
+      "TowerPro MG996R OutputBoss",
+      "TowerPro MG996R Spline",
+      "TowerPro MG996R MotorCap",
+      "TowerPro MG996R Label",
+      "TowerPro MG996R Horn",
+      "J2 MG996R adjustable cradle",
+      "J2 cable segment 1",
+      "J2 cable segment 2",
+      "J2 cable segment 3",
+      "J2 JR connector",
+      "J2 rotation axis",
+      "J2 3D printed temporary shaft 4.8 x 64 mm"
+    ],
+    "j3": [
+      "J3 M5 split flange hub",
+      "J3 M5 output shaft",
+      "J3 F695ZZ left bearing",
+      "J3 F695ZZ right bearing",
+      "TowerPro MG996R Housing001",
+      "TowerPro MG996R Bottom001",
+      "TowerPro MG996R Top001",
+      "TowerPro MG996R MountingEars001",
+      "TowerPro MG996R OutputBoss001",
+      "TowerPro MG996R Spline001",
+      "TowerPro MG996R MotorCap001",
+      "TowerPro MG996R Label001",
+      "TowerPro MG996R Horn001",
+      "J3 MG996R adjustable cradle",
+      "J3 cable segment 1",
+      "J3 cable segment 2",
+      "J3 cable segment 3",
+      "J3 JR connector",
+      "J3 rotation axis",
+      "J3 3D printed temporary shaft 4.8 x 53 mm"
+    ]
+  },
+  "labels_all": [
+    "Printed body parts (from exported STL source geometry)",
+    "TowerPro nominal servo geometry",
+    "NSK F695ZZ bearings and M5 shafts",
+    "Gears and output hubs",
+    "Screws, collars and spacers",
+    "Servo cables and connectors",
+    "Dimensions and source notes",
+    "Base lower / bearing tower",
+    "Base upper bearing bridge",
+    "J1 rotating turntable",
+    "Shoulder yoke left",
+    "Shoulder yoke right",
+    "Yoke spacer 38 mm",
+    "Yoke spacer 38 mm001",
+    "Yoke spacer 38 mm002",
+    "Yoke spacer 38 mm003",
+    "Upper arm left",
+    "Upper arm right",
+    "Forearm left",
+    "Forearm right",
+    "Wrist pitch left",
+    "Wrist pitch right",
+    "Link spacer 28 mm",
+    "Link spacer 28 mm001",
+    "Link spacer 28 mm002",
+    "Link spacer 28 mm003",
+    "Link spacer 28 mm004",
+    "Link spacer 28 mm005",
+    "J5 two-bearing carrier",
+    "Fixed gripper palm",
+    "Fixed gripper finger Top",
+    "Fixed gripper finger Bottom",
+    "J1 75T output gear - assembled",
+    "J1 horn cassette and 12T pinion",
+    "J4 36T output gear - assembled",
+    "J4 horn cassette and 12T pinion",
+    "J2 M5 split flange hub",
+    "J3 M5 split flange hub",
+    "V4 J4 split gear clamp hub",
+    "J5 M5 split flange hub",
+    "J1 printed shaft 4.8 x 88 mm",
+    "J1 F695ZZ bearing",
+    "J1 F695ZZ bearing001",
+    "J2 M5 output shaft",
+    "J2 F695ZZ left bearing",
+    "J2 F695ZZ right bearing",
+    "J3 M5 output shaft",
+    "J3 F695ZZ left bearing",
+    "J3 F695ZZ right bearing",
+    "J4 M5 output shaft",
+    "J4 F695ZZ left bearing",
+    "J4 F695ZZ right bearing",
+    "J5 M5 output shaft",
+    "J5 F695ZZ rear bearing",
+    "J5 F695ZZ front bearing",
+    "TowerPro MG90S Housing",
+    "TowerPro MG90S Bottom",
+    "TowerPro MG90S Top",
+    "TowerPro MG90S MountingEars",
+    "TowerPro MG90S OutputBoss",
+    "TowerPro MG90S Spline",
+    "TowerPro MG90S MotorCap",
+    "TowerPro MG90S Label",
+    "MG90S horn 36x19 mm",
+    "TowerPro MG996R Housing",
+    "TowerPro MG996R Bottom",
+    "TowerPro MG996R Top",
+    "TowerPro MG996R MountingEars",
+    "TowerPro MG996R OutputBoss",
+    "TowerPro MG996R Spline",
+    "TowerPro MG996R MotorCap",
+    "TowerPro MG996R Label",
+    "TowerPro MG996R Horn",
+    "TowerPro MG996R Housing001",
+    "TowerPro MG996R Bottom001",
+    "TowerPro MG996R Top001",
+    "TowerPro MG996R MountingEars001",
+    "TowerPro MG996R OutputBoss001",
+    "TowerPro MG996R Spline001",
+    "TowerPro MG996R MotorCap001",
+    "TowerPro MG996R Label001",
+    "TowerPro MG996R Horn001",
+    "TowerPro MG90S Housing001",
+    "TowerPro MG90S Bottom001",
+    "TowerPro MG90S Top001",
+    "TowerPro MG90S MountingEars001",
+    "TowerPro MG90S OutputBoss001",
+    "TowerPro MG90S Spline001",
+    "TowerPro MG90S MotorCap001",
+    "TowerPro MG90S Label001",
+    "MG90S horn 36x19 mm001",
+    "TowerPro MG90S Housing002",
+    "TowerPro MG90S Bottom002",
+    "TowerPro MG90S Top002",
+    "TowerPro MG90S MountingEars002",
+    "TowerPro MG90S OutputBoss002",
+    "TowerPro MG90S Spline002",
+    "TowerPro MG90S MotorCap002",
+    "TowerPro MG90S Label002",
+    "TowerPro MG90S Horn002",
+    "J1 MG90S adjustable cradle",
+    "J4 MG90S adjustable cradle",
+    "J5 MG90S adjustable cradle",
+    "J2 MG996R adjustable cradle",
+    "J3 MG996R adjustable cradle",
+    "M5 base mounting screw",
+    "M5 base mounting screw001",
+    "M5 base mounting screw002",
+    "M5 base mounting screw003",
+    "F695ZZ printed retainer",
+    "F695ZZ printed retainer001",
+    "F695ZZ printed retainer002",
+    "F695ZZ printed retainer003",
+    "F695ZZ printed retainer004",
+    "F695ZZ printed retainer005",
+    "F695ZZ printed retainer006",
+    "F695ZZ printed retainer007",
+    "M3 servo mounting screw",
+    "M3 servo mounting screw001",
+    "M3 servo mounting screw002",
+    "M3 servo mounting screw003",
+    "M3 servo mounting screw004",
+    "M3 servo mounting screw005",
+    "J1 cable segment 1",
+    "J1 cable segment 2",
+    "J1 cable segment 3",
+    "J1 JR connector",
+    "J2 cable segment 1",
+    "J2 cable segment 2",
+    "J2 cable segment 3",
+    "J2 JR connector",
+    "J3 cable segment 1",
+    "J3 cable segment 2",
+    "J3 cable segment 3",
+    "J3 JR connector",
+    "J4 cable segment 1",
+    "J4 cable segment 2",
+    "J4 cable segment 3",
+    "J4 JR connector",
+    "J5 cable segment 1",
+    "J5 cable segment 2",
+    "J5 cable segment 3",
+    "J5 JR connector",
+    "Completed preview model information",
+    "180 x 180 mm printer/bench reference",
+    "J1 rotation axis",
+    "J2 rotation axis",
+    "J3 rotation axis",
+    "J4 rotation axis",
+    "J5 rotation axis",
+    "Rubber grip pad Top",
+    "Rubber grip pad Bottom",
+    "J1 3D printed temporary shaft 4.8 x 52 mm",
+    "J2 3D printed temporary shaft 4.8 x 64 mm",
+    "J3 3D printed temporary shaft 4.8 x 53 mm",
+    "J4 3D printed temporary shaft 4.8 x 53 mm",
+    "J5 3D printed temporary shaft 4.8 x 48 mm",
+    "V4 assembly closure parts",
+    "J1 gear-to-shaft split hub",
+    "J1 lower F695ZZ retainer",
+    "J1 upper F695ZZ retainer",
+    "J1 lower split axial collar",
+    "J5 outer split axial collar",
+    "J1 pinion horn washer",
+    "J4 pinion horn washer",
+    "Shoulder-to-turntable foot bracket 1",
+    "Shoulder-to-turntable foot bracket 2",
+    "Shoulder-to-turntable foot bracket 3",
+    "Shoulder-to-turntable foot bracket 4",
+    "V4 J2 Anchor",
+    "V4 J3 Anchor",
+    "V4 J4 Anchor",
+    "V4 J5 Anchor",
+    "J2 corrected cradle standoff 1",
+    "J2 corrected cradle standoff 2",
+    "J2 corrected cradle standoff 3",
+    "J2 corrected cradle standoff 4",
+    "J3 corrected cradle standoff 1",
+    "J3 corrected cradle standoff 2",
+    "J3 corrected cradle standoff 3",
+    "J3 corrected cradle standoff 4",
+    "J4 corrected cradle standoff 1",
+    "J4 corrected cradle standoff 2",
+    "J4 corrected cradle standoff 3",
+    "J4 corrected cradle standoff 4",
+    " J5_Standoff 1",
+    " J5_Standoff 2",
+    " J5_Standoff 3",
+    " J5_Standoff 4",
+    "V4 servo cradle clamps and stops",
+    "V4 principal assembly bolts",
+    "J1 MG90S sliding jaw",
+    "J1 MG90S cable stop",
+    "J1 servo ear clamp with case relief",
+    "J4 MG90S sliding jaw",
+    "J4 MG90S cable stop",
+    "J4 servo ear clamp with case relief",
+    "J5 MG90S sliding jaw",
+    "J5 MG90S cable stop",
+    "J5 servo ear clamp with case relief",
+    "J2 MG996R sliding jaw",
+    "J2 servo ear clamp with case relief",
+    "J3 MG996R sliding jaw",
+    "J3 servo ear clamp with case relief",
+    "J2 corrected cradle bolt 1",
+    "J2 corrected cradle bolt 2",
+    "J2 corrected cradle bolt 3",
+    "J2 corrected cradle bolt 4",
+    "J3 corrected cradle bolt 1",
+    "J3 corrected cradle bolt 2",
+    "J3 corrected cradle bolt 3",
+    "J3 corrected cradle bolt 4",
+    "J4 corrected cradle bolt 1",
+    "J4 corrected cradle bolt 2",
+    "J4 corrected cradle bolt 3",
+    "J4 corrected cradle bolt 4",
+    "J5 M4 anchor bolt 1",
+    "J5 M4 anchor bolt 2",
+    "J5 M4 anchor bolt 3",
+    "J5 M4 anchor bolt 4",
+    "J1 gear stack M3 bolt 1",
+    "J1 gear stack M3 bolt 2",
+    "J1 gear stack M3 bolt 3",
+    "J1 gear stack M3 bolt 4",
+    "J1 L retainer M3 bolt 1",
+    "J1 L retainer M3 bolt 2",
+    "J1 L retainer M3 bolt 3",
+    "J1 L retainer M3 bolt 4",
+    "J1 U retainer M3 bolt 1",
+    "J1 U retainer M3 bolt 2",
+    "J1 U retainer M3 bolt 3",
+    "J1 U retainer M3 bolt 4",
+    "Shoulder foot M3 bolt 1",
+    "Shoulder foot M3 bolt 2",
+    "Shoulder foot M3 bolt 3",
+    "Shoulder foot M3 bolt 4",
+    "J5 carrier M3 through bolt 1",
+    "J5 carrier M3 through bolt 2",
+    "J5 carrier M3 through bolt 3",
+    "J5 carrier M3 through bolt 4",
+    "J4 gear-to-hub M3 bolt 1",
+    "J4 gear-to-hub M3 bolt 2",
+    "J4 gear-to-hub M3 bolt 3",
+    "V4_AssemblyInformation",
+    "J1 36 mm riser post 1",
+    "J1 36 mm riser post 2",
+    "J1 36 mm riser post 3",
+    "J1 36 mm riser post 4",
+    "V4 1 J1 HornRetention M2 1",
+    "V4 1 J1 HornRetention M2 2",
+    "V4 1 J1 CenterHornScrew M25",
+    "V4 1 J1 RiserBolt M3 1",
+    "V4 1 J1 RiserBolt M3 2",
+    "V4 1 J1 RiserBolt M3 3",
+    "V4 1 J1 RiserBolt M3 4",
+    "J4 gear-to-shaft split clamp hub",
+    "V4 1 J4 HornRetention M2 1",
+    "V4 1 J4 HornRetention M2 2",
+    "V4 1 J4 CenterHornScrew M25",
+    "V4.1 servo-to-gear transmission closure",
+    "J1 horn clamp cap",
+    "J4 horn clamp cap",
+    "V5_1_J1_HornBolt1",
+    "V5_1_J4_HornBolt1",
+    "V5_1_J1_HornBolt2",
+    "V5_1_J4_HornBolt2",
+    "V5_1_J1_HornBolt3",
+    "V5_1_J4_HornBolt3",
+    "V5_1_J1_HornBolt4",
+    "V5_1_J4_HornBolt4",
+    "V5_1_HORN_TRANSMISSION",
+    "CRADLE_ALIGNMENT_V5_2"
+  ]
+}

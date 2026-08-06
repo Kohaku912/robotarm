@@ -1,0 +1,64 @@
+<mujoco model="robot_arm_v8_manufacturable">
+  <compiler angle="degree" autolimits="true"/>
+  <option timestep="0.002" gravity="0 0 -9.80665" integrator="implicitfast"/>
+  <default>
+    <joint damping="0.02" armature="0.00005" limited="true"/>
+    <geom condim="3" friction="0.7 0.01 0.001" solref="0.004 1" solimp="0.95 0.99 0.001" density="0" rgba="0.2 0.65 0.35 1"/>
+  </default>
+  <worldbody>
+    <geom name="base_case" type="cylinder" pos="0 0 0.027" size="0.044 0.027" rgba="0.18 0.40 0.75 1" mass="0.11408"/>
+    <body name="turntable" pos="0 0 0.079">
+      <joint name="J1_yaw" type="hinge" axis="0 0 1" range="-180 180"/>
+      <inertial pos="-0.006416 -0.005396 -0.012050" mass="0.141643" diaginertia="0.00020 0.00020 0.00025"/>
+      <geom name="turntable_deck" type="box" pos="0 -0.006 -0.013" size="0.029 0.024 0.003" rgba="0.18 0.40 0.75 1"/>
+      <geom name="j2_servo" type="box" pos="-0.01335 -0.005 0" size="0.02035 0.017 0.00985" rgba="0.12 0.14 0.18 1"/>
+      <geom name="j2_passive_cheek" type="box" pos="0 -0.026 0" size="0.013 0.002 0.019"/>
+      <body name="upper_arm" pos="0 0 0">
+        <joint name="J2_shoulder" type="hinge" axis="0 1 0" range="-90 0"/>
+        <inertial pos="0.085982 -0.006726 0" mass="0.080788" diaginertia="0.000005 0.00065 0.00065"/>
+        <geom name="ua_l_top" type="box" pos="0.0575 -0.0305 0.008" size="0.0575 0.0015 0.002"/>
+        <geom name="ua_l_bottom" type="box" pos="0.0575 -0.0305 -0.008" size="0.0575 0.0015 0.002"/>
+        <geom name="ua_r_top" type="box" pos="0.0575 0.0155 0.008" size="0.0575 0.0015 0.002"/>
+        <geom name="ua_r_bottom" type="box" pos="0.0575 0.0155 -0.008" size="0.0575 0.0015 0.002"/>
+        <geom name="j3_servo" type="box" pos="0.10165 -0.005 0" size="0.02035 0.017 0.00985" rgba="0.12 0.14 0.18 1"/>
+        <body name="forearm" pos="0.115 0 0">
+          <joint name="J3_elbow" type="hinge" axis="0 1 0" range="-90 150"/>
+          <inertial pos="0.074338 -0.006181 0" mass="0.038066" diaginertia="0.000004 0.00020 0.00020"/>
+          <geom name="fa_l_top" type="box" pos="0.0575 -0.0265 0.008" size="0.0575 0.0015 0.002" rgba="0.1 0.55 0.28 1"/>
+          <geom name="fa_l_bottom" type="box" pos="0.0575 -0.0265 -0.008" size="0.0575 0.0015 0.002" rgba="0.1 0.55 0.28 1"/>
+          <geom name="fa_r_top" type="box" pos="0.0575 0.0235 0.008" size="0.0575 0.0015 0.002" rgba="0.1 0.55 0.28 1"/>
+          <geom name="fa_r_bottom" type="box" pos="0.0575 0.0235 -0.008" size="0.0575 0.0015 0.002" rgba="0.1 0.55 0.28 1"/>
+          <geom name="j4_servo" type="box" pos="0.1086 -0.006 0" size="0.0114 0.012 0.0061" rgba="0.12 0.14 0.18 1"/>
+          <body name="wrist_pitch" pos="0.115 0 0">
+            <joint name="J4_wrist_pitch" type="hinge" axis="0 1 0" range="-70 60"/>
+            <inertial pos="0.026104 -0.005770 0" mass="0.066202" diaginertia="0.000006 0.00005 0.00005"/>
+            <geom name="wp_l" type="box" pos="0.015 -0.0305 0" size="0.015 0.0015 0.010" rgba="0.1 0.48 0.75 1"/>
+            <geom name="wp_r" type="box" pos="0.015 0.0155 0" size="0.015 0.0015 0.010" rgba="0.1 0.48 0.75 1"/>
+            <geom name="j5_servo" type="box" pos="0.019 -0.0061 0" size="0.011 0.0061 0.0114" rgba="0.12 0.14 0.18 1"/>
+            <geom name="j5_bearing_housing" type="box" pos="0.041 0 0" size="0.011 0.015 0.015" rgba="0.1 0.48 0.75 1"/>
+            <body name="tool" pos="0.030 0 0">
+              <joint name="J5_wrist_roll" type="hinge" axis="1 0 0" range="-180 180"/>
+              <inertial pos="0.019530 -0.000070 0.002973" mass="0.015614" diaginertia="0.000004 0.000008 0.000008"/>
+              <geom name="tool_palm" type="box" pos="0.025 0 0" size="0.003 0.017 0.013" rgba="0.88 0.46 0.1 1"/>
+              <geom name="tool_finger_l" type="box" pos="0.025 -0.015 0.030" size="0.003 0.002 0.017" rgba="0.88 0.46 0.1 1"/>
+              <geom name="tool_finger_r" type="box" pos="0.025 0.015 0.030" size="0.003 0.002 0.017" rgba="0.88 0.46 0.1 1"/>
+              <geom name="payload_50g" type="sphere" pos="0.028 0 0.030" size="0.012" mass="0.050" rgba="0.9 0.2 0.15 0.65"/>
+              <site name="tool_tip" pos="0.028 0 0" size="0.003" rgba="1 0 0 1"/>
+            </body>
+          </body>
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <motor name="J1_MG90S_6to1" joint="J1_yaw" gear="0.690" ctrlrange="-1 1"/>
+    <motor name="J2_MG996R_direct" joint="J2_shoulder" gear="0.922" ctrlrange="-1 1"/>
+    <motor name="J3_MG996R_direct" joint="J3_elbow" gear="0.922" ctrlrange="-1 1"/>
+    <motor name="J4_MG90S_direct" joint="J4_wrist_pitch" gear="0.177" ctrlrange="-1 1"/>
+    <motor name="J5_MG90S_direct" joint="J5_wrist_roll" gear="0.177" ctrlrange="-1 1"/>
+  </actuator>
+  <keyframe>
+    <key name="extended" qpos="0 0 0 0 0"/>
+    <key name="folded" qpos="0 -1.396 2.618 -1.222 0"/>
+  </keyframe>
+</mujoco>

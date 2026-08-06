@@ -1,0 +1,25 @@
+﻿name,label,quantity,size_x_mm,size_y_mm,size_z_mm,volume_mm3,orientation,notes
+B01_BASE_LOWER,J1 lower base with towers,1,140.0,140.0,36.0,175246.905,bottom face on bed,F695ZZ lower seat
+B02_BASE_UPPER,J1 upper bearing bridge,1,100.0,100.0,12.0,82184.627,large face on bed,F695ZZ upper seat
+B03_J1_TURNTABLE,J1 turntable,1,99.995,99.998,8.0,62107.967,flat,Bolts to hub
+B04_SHOULDER_YOKE_PLATE,Shoulder yoke side plate,2,60.0,101.999,6.0,21138.985,flat,J2 bearing support
+B05_UPPER_ARM_PLATE,Upper arm side plate,2,113.999,32.0,5.5,15152.002,flat,82 mm
+B06_FOREARM_PLATE,Forearm side plate,2,101.999,32.0,5.5,13832.002,flat,70 mm
+B07_WRIST_PITCH_PLATE,Wrist pitch side plate,2,75.999,30.0,5.5,11074.132,flat,46 mm
+B08_J5_BEARING_CARRIER,J5 two-bearing roll carrier,1,44.0,34.0,34.0,37850.164,rear end on bed,Two F695ZZ seats
+B09_M5_SPLIT_FLANGE_HUB,M5 split flange hub,8,33.998,33.999,12.0,6058.686,flange on bed,Link torque hub
+B10_F695ZZ_RETAINER,F695ZZ retainer ring,10,23.843,23.843,2.2,740.567,flat,Bearing retainer
+B11_LINK_SPACER_28,28 mm link spacer,6,10.0,10.0,28.0,1959.631,axis vertical,M3 through
+B12_YOKE_SPACER_38,38 mm yoke spacer,3,10.0,10.0,38.0,2659.5,axis vertical,M3 through
+B13_FIXED_GRIPPER_PALM,Fixed gripper palm,1,42.0,50.0,8.0,15904.433,flat,Fixed tool
+B14_FIXED_GRIPPER_FINGER,Fixed gripper finger,2,62.0,12.0,10.0,6173.678,flat,Fixed fingers
+B15_J1_PINION_12T,J1 12T pinion,1,17.483,17.483,14.0,1897.856,gear flat,Validated gear
+B16_J1_OUTPUT_GEAR_75T,J1 75T output gear,1,96.223,96.245,14.0,71287.122,gear flat,Validated gear
+B17_J4_PINION_12T,J4 12T pinion,1,11.189,11.189,9.0,580.468,gear flat,Validated gear
+B18_J4_OUTPUT_GEAR_36T,J4 36T output gear,1,30.394,30.394,10.0,5175.856,gear flat,Validated gear
+B19_MG90S_ADJUSTABLE_BASE,MG90S adjustable base,3,52.0,38.0,4.0,4845.86,flat,Adjustable mount
+B20_MG90S_SLIDING_JAW,MG90S sliding jaw,3,13.0,34.0,24.0,2896.993,flat,Adjustable mount
+B21_MG90S_CABLE_STOP,MG90S cable stop,3,36.0,12.0,20.0,3416.478,flat,Adjustable mount
+B22_MG996R_ADJUSTABLE_BASE,MG996R adjustable base,2,75.0,54.0,5.0,12467.316,flat,Adjustable mount
+B23_MG996R_SLIDING_JAW,MG996R sliding jaw,2,18.0,50.0,34.0,7438.78,flat,Adjustable mount
+B24_SERVO_EAR_CLAMP,Servo ear clamp,5,64.0,10.0,5.0,2456.289,flat,Adjustable mount

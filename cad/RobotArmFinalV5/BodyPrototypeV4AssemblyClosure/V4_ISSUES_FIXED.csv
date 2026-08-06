@@ -1,0 +1,13 @@
+﻿interface,problem,fix
+J1 bearing retention,B01/B02 lacked retainer screw interfaces,Added four M3 holes to each bearing seat
+J5 bearing retention,Carrier had no holes matching retainer rings,Added four longitudinal M3 holes clamping both ends
+J1 torque transfer,75T gear had only a shaft hole,Added four-bolt gear/turntable/flange-hub stack
+J4 torque transfer,36T gear had no shaft clamp,Added three-bolt compact split gear hub
+Servo pinions,Pinions could not bolt to the supplied horn,Added two horn screw holes and clamping washers
+Flange hubs,Clamp screw had no head seat or nut restraint,Added head recess and anti-rotation nut pocket
+Shaft axial retention,J1/J5 shafts could slide axially,Added two split shaft collars
+Shoulder structure,Yoke plates were not mechanically attached to turntable,Added four adjustable L foot brackets
+Link rigidity,Printed spacers had no dedicated corresponding holes,Added two spacer-bolt holes to each link pair
+Wrist/J5 carrier,Only one bolt row aligned,Added the second row for four through-bolts
+Servo mounting,J2-J5 servo bases floated outside the side plates,Added coaxial anchor frames and four standoff sets
+J1 servo mounting,Servo base had no corresponding floor holes,Added four M4 holes and underside captive pockets
