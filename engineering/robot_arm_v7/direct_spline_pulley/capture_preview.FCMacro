@@ -1,0 +1,24 @@
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore
+
+model = r"C:/Users/kohak/programs/robotarm/engineering/robot_arm_v7/direct_spline_pulley/MG996R_DIRECT_16T_3GT_PROTOTYPE.FCStd"
+image = r"C:/Users/kohak/programs/robotarm/engineering/robot_arm_v7/direct_spline_pulley/MG996R_DIRECT_16T_3GT_PREVIEW.png"
+App.openDocument(model)
+Gui.updateGui()
+gui_doc = Gui.getDocument("MG996R_DIRECT_16T_3GT_PROTOTYPE")
+gui_doc.getObject("DIRECT_16T_3GT_PULLEY").Visibility = True
+gui_doc.getObject("SPLINE_CLEARANCE_COUPON").Visibility = True
+gui_doc.getObject("MG996R_ASSEMBLY_REFERENCE").Visibility = False
+gui_doc.getObject("DIRECT_PULLEY_INSTALLED_REFERENCE").Visibility = False
+gui_doc.getObject("M3X8_CENTER_RETAINER_REFERENCE").Visibility = False
+view = gui_doc.activeView()
+view.viewAxonometric()
+view.fitAll()
+
+def save_and_close():
+    Gui.updateGui()
+    view.saveImage(image, 1600, 1000, "White")
+    QtCore.QTimer.singleShot(400, Gui.getMainWindow().close)
+
+QtCore.QTimer.singleShot(1800, save_and_close)

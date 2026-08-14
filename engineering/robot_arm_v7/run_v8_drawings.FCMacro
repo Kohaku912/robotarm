@@ -1,0 +1,1 @@
+exec(open(r"C:/Users/kohak/programs/robotarm/engineering/robot_arm_v7/update_v8_drawings.FCMacro", encoding="utf-8").read())

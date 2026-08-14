@@ -1,0 +1,16 @@
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore
+
+root = r"C:/Users/kohak/programs/robotarm"
+model = root + r"/cad/RobotArmFinalV5/CompletedPreviewV5_2CradleAlignment/ROBOT_ARM_V8_MANUFACTURABLE.FCStd"
+script = root + r"/engineering/robot_arm_v7/create_v8_drawings.py"
+App.openDocument(model)
+Gui.updateGui()
+
+def generate_and_close():
+    exec(compile(open(script, encoding="utf-8").read(), script, "exec"), globals())
+    Gui.updateGui()
+    QtCore.QTimer.singleShot(500, Gui.getMainWindow().close)
+
+QtCore.QTimer.singleShot(1500, generate_and_close)

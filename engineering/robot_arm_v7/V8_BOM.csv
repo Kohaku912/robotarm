@@ -1,63 +1,74 @@
 ﻿PartID,ObjectName,Label,BodyID,Qty,Material,ManufacturingMethod,Mass_g,ConnectionIDs
+BELT-J2-135-3GT-90,J2_BELT_135_3GT_90,MISUMI GBN1353GT-90 closed timing belt,B1_TURNTABLE,1,"Chloroprene rubber, fiberglass cord, nylon facing",Purchased MISUMI GBN1353GT-90,3.040,C-J2-BELT
 BR-685-1,J1_PLANET_BRG_1,F685ZZ planet bearing,B1_TURNTABLE,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J1-P1
 BR-685-2,J1_PLANET_BRG_2,F685ZZ planet bearing001,B1_TURNTABLE,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J1-P2
 BR-685-3,J1_PLANET_BRG_3,F685ZZ planet bearing002,B1_TURNTABLE,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J1-P3
 BR-695-1,F695_J1_1,F695ZZ J1 output bearing,B0_BASE,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J1-BRG;C-J1-TRANSMISSION
 BR-695-2,F695_J1_2,F695ZZ J1 output bearing001,B0_BASE,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J1-BRG;C-J1-TRANSMISSION
+BR-F685_J2_INPUT_A,F685_J2_INPUT_A,F685ZZ002,B1_TURNTABLE,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J2-INPUT-SUPPORT;C-J2-BELT
+BR-F685_J2_INPUT_B,F685_J2_INPUT_B,F685ZZ003,B1_TURNTABLE,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J2-INPUT-SUPPORT;C-J2-BELT
 BR-F685_J5_A,F685_J5_A,F685ZZ,B4_WRIST_PITCH,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J5-BRG
 BR-F685_J5_B,F685_J5_B,F685ZZ001,B4_WRIST_PITCH,1,"Bearing steel, ZZ shields",Purchased NSK F685ZZ,2.180,C-J5-BRG
-BR-F695_J2,F695_J2,F695ZZ,B1_TURNTABLE,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J2-PASSIVE
-BR-F695_J3,F695_J3,F695ZZ001,B2_UPPER_ARM,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J3-PASSIVE
-BR-F695_J4,F695_J4,F695ZZ002,B3_FOREARM,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J4-PASSIVE
-COL-J2,J2_COLLAR,J2 CL05M 5 mm set-screw collar,B2_UPPER_ARM,1,Zinc-plated steel collar,Purchased Motionco CL05M; 5 ID x 10 OD x 5 W,2.142,C-J2-RETENTION;C-J2-PASSIVE
+BR-F695_J2_L,F695_J2_L,F695ZZ,B2_UPPER_ARM,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J2-OUTPUT-BEARINGS
+BR-F695_J2_R,F695_J2_R,F695ZZ001,B2_UPPER_ARM,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J2-OUTPUT-BEARINGS
+BR-F695_J3,F695_J3,F695ZZ002,B2_UPPER_ARM,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J3-PASSIVE
+BR-F695_J4,F695_J4,F695ZZ003,B3_FOREARM,1,"Bearing steel, ZZ shields",Purchased NSK F695ZZ,2.840,C-J4-PASSIVE
 COL-J3,J3_COLLAR,J3 CL05M 5 mm set-screw collar,B3_FOREARM,1,Zinc-plated steel collar,Purchased Motionco CL05M; 5 ID x 10 OD x 5 W,2.142,C-J3-RETENTION;C-J3-PASSIVE
 COL-J4,J4_COLLAR,J4 CL05M 5 mm set-screw collar,B4_WRIST_PITCH,1,Zinc-plated steel collar,Purchased Motionco CL05M; 5 ID x 10 OD x 5 W,2.142,C-J4-RETENTION;C-J4-PASSIVE
 COL-J5,J5_OUTER_COLLAR,J5 CL05M 5 mm set-screw collar,B5_TOOL,1,Zinc-plated steel collar,Purchased Motionco CL05M; 5 ID x 10 OD x 5 W,2.142,C-J5-RETENTION
-HORN-J1,J1_STOCK_HORN,MG90S stock horn,B0_BASE,1,Servo-supplied reinforced polymer horn,Purchased with servo; two holes drilled 3.2 mm,0.600,C-J1-SUN-HORN
-HORN-J2_SERVO,J2_SERVO_HORN,MG996R stock horn,B1_TURNTABLE,1,Servo-supplied reinforced polymer horn,Purchased with servo; two holes drilled 3.2 mm,1.500,C-J2-SERVO;C-J2-ACTIVE
-HORN-J3_SERVO,J3_SERVO_HORN,MG996R stock horn001,B2_UPPER_ARM,1,Servo-supplied reinforced polymer horn,Purchased with servo; two holes drilled 3.2 mm,1.500,C-J3-SERVO;C-J3-ACTIVE
-HORN-J4_SERVO,J4_SERVO_HORN,MG90S stock horn001,B3_FOREARM,1,Servo-supplied reinforced polymer horn,Purchased with servo; two holes drilled 3.2 mm,0.600,C-J4-SERVO;C-J4-ACTIVE
-HORN-J5,J5_STOCK_HORN,MG90S J5 stock horn,B4_WRIST_PITCH,1,Servo-supplied reinforced polymer horn,Purchased with servo,0.600,C-J5-ACTIVE
+HORN-J1,J1_STOCK_HORN,MG90S STEP double-arm horn,B0_BASE,1,Servo-supplied reinforced polymer horn,User STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_HORN.step; +/-6.5 mm holes reamed 2.2 mm,0.600,C-J1-SUN-HORN
+HORN-J4_SERVO,J4_SERVO_HORN,MG90S stock horn,B3_FOREARM,1,Servo-supplied reinforced polymer horn,User STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_HORN.step; holes at +/-6.5 mm reamed for M3,0.600,C-J4-SERVO;C-J4-ACTIVE
+HORN-J5,J5_STOCK_HORN,MG90S STEP double-arm horn001,B4_WRIST_PITCH,1,Servo-supplied reinforced polymer horn,User STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_HORN.step; +/-6.5 mm holes reamed 2.2 mm,0.600,C-J5-ACTIVE
 INS-BASE_M4_1,BASE_M4_1,M4 heat-set insert OD5 L6,B-1_FIXTURE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.360,C-BASE-01
 INS-BASE_M4_2,BASE_M4_2,M4 heat-set insert OD5 L007,B-1_FIXTURE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.360,C-BASE-01
 INS-BASE_M4_3,BASE_M4_3,M4 heat-set insert OD5 L008,B-1_FIXTURE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.360,C-BASE-01
 INS-BASE_M4_4,BASE_M4_4,M4 heat-set insert OD5 L009,B-1_FIXTURE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.360,C-BASE-01
-INS-J1_CASE_1,J1_CASE_1,M3 heat-set insert OD6 L006,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
-INS-J1_CASE_2,J1_CASE_2,M3 heat-set insert OD6 L007,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
-INS-J1_CASE_3,J1_CASE_3,M3 heat-set insert OD6 L008,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
-INS-J1_CASE_4,J1_CASE_4,M3 heat-set insert OD6 L009,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
-INS-J1_CASE_5,J1_CASE_5,M3 heat-set insert OD6 L010,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
-INS-J1_CASE_6,J1_CASE_6,M3 heat-set insert OD6 L011,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
-INS-J1_OUTPUT_CLAMP,J1_OUTPUT_CLAMP,M3 heat-set insert OD6 L012,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-OUTPUT-CLAMP
-INS-J1_SERVO_1,J1_SERVO_1,M3 heat-set insert OD6 L4,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-SERVO
-INS-J1_SERVO_2,J1_SERVO_2,M3 heat-set insert OD6 L005,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-SERVO
-INS-J2_HORN_1,J2_HORN_1,M3 heat-set insert OD6 L018,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-ACTIVE
-INS-J2_HORN_2,J2_HORN_2,M3 heat-set insert OD6 L019,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-ACTIVE
-INS-J3_HORN_1,J3_HORN_1,M3 heat-set insert OD6 L020,B3_FOREARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J3-ACTIVE
-INS-J3_HORN_2,J3_HORN_2,M3 heat-set insert OD6 L021,B3_FOREARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J3-ACTIVE
-INS-J4_HORN_1,J4_HORN_1,M3 heat-set insert OD6 L022,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J4-ACTIVE
-INS-J4_HORN_2,J4_HORN_2,M3 heat-set insert OD6 L023,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J4-ACTIVE
-INS-J5-H-1-1,J5_HOUSING_INS_1_1,M3 heat-set insert OD6 L013,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
-INS-J5-H-1-2,J5_HOUSING_INS_1_2,M3 heat-set insert OD6 L014,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
-INS-J5-H-2-1,J5_HOUSING_INS_2_1,M3 heat-set insert OD6 L015,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
-INS-J5-H-2-2,J5_HOUSING_INS_2_2,M3 heat-set insert OD6 L016,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
-INS-J5_TOOL_CLAMP,J5_TOOL_CLAMP,M3 heat-set insert OD6 L017,B5_TOOL,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J5-TOOL
-NUT-J1-HORN-M2-1,J1_HORN_NUT_M2_1,M2 prevailing-torque nut,B1_TURNTABLE,1,Steel locknut,Purchased,0.174,C-J1-SUN-HORN
-NUT-J1-HORN-M2-2,J1_HORN_NUT_M2_2,M2 prevailing-torque nut001,B1_TURNTABLE,1,Steel locknut,Purchased,0.174,C-J1-SUN-HORN
-NUT-J2-1-1,J2_SERVO_NUT_1_1,M3 prevailing-torque nut,B1_TURNTABLE,1,Steel locknut,Purchased DIN 985,0.788,C-J2-SERVO
-NUT-J2-1-2,J2_SERVO_NUT_1_2,M3 prevailing-torque nut001,B1_TURNTABLE,1,Steel locknut,Purchased DIN 985,0.788,C-J2-SERVO
-NUT-J2-2-1,J2_SERVO_NUT_2_1,M3 prevailing-torque nut002,B1_TURNTABLE,1,Steel locknut,Purchased DIN 985,0.788,C-J2-SERVO
-NUT-J2-2-2,J2_SERVO_NUT_2_2,M3 prevailing-torque nut003,B1_TURNTABLE,1,Steel locknut,Purchased DIN 985,0.788,C-J2-SERVO
-NUT-J3-1-1,J3_SERVO_NUT_1_1,M3 prevailing-torque nut004,B2_UPPER_ARM,1,Steel locknut,Purchased DIN 985,0.788,C-J3-SERVO
-NUT-J3-1-2,J3_SERVO_NUT_1_2,M3 prevailing-torque nut005,B2_UPPER_ARM,1,Steel locknut,Purchased DIN 985,0.788,C-J3-SERVO
-NUT-J4-1-1,J4_SERVO_NUT_1_1,M3 prevailing-torque nut006,B3_FOREARM,1,Steel locknut,Purchased DIN 985,0.788,C-J4-SERVO
-NUT-J4-1-2,J4_SERVO_NUT_1_2,M3 prevailing-torque nut007,B3_FOREARM,1,Steel locknut,Purchased DIN 985,0.788,C-J4-SERVO
-NUT-J5-HORN-M2-1,J5_HORN_NUT_M2_1,M2 prevailing-torque nut002,B5_TOOL,1,Steel locknut,Purchased,0.126,C-J5-ACTIVE
-NUT-J5-HORN-M2-2,J5_HORN_NUT_M2_2,M2 prevailing-torque nut003,B5_TOOL,1,Steel locknut,Purchased,0.126,C-J5-ACTIVE
-PR-B01,BASE_PLATE,Base plate OD88 with J1 servo pillars,B0_BASE,1,Fiberon PA12-CF10,FDM; 8 perimeters; 35% gyroid,40.622,C-BASE-01;C-J1-SERVO
+INS-J1-HORN-M2-1,J1_HORN_INSERT_M2_1,M2 heat-set insert OD3.5 L3,B1_TURNTABLE,1,Brass heat-set insert,Purchased; thermal press-fit after coupon calibration,0.165,C-J1-SUN-HORN
+INS-J1-HORN-M2-2,J1_HORN_INSERT_M2_2,M2 heat-set insert OD3.5 L004,B1_TURNTABLE,1,Brass heat-set insert,Purchased; thermal press-fit after coupon calibration,0.165,C-J1-SUN-HORN
+INS-J1-SERVO-1,J1_SERVO_1,M2 heat-set insert OD3.5 L005,B0_BASE,1,Brass heat-set insert,Purchased; thermal press-fit after coupon calibration,0.165,C-J1-SERVO
+INS-J1-SERVO-2,J1_SERVO_2,M2 heat-set insert OD3.5 L006,B0_BASE,1,Brass heat-set insert,Purchased; thermal press-fit after coupon calibration,0.165,C-J1-SERVO
+INS-J1_CASE_1,J1_CASE_1,M3 heat-set insert OD6 L4,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
+INS-J1_CASE_2,J1_CASE_2,M3 heat-set insert OD6 L005,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
+INS-J1_CASE_3,J1_CASE_3,M3 heat-set insert OD6 L006,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
+INS-J1_CASE_4,J1_CASE_4,M3 heat-set insert OD6 L007,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
+INS-J1_CASE_5,J1_CASE_5,M3 heat-set insert OD6 L008,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
+INS-J1_CASE_6,J1_CASE_6,M3 heat-set insert OD6 L009,B0_BASE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-RINGCASE
+INS-J1_OUTPUT_CLAMP,J1_OUTPUT_CLAMP,M3 heat-set insert OD6 L010,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J1-OUTPUT-CLAMP
+INS-J2_BRIDGE_INS_1,J2_BRIDGE_INS_1,M3 heat-set insert OD6 L022,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-INPUT-SUPPORT
+INS-J2_BRIDGE_INS_2,J2_BRIDGE_INS_2,M3 heat-set insert OD6 L023,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-INPUT-SUPPORT
+INS-J2_BRIDGE_INS_3,J2_BRIDGE_INS_3,M3 heat-set insert OD6 L024,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-INPUT-SUPPORT
+INS-J2_BRIDGE_INS_4,J2_BRIDGE_INS_4,M3 heat-set insert OD6 L025,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-INPUT-SUPPORT
+INS-J2_SERVO_1_1,J2_SERVO_1_1,M4 heat-set insert OD5 L4,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J2-SERVO
+INS-J2_SERVO_1_2,J2_SERVO_1_2,M4 heat-set insert OD5 L010,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J2-SERVO
+INS-J2_SERVO_2_1,J2_SERVO_2_1,M4 heat-set insert OD5 L011,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J2-SERVO
+INS-J2_SERVO_2_2,J2_SERVO_2_2,M4 heat-set insert OD5 L012,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J2-SERVO
+INS-J2_SHAFT_CLAMP_L,J2_SHAFT_CLAMP_L,M3 heat-set insert OD6 L011,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-RETENTION
+INS-J2_SHAFT_CLAMP_R,J2_SHAFT_CLAMP_R,M3 heat-set insert OD6 L012,B1_TURNTABLE,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J2-RETENTION
+INS-J3_SERVO_1_1,J3_SERVO_1_1,M4 heat-set insert OD5 L013,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J3-SERVO
+INS-J3_SERVO_1_2,J3_SERVO_1_2,M4 heat-set insert OD5 L014,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J3-SERVO
+INS-J3_SERVO_2_1,J3_SERVO_2_1,M4 heat-set insert OD5 L015,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J3-SERVO
+INS-J3_SERVO_2_2,J3_SERVO_2_2,M4 heat-set insert OD5 L016,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.240,C-J3-SERVO
+INS-J4_HORN_1,J4_HORN_1,M3 heat-set insert OD6 L026,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J4-ACTIVE
+INS-J4_HORN_2,J4_HORN_2,M3 heat-set insert OD6 L027,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J4-ACTIVE
+INS-J4_SERVO_1_1,J4_SERVO_1_1,M2 heat-set insert OD3.5 L007,B3_FOREARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.165,C-J4-SERVO
+INS-J4_SERVO_1_2,J4_SERVO_1_2,M2 heat-set insert OD3.5 L008,B3_FOREARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.165,C-J4-SERVO
+INS-J5-H-1-1,J5_HOUSING_INS_1_1,M3 heat-set insert OD6 L017,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
+INS-J5-H-1-2,J5_HOUSING_INS_1_2,M3 heat-set insert OD6 L018,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
+INS-J5-H-2-1,J5_HOUSING_INS_2_1,M3 heat-set insert OD6 L019,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
+INS-J5-H-2-2,J5_HOUSING_INS_2_2,M3 heat-set insert OD6 L020,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit,0.721,C-J5-HOUSING
+INS-J5-SERVO-1,J5_SERVO_1,M2 heat-set insert OD3.5 L009,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit after coupon calibration,0.165,C-J5-SERVO
+INS-J5-SERVO-2,J5_SERVO_2,M2 heat-set insert OD3.5 L010,B4_WRIST_PITCH,1,Brass heat-set insert,Thermal press-fit after coupon calibration,0.165,C-J5-SERVO
+INS-J5_TOOL_CLAMP,J5_TOOL_CLAMP,M3 heat-set insert OD6 L021,B5_TOOL,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-J5-TOOL
+INS-UA_SPACER_1_L,UA_SPACER_1_L,M3 heat-set insert OD6 L013,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-UA-CROSS
+INS-UA_SPACER_1_R,UA_SPACER_1_R,M3 heat-set insert OD6 L014,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-UA-CROSS
+INS-UA_SPACER_2_L,UA_SPACER_2_L,M3 heat-set insert OD6 L015,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-UA-CROSS
+INS-UA_SPACER_2_R,UA_SPACER_2_R,M3 heat-set insert OD6 L016,B2_UPPER_ARM,1,Brass heat-set insert,Thermal press-fit; coupon-calibrated hole,0.721,C-UA-CROSS
+NUT-J5-HORN-M2-1,J5_HORN_NUT_M2_1,M2 prevailing-torque nut,B5_TOOL,1,Steel locknut,Purchased,0.126,C-J5-ACTIVE
+NUT-J5-HORN-M2-2,J5_HORN_NUT_M2_2,M2 prevailing-torque nut001,B5_TOOL,1,Steel locknut,Purchased,0.126,C-J5-ACTIVE
+PR-B01,BASE_PLATE,Base plate OD88 pocketed for exact MG90S STEP body,B0_BASE,1,Fiberon PA12-CF10,FDM; 8 perimeters; 35% gyroid; M2 pillar coupon required,36.238,C-BASE-01;C-J1-SERVO
 PR-E01,GRIPPER_CRADLE,One-piece compact gripper cradle,B5_TOOL,1,Fiberon PA12-CF10,FDM; 6 perimeters; one-piece cradle,5.560,C-TOOL-01;C-J5-TOOL
-PR-HUB-J4,J4_HORN_SPACER,J4 horn spacer boss,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 8 perimeters,1.863,C-J4-ACTIVE
-PR-HUB-J5,J5_HORN_SHAFT_ADAPTER,J5 horn-to-5mm shaft adapter,B5_TOOL,1,Fiberon PA12-CF10,FDM; 10 perimeters; ream 5H8,0.583,C-J5-ACTIVE
+PR-HUB-J4,J4_HORN_SPACER,J4 STEP-horn receiver bridge,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 8 perimeters; flat receiver for MG90S STEP horn,2.025,C-J4-ACTIVE
+PR-HUB-J5,J5_HORN_SHAFT_ADAPTER,J5 horn-to-5mm shaft adapter,B5_TOOL,1,Fiberon PA12-CF10,FDM; 10 perimeters; ream 5H8,0.979,C-J5-ACTIVE
 PR-J1-R_J1_CarrierLower,V8_R_J1_CarrierLower,V7 lower carrier; 5 mm planet shafts V8,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM,5.155,C-J1-TRANSMISSION
 PR-J1-R_J1_CarrierUpper,V8_R_J1_CarrierUpper,V7 upper carrier; 5 mm planet shafts V8,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM,5.857,C-J1-TRANSMISSION
 PR-J1-R_J1_LowerHousing,V8_R_J1_LowerHousing,J1 compact lower case OD84; six M3 inserts,B0_BASE,1,Fiberon PA12-CF10,FDM,5.857,C-J1-TRANSMISSION;C-J1-RINGCASE
@@ -67,21 +78,28 @@ PR-J1-R_J1_Planet2,V8_R_J1_Planet2,"V7 24T m1.0 involute planet 2, F685 press-fi
 PR-J1-R_J1_Planet3,V8_R_J1_Planet3,"V7 24T m1.0 involute planet 3, F685 press-fit V8",B1_TURNTABLE,1,PA12,FDM,3.647,C-J1-TRANSMISSION;C-J1-P3
 PR-J1-R_J1_RingGear,V8_R_J1_RingGear,"V7 60T internal involute ring, 12 mm face V8",B0_BASE,1,PA12,FDM,19.184,C-J1-TRANSMISSION;C-J1-RINGCASE
 PR-J1-R_J1_SunGear,V8_R_J1_SunGear,"V7 12T m1.0 involute sun, 12 mm face V8",B1_TURNTABLE,1,PA12,FDM,1.698,C-J1-TRANSMISSION;C-J1-SUN-HORN
-PR-J1-R_J1_Turntable,V8_R_J1_Turntable,Compact turntable 74 x 64 envelope,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM,30.157,C-J1-TRANSMISSION;C-J1-DECK;C-J2-SERVO;C-J2-PASSIVE;C-J1-OUTPUT-CLAMP
+PR-J1-R_J1_Turntable,V8_R_J1_Turntable,Compact turntable 74 x 64 envelope,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM,85.777,C-J1-TRANSMISSION;C-J1-DECK;C-J2-SERVO;C-J2-OUTPUT-BEARINGS;C-J2-INPUT-SUPPORT;C-J1-OUTPUT-CLAMP;C-J2-RETENTION;C-J2-SERVO
 PR-J1-R_J1_UpperHousing,V8_R_J1_UpperHousing,J1 compact upper case OD84; six M3 clearances,B0_BASE,1,Fiberon PA12-CF10,FDM,3.798,C-J1-TRANSMISSION;C-J1-RINGCASE
-PR-L01,UPPER_ARM_L,UPPER ARM L,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J2-PASSIVE;C-J3-PASSIVE
-PR-L02,UPPER_ARM_R,UPPER ARM R,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J2-ACTIVE;C-J3-SERVO;C-J3-PASSIVE
-PR-L03,FOREARM_L,FOREARM L,B3_FOREARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J3-ACTIVE;C-J4-PASSIVE
+PR-J2-IN-BRIDGE,J2_INPUT_BEARING_BRIDGE,J2 slotted dual-F685 input bridge,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM; 10 perimeters; press-fit F685 seats 10.96 mm plus flange counterbores; +/-1 mm alignment slots,2.693,C-J2-INPUT-SUPPORT
+PR-J2-P16,J2_DRIVER_16T,J2 printed 16T 3GT x 9 driver with split clamp,B1_TURNTABLE,1,PA12,FDM; printed flat; tooth and split-clamp coupons required,1.093,C-J2-BELT;C-J2-INPUT-SUPPORT
+PR-L01,UPPER_ARM_L,UPPER ARM L,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J2-OUTPUT-BEARINGS;C-J3-PASSIVE;C-UA-CROSS
+PR-L02,UPPER_ARM_R,UPPER ARM R,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J2-BELT;C-J2-OUTPUT-BEARINGS;C-J3-SERVO;C-J3-PASSIVE;C-UA-CROSS;C-J3-SERVO
+PR-L03,FOREARM_L,FOREARM L,B3_FOREARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J3-ACTIVE;C-J4-PASSIVE;C-J4-SERVO
 PR-L04,FOREARM_R,FOREARM R,B3_FOREARM,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,4.504,C-J3-PASSIVE;C-J4-SERVO
-PR-W01,WRIST_PITCH_L,WRIST PITCH L,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,2.342,C-J4-PASSIVE;C-J5-HOUSING
-PR-W02,WRIST_PITCH_R,WRIST PITCH R,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,2.342,C-J4-ACTIVE;C-J5-HOUSING
-PR-W03,J5_BEARING_HOUSING,J5 dual-bearing housing,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 8 perimeters; bearing bores reamed,25.210,C-J5-HOUSING;C-J5-BRG
+PR-UA-SP-1,UPPER_ARM_SPACER_1,Upper-arm M3 cross-spacer 1,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM flat; 8 perimeters; M3 inserts both ends,5.251,C-UA-CROSS
+PR-UA-SP-2,UPPER_ARM_SPACER_2,Upper-arm M3 cross-spacer 2,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM flat; 8 perimeters; M3 inserts both ends,5.251,C-UA-CROSS
+PR-W01,WRIST_PITCH_L,WRIST PITCH L,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,2.672,C-J4-PASSIVE;C-J5-HOUSING
+PR-W02,WRIST_PITCH_R,WRIST PITCH R,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 6 perimeters; plates printed flat,2.672,C-J4-ACTIVE;C-J5-HOUSING;C-J5-SERVO
+PR-W03,J5_BEARING_HOUSING,J5 dual-bearing housing,B4_WRIST_PITCH,1,Fiberon PA12-CF10,FDM; 8 perimeters; bearing bores reamed,26.378,C-J5-HOUSING;C-J5-BRG
 SCR-BASE_M4X12_1,BASE_M4X12_1,M4x12 low-head screw,B0_BASE,1,Steel A2-70,Purchased,1.788,C-BASE-01
 SCR-BASE_M4X12_2,BASE_M4X12_2,M4x12 low-head screw001,B0_BASE,1,Steel A2-70,Purchased,1.788,C-BASE-01
 SCR-BASE_M4X12_3,BASE_M4X12_3,M4x12 low-head screw002,B0_BASE,1,Steel A2-70,Purchased,1.788,C-BASE-01
 SCR-BASE_M4X12_4,BASE_M4X12_4,M4x12 low-head screw003,B0_BASE,1,Steel A2-70,Purchased,1.788,C-BASE-01
-SCR-J1-HORN-M2-1,J1_HORN_M2_1,M2x8 horn through-bolt,B1_TURNTABLE,1,Steel A2-70,Purchased M2x8 screw,0.345,C-J1-SUN-HORN
-SCR-J1-HORN-M2-2,J1_HORN_M2_2,M2x8 horn through-bolt001,B1_TURNTABLE,1,Steel A2-70,Purchased M2x8 screw,0.345,C-J1-SUN-HORN
+SCR-J1-HORN-CENTER,J1_HORN_CENTER_SCREW,MG90S supplied horn center screw,B0_BASE,1,Steel servo screw,User STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_SERVO.step,0.234,C-J1-SUN-HORN
+SCR-J1-HORN-M2-1,J1_HORN_M2_1,M2x7 horn screw,B1_TURNTABLE,1,Steel A2-70,Purchased M2x7 screw,0.321,C-J1-SUN-HORN
+SCR-J1-HORN-M2-2,J1_HORN_M2_2,M2x7 horn screw001,B1_TURNTABLE,1,Steel A2-70,Purchased M2x7 screw,0.321,C-J1-SUN-HORN
+SCR-J1-SERVO-1,J1_SERVO_M2_1,M2x8 low-head servo screw,B0_BASE,1,Steel A2-70,Purchased M2x8,0.345,C-J1-SERVO
+SCR-J1-SERVO-2,J1_SERVO_M2_2,M2x8 low-head servo screw001,B0_BASE,1,Steel A2-70,Purchased M2x8,0.345,C-J1-SERVO
 SCR-J1_CASE_M3X20_1,J1_CASE_M3X20_1,M3x20 low-head screw,B0_BASE,1,Steel A2-70,Purchased,1.554,C-J1-RINGCASE
 SCR-J1_CASE_M3X20_2,J1_CASE_M3X20_2,M3x20 low-head screw001,B0_BASE,1,Steel A2-70,Purchased,1.554,C-J1-RINGCASE
 SCR-J1_CASE_M3X20_3,J1_CASE_M3X20_3,M3x20 low-head screw002,B0_BASE,1,Steel A2-70,Purchased,1.554,C-J1-RINGCASE
@@ -89,50 +107,52 @@ SCR-J1_CASE_M3X20_4,J1_CASE_M3X20_4,M3x20 low-head screw003,B0_BASE,1,Steel A2-7
 SCR-J1_CASE_M3X20_5,J1_CASE_M3X20_5,M3x20 low-head screw004,B0_BASE,1,Steel A2-70,Purchased,1.554,C-J1-RINGCASE
 SCR-J1_CASE_M3X20_6,J1_CASE_M3X20_6,M3x20 low-head screw005,B0_BASE,1,Steel A2-70,Purchased,1.554,C-J1-RINGCASE
 SCR-J1_OUTPUT_CLAMP_M3,J1_OUTPUT_CLAMP_M3,M3x15 low-head screw,B1_TURNTABLE,1,Steel A2-70,Purchased,1.276,C-J1-OUTPUT-CLAMP
-SCR-J1_SERVO_M3_1,J1_SERVO_M3_1,M3x8 low-head screw,B0_BASE,1,Steel A2-70,Purchased,0.888,C-J1-SERVO
-SCR-J1_SERVO_M3_2,J1_SERVO_M3_2,M3x8 low-head screw001,B0_BASE,1,Steel A2-70,Purchased,0.888,C-J1-SERVO
-SCR-J2_HORN_M3_1,J2_HORN_M3_1,M3x8 low-head screw002,B2_UPPER_ARM,1,Steel A2-70,Purchased,0.888,C-J2-ACTIVE
-SCR-J2_HORN_M3_2,J2_HORN_M3_2,M3x8 low-head screw003,B2_UPPER_ARM,1,Steel A2-70,Purchased,0.888,C-J2-ACTIVE
-SCR-J2_SERVO_M3_1_1,J2_SERVO_M3_1_1,M3x14 low-head screw,B1_TURNTABLE,1,Steel A2-70,Purchased,1.221,C-J2-SERVO
-SCR-J2_SERVO_M3_1_2,J2_SERVO_M3_1_2,M3x14 low-head screw001,B1_TURNTABLE,1,Steel A2-70,Purchased,1.221,C-J2-SERVO
-SCR-J2_SERVO_M3_2_1,J2_SERVO_M3_2_1,M3x14 low-head screw002,B1_TURNTABLE,1,Steel A2-70,Purchased,1.221,C-J2-SERVO
-SCR-J2_SERVO_M3_2_2,J2_SERVO_M3_2_2,M3x14 low-head screw003,B1_TURNTABLE,1,Steel A2-70,Purchased,1.221,C-J2-SERVO
-SCR-J3_HORN_M3_1,J3_HORN_M3_1,M3x6 low-head screw,B3_FOREARM,1,Steel A2-70,Purchased,0.777,C-J3-ACTIVE
-SCR-J3_HORN_M3_2,J3_HORN_M3_2,M3x6 low-head screw001,B3_FOREARM,1,Steel A2-70,Purchased,0.777,C-J3-ACTIVE
-SCR-J3_SERVO_M3_1_1,J3_SERVO_M3_1_1,M3x19 low-head screw,B2_UPPER_ARM,1,Steel A2-70,Purchased,1.498,C-J3-SERVO
-SCR-J3_SERVO_M3_1_2,J3_SERVO_M3_1_2,M3x19 low-head screw001,B2_UPPER_ARM,1,Steel A2-70,Purchased,1.498,C-J3-SERVO
-SCR-J4_HORN_M3_1,J4_HORN_M3_1,M3x12 low-head screw,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.110,C-J4-ACTIVE
-SCR-J4_HORN_M3_2,J4_HORN_M3_2,M3x12 low-head screw001,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.110,C-J4-ACTIVE
-SCR-J4_SERVO_M3_1_1,J4_SERVO_M3_1_1,M3x19 low-head screw002,B3_FOREARM,1,Steel A2-70,Purchased,1.498,C-J4-SERVO
-SCR-J4_SERVO_M3_1_2,J4_SERVO_M3_1_2,M3x19 low-head screw003,B3_FOREARM,1,Steel A2-70,Purchased,1.498,C-J4-SERVO
+SCR-J2_BRIDGE_M3_1,J2_BRIDGE_M3_1,M3x12 low-head screw,B1_TURNTABLE,1,Steel A2-70,Purchased,1.110,C-J2-INPUT-SUPPORT
+SCR-J2_BRIDGE_M3_2,J2_BRIDGE_M3_2,M3x12 low-head screw001,B1_TURNTABLE,1,Steel A2-70,Purchased,1.110,C-J2-INPUT-SUPPORT
+SCR-J2_BRIDGE_M3_3,J2_BRIDGE_M3_3,M3x12 low-head screw002,B1_TURNTABLE,1,Steel A2-70,Purchased,1.110,C-J2-INPUT-SUPPORT
+SCR-J2_BRIDGE_M3_4,J2_BRIDGE_M3_4,M3x12 low-head screw003,B1_TURNTABLE,1,Steel A2-70,Purchased,1.110,C-J2-INPUT-SUPPORT
+SCR-J2_SERVO_M4_1_1,J2_SERVO_M4_1_1,M4x12 low-head screw004,B1_TURNTABLE,1,Steel A2-70,Purchased,1.788,C-J2-SERVO
+SCR-J2_SERVO_M4_1_2,J2_SERVO_M4_1_2,M4x12 low-head screw005,B1_TURNTABLE,1,Steel A2-70,Purchased,1.788,C-J2-SERVO
+SCR-J2_SERVO_M4_2_1,J2_SERVO_M4_2_1,M4x12 low-head screw006,B1_TURNTABLE,1,Steel A2-70,Purchased,1.788,C-J2-SERVO
+SCR-J2_SERVO_M4_2_2,J2_SERVO_M4_2_2,M4x12 low-head screw007,B1_TURNTABLE,1,Steel A2-70,Purchased,1.788,C-J2-SERVO
+SCR-J2_SHAFT_CLAMP_M3_L,J2_SHAFT_CLAMP_M3_L,M3x17 low-head screw,B1_TURNTABLE,1,Steel A2-70,Purchased,1.387,C-J2-RETENTION
+SCR-J2_SHAFT_CLAMP_M3_R,J2_SHAFT_CLAMP_M3_R,M3x17 low-head screw001,B1_TURNTABLE,1,Steel A2-70,Purchased,1.387,C-J2-RETENTION
+SCR-J3_SERVO_M4_1_1,J3_SERVO_M4_1_1,M4x11 low-head screw,B2_UPPER_ARM,1,Steel A2-70,Purchased,1.689,C-J3-SERVO
+SCR-J3_SERVO_M4_1_2,J3_SERVO_M4_1_2,M4x11 low-head screw001,B2_UPPER_ARM,1,Steel A2-70,Purchased,1.689,C-J3-SERVO
+SCR-J3_SERVO_M4_2_1,J3_SERVO_M4_2_1,M4x11 low-head screw002,B2_UPPER_ARM,1,Steel A2-70,Purchased,1.689,C-J3-SERVO
+SCR-J3_SERVO_M4_2_2,J3_SERVO_M4_2_2,M4x11 low-head screw003,B2_UPPER_ARM,1,Steel A2-70,Purchased,1.689,C-J3-SERVO
+SCR-J4-HORN-CENTER,J4_HORN_CENTER_SCREW,MG90S supplied horn center screw002,B3_FOREARM,1,Steel servo screw,User STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_SERVO.step,0.234,C-J4-ACTIVE
+SCR-J4_HORN_M3_1,J4_HORN_M3_1,M3x15 low-head screw002,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.276,C-J4-ACTIVE
+SCR-J4_HORN_M3_2,J4_HORN_M3_2,M3x15 low-head screw003,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.276,C-J4-ACTIVE
+SCR-J4_SERVO_M2_1_1,J4_SERVO_M2_1_1,M2x8 low-head screw,B3_FOREARM,1,Steel A2-70,Purchased,0.395,C-J4-SERVO
+SCR-J4_SERVO_M2_1_2,J4_SERVO_M2_1_2,M2x8 low-head screw001,B3_FOREARM,1,Steel A2-70,Purchased,0.395,C-J4-SERVO
 SCR-J5-H-1-1,J5_HOUSING_M3_1_1,M3x16 low-head housing screw,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.332,C-J5-HOUSING
 SCR-J5-H-1-2,J5_HOUSING_M3_1_2,M3x16 low-head housing screw001,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.332,C-J5-HOUSING
 SCR-J5-H-2-1,J5_HOUSING_M3_2_1,M3x16 low-head housing screw002,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.332,C-J5-HOUSING
 SCR-J5-H-2-2,J5_HOUSING_M3_2_2,M3x16 low-head housing screw003,B4_WRIST_PITCH,1,Steel A2-70,Purchased,1.332,C-J5-HOUSING
+SCR-J5-HORN-CENTER,J5_HORN_CENTER_SCREW,MG90S supplied horn center screw001,B4_WRIST_PITCH,1,Steel servo screw,User STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_SERVO.step,0.234,C-J5-ACTIVE
 SCR-J5-HORN-M2-1,J5_HORN_M2_1,M2x5 horn adapter bolt,B5_TOOL,1,Steel A2-70,Purchased M2x5 screw + locknut,0.271,C-J5-ACTIVE
 SCR-J5-HORN-M2-2,J5_HORN_M2_2,M2x5 horn adapter bolt001,B5_TOOL,1,Steel A2-70,Purchased M2x5 screw + locknut,0.271,C-J5-ACTIVE
+SCR-J5-SERVO-1,J5_SERVO_M2_1,M2x8 low-head servo screw002,B4_WRIST_PITCH,1,Steel A2-70,Purchased M2x8,0.345,C-J5-SERVO
+SCR-J5-SERVO-2,J5_SERVO_M2_2,M2x8 low-head servo screw003,B4_WRIST_PITCH,1,Steel A2-70,Purchased M2x8,0.345,C-J5-SERVO
 SCR-J5_TOOL_CLAMP_M3,J5_TOOL_CLAMP_M3,M3x15 low-head screw001,B5_TOOL,1,Steel A2-70,Purchased,1.276,C-J5-TOOL
-SER-J1,J1_SERVO,TowerPro MG90S J1 servo,B0_BASE,1,TowerPro MG90S purchased assembly,Purchased; supplied horn and center screw,13.400,C-J1-SERVO;C-J1-SUN-HORN
-SER-J2_SERVO,J2_SERVO,TowerPro MG996R assembly,B1_TURNTABLE,1,TowerPro MG996R purchased assembly,Purchased; stock horn retained,55.000,C-J2-SERVO;C-J2-ACTIVE
-SER-J3_SERVO,J3_SERVO,TowerPro MG996R assembly001,B2_UPPER_ARM,1,TowerPro MG996R purchased assembly,Purchased; stock horn retained,55.000,C-J3-SERVO;C-J3-ACTIVE
-SER-J4_SERVO,J4_SERVO,TowerPro MG90S assembly,B3_FOREARM,1,TowerPro MG90S purchased assembly,Purchased; stock horn retained,13.400,C-J4-SERVO;C-J4-ACTIVE
-SER-J5,J5_SERVO,TowerPro MG90S roll servo,B4_WRIST_PITCH,1,TowerPro MG90S purchased assembly,Purchased; stock horn retained,13.400,C-J5-SERVO;C-J5-ACTIVE
-SET-J2,J2_COLLAR_SETSCREW,CL05M included M3 set screw,B2_UPPER_ARM,1,Steel,Included with Motionco CL05M,0.222,C-J2-RETENTION;C-J2-PASSIVE
-SET-J3,J3_COLLAR_SETSCREW,CL05M included M3 set screw001,B3_FOREARM,1,Steel,Included with Motionco CL05M,0.222,C-J3-RETENTION;C-J3-PASSIVE
-SET-J4,J4_COLLAR_SETSCREW,CL05M included M3 set screw002,B4_WRIST_PITCH,1,Steel,Included with Motionco CL05M,0.222,C-J4-RETENTION;C-J4-PASSIVE
-SET-J5,J5_COLLAR_SETSCREW,CL05M included M3 set screw003,B5_TOOL,1,Steel,Included with Motionco CL05M,0.222,C-J5-RETENTION
+SCR-UA_SPACER_M3_1_L,UA_SPACER_M3_1_L,M3x9 low-head screw,B2_UPPER_ARM,1,Steel A2-70,Purchased,0.943,C-UA-CROSS
+SCR-UA_SPACER_M3_1_R,UA_SPACER_M3_1_R,M3x9 low-head screw001,B2_UPPER_ARM,1,Steel A2-70,Purchased,0.943,C-UA-CROSS
+SCR-UA_SPACER_M3_2_L,UA_SPACER_M3_2_L,M3x9 low-head screw002,B2_UPPER_ARM,1,Steel A2-70,Purchased,0.943,C-UA-CROSS
+SCR-UA_SPACER_M3_2_R,UA_SPACER_M3_2_R,M3x9 low-head screw003,B2_UPPER_ARM,1,Steel A2-70,Purchased,0.943,C-UA-CROSS
+SER-J1,J1_SERVO,TowerPro MG90S J1 exact STEP servo,B0_BASE,1,TowerPro MG90S purchased assembly,Unmodified user STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_SERVO.step,13.400,C-J1-SERVO;C-J1-SUN-HORN
+SER-J2_SERVO,J2_SERVO,TowerPro MG996R STEP assembly,B1_TURNTABLE,1,TowerPro MG996R purchased assembly,Unmodified user STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG996R_SERVO.step,55.000,C-J2-SERVO;C-J2-HORN-COUPLER
+SER-J3_SERVO,J3_SERVO,TowerPro MG996R STEP assembly001,B2_UPPER_ARM,1,TowerPro MG996R purchased assembly,Unmodified user STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG996R_SERVO.step,55.000,C-J3-SERVO;C-J3-ACTIVE
+SER-J4_SERVO,J4_SERVO,TowerPro MG90S STEP assembly,B3_FOREARM,1,TowerPro MG90S purchased assembly,Unmodified user STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_SERVO.step,13.400,C-J4-SERVO;C-J4-ACTIVE
+SER-J5,J5_SERVO,TowerPro MG90S J5 exact STEP servo,B4_WRIST_PITCH,1,TowerPro MG90S purchased assembly,Unmodified user STEP C:/Users/kohak/programs/robotarm/vendor/servo_cad/MG90S_SERVO.step,13.400,C-J5-SERVO;C-J5-ACTIVE
+SET-J3,J3_COLLAR_SETSCREW,CL05M included M3 set screw,B3_FOREARM,1,Steel,Included with Motionco CL05M,0.222,C-J3-RETENTION;C-J3-PASSIVE
+SET-J4,J4_COLLAR_SETSCREW,CL05M included M3 set screw001,B4_WRIST_PITCH,1,Steel,Included with Motionco CL05M,0.222,C-J4-RETENTION;C-J4-PASSIVE
+SET-J5,J5_COLLAR_SETSCREW,CL05M included M3 set screw002,B5_TOOL,1,Steel,Included with Motionco CL05M,0.222,C-J5-RETENTION
 SH-J1-P1,J1_PLANET_SHAFT_1,J1 5 mm planet shaft,B1_TURNTABLE,1,Hardened steel shaft,Purchased 5 mm shaft; cut and deburr,2.620,C-J1-P1;C-J1-RETENTION;C-J1-TRANSMISSION
 SH-J1-P2,J1_PLANET_SHAFT_2,J1 5 mm planet shaft001,B1_TURNTABLE,1,Hardened steel shaft,Purchased 5 mm shaft; cut and deburr,2.620,C-J1-P2;C-J1-RETENTION;C-J1-TRANSMISSION
 SH-J1-P3,J1_PLANET_SHAFT_3,J1 5 mm planet shaft002,B1_TURNTABLE,1,Hardened steel shaft,Purchased 5 mm shaft; cut and deburr,2.620,C-J1-P3;C-J1-RETENTION;C-J1-TRANSMISSION
-SH-J2-P,J2_PASSIVE_STUB,J2 5 mm passive stub with machined flat,B2_UPPER_ARM,1,Hardened steel shaft,"Purchased 5 mm shaft; cut, deburr, mill 0.5 mm flat",1.850,C-J2-PASSIVE
+SH-J2-IN,J2_INPUT_SHAFT,J2 5 mm supported input shaft with flats,B1_TURNTABLE,1,Hardened steel shaft,Purchased E-SFJ5; cut 40 mm; two 0.5 mm flats,6.165,C-J2-HORN-COUPLER;C-J2-INPUT-SUPPORT;C-J2-BELT
+SH-J2-OUT,J2_OUTPUT_SHAFT,J2 fixed 5 mm shoulder journal with two flats,B1_TURNTABLE,1,Hardened steel shaft,Purchased E-SFJ5; cut 102 mm; two 0.5 mm flats,15.722,C-J2-OUTPUT-BEARINGS;C-J2-RETENTION
 SH-J3-P,J3_PASSIVE_STUB,J3 5 mm passive stub with machined flat,B3_FOREARM,1,Hardened steel shaft,"Purchased 5 mm shaft; cut, deburr, mill 0.5 mm flat",1.850,C-J3-PASSIVE
-SH-J4-P,J4_PASSIVE_STUB,J4 5 mm passive stub with machined flat,B4_WRIST_PITCH,1,Hardened steel shaft,"Purchased 5 mm shaft; cut, deburr, mill 0.5 mm flat",1.850,C-J4-PASSIVE
+SH-J4-P,J4_PASSIVE_STUB,J4 5 mm passive stub with machined flat,B4_WRIST_PITCH,1,Hardened steel shaft,"Purchased 5 mm shaft; cut, deburr, mill 0.5 mm flat",1.695,C-J4-PASSIVE
 SH-J5,J5_OUTPUT_SHAFT,J5 5 mm output shaft,B5_TOOL,1,Hardened steel shaft,Purchased 5 mm shaft; cut and deburr,4.316,C-J5-ACTIVE;C-J5-BRG;C-J5-RETENTION;C-J5-TOOL
-SP-J2-1-1,J2_SERVO_SPACER_1_1,J2 servo compression spacer,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM; 100% infill,0.062,C-J2-SERVO
-SP-J2-1-2,J2_SERVO_SPACER_1_2,J2 servo compression spacer001,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM; 100% infill,0.062,C-J2-SERVO
-SP-J2-2-1,J2_SERVO_SPACER_2_1,J2 servo compression spacer002,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM; 100% infill,0.062,C-J2-SERVO
-SP-J2-2-2,J2_SERVO_SPACER_2_2,J2 servo compression spacer003,B1_TURNTABLE,1,Fiberon PA12-CF10,FDM; 100% infill,0.062,C-J2-SERVO
-SP-J3-1-1,J3_SERVO_SPACER_1_1,J3 servo compression spacer,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM; 100% infill,0.218,C-J3-SERVO
-SP-J3-1-2,J3_SERVO_SPACER_1_2,J3 servo compression spacer001,B2_UPPER_ARM,1,Fiberon PA12-CF10,FDM; 100% infill,0.218,C-J3-SERVO
-SP-J4-1-1,J4_SERVO_SPACER_1_1,J4 servo compression spacer,B3_FOREARM,1,Fiberon PA12-CF10,FDM; 100% infill,0.218,C-J4-SERVO
-SP-J4-1-2,J4_SERVO_SPACER_1_2,J4 servo compression spacer001,B3_FOREARM,1,Fiberon PA12-CF10,FDM; 100% infill,0.218,C-J4-SERVO

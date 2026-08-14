@@ -1,0 +1,17 @@
+{
+  "status": "MEASUREMENT_REQUIRED",
+  "measurement_tool": "digital caliper, resolution 0.01 mm",
+  "datum": "servo spline axis; X along horn arm; Z perpendicular to horn arm; Y along servo output axis",
+  "arm_length_mm": null,
+  "arm_width_mm": null,
+  "plate_thickness_mm": null,
+  "boss_od_mm": null,
+  "boss_height_mm": null,
+  "center_bore_mm": null,
+  "center_screw_head_od_mm": null,
+  "center_screw_length_mm": null,
+  "holes": [],
+  "measured_horns": [],
+  "max_pair_difference_mm": null,
+  "verification_rule": "Measure both horns independently. Set status to VERIFIED only when every corresponding dimension differs by no more than 0.10 mm and hole-center repeatability is within 0.05 mm."
+}

@@ -1,0 +1,22 @@
+import FreeCAD as App
+import FreeCADGui as Gui
+from PySide import QtCore
+
+model = r"C:/Users/kohak/programs/robotarm/cad/RobotArmFinalV5/CompletedPreviewV5_2CradleAlignment/ROBOT_ARM_V8_MANUFACTURABLE.FCStd"
+App.openDocument(model)
+Gui.updateGui()
+gui_doc = Gui.getDocument("ROBOT_ARM_V8_MANUFACTURABLE")
+for obj in App.ActiveDocument.Objects:
+    if hasattr(obj, "Shape") and not obj.Shape.isNull():
+        gui_doc.getObject(obj.Name).Visibility = True
+view = gui_doc.activeView()
+view.viewAxonometric()
+view.fitAll()
+Gui.updateGui()
+
+def capture_and_close():
+    Gui.updateGui()
+    view.saveImage(r"C:/Users/kohak/programs/robotarm/engineering/robot_arm_v7/v8_preview.png", 1800, 1100, "White")
+    QtCore.QTimer.singleShot(500, Gui.getMainWindow().close)
+
+QtCore.QTimer.singleShot(2500, capture_and_close)

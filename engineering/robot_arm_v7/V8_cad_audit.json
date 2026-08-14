@@ -1,16 +1,16 @@
 {
   "design": "ROBOT_ARM_V8_MANUFACTURABLE",
-  "status": "PASS_DIGITAL_CAD_AUDIT",
+  "status": "FAIL_NOT_COMPLETE",
   "checks": [
     {
       "id": "AUD-MATERIAL-METADATA",
       "status": "PASS",
-      "evidence": "137 physical features covered"
+      "evidence": "157 physical features covered"
     },
     {
       "id": "AUD-SHAPE-VALIDITY",
       "status": "PASS",
-      "evidence": "137 valid B-reps"
+      "evidence": "157 valid B-reps"
     },
     {
       "id": "AUD-UNCONNECTED",
@@ -18,38 +18,52 @@
       "evidence": "No physical feature lacks a ConnectionID"
     },
     {
-      "id": "AUD-FORBIDDEN-OVERLAP",
+      "id": "AUD-PRINTED-SINGLE-SOLID",
       "status": "PASS",
-      "evidence": "0 overlaps without a shared physical ConnectionID; tolerance 0.05 mm3"
+      "evidence": "25 printed BOM parts are each one connected solid"
+    },
+    {
+      "id": "AUD-NO-OVERLAP-AS-JOINT",
+      "status": "PASS",
+      "evidence": "No structural overlap is authorized merely by a shared ConnectionID; tolerance 0.05 mm3"
     },
     {
       "id": "AUD-INVENTORY-F695",
       "status": "PASS",
-      "evidence": [
-        "F695_J1_1",
-        "F695_J1_2",
-        "F695_J2",
-        "F695_J3",
-        "F695_J4"
-      ]
+      "evidence": {
+        "installed": [
+          "F695_J1_1",
+          "F695_J1_2",
+          "F695_J2_L",
+          "F695_J2_R",
+          "F695_J3",
+          "F695_J4"
+        ],
+        "owned": 5,
+        "purchase_required": 1
+      }
     },
     {
       "id": "AUD-INVENTORY-F685",
       "status": "PASS",
-      "evidence": [
-        "J1_PLANET_BRG_1",
-        "J1_PLANET_BRG_2",
-        "J1_PLANET_BRG_3",
-        "F685_J5_A",
-        "F685_J5_B"
-      ]
+      "evidence": {
+        "installed": [
+          "J1_PLANET_BRG_1",
+          "J1_PLANET_BRG_2",
+          "J1_PLANET_BRG_3",
+          "F685_J5_A",
+          "F685_J5_B",
+          "F685_J2_INPUT_A",
+          "F685_J2_INPUT_B"
+        ],
+        "owned": 5,
+        "purchase_required": 2
+      }
     },
     {
       "id": "AUD-INSERT-M3-SPEC",
       "status": "PASS",
       "evidence": [
-        "J1_SERVO_1:OD6.0xL4.0",
-        "J1_SERVO_2:OD6.0xL4.0",
         "J1_CASE_1:OD6.0xL4.0",
         "J1_CASE_2:OD6.0xL4.0",
         "J1_CASE_3:OD6.0xL4.0",
@@ -57,15 +71,21 @@
         "J1_CASE_5:OD6.0xL4.0",
         "J1_CASE_6:OD6.0xL4.0",
         "J1_OUTPUT_CLAMP:OD6.0xL4.0",
+        "J2_SHAFT_CLAMP_L:OD6.0xL4.0",
+        "J2_SHAFT_CLAMP_R:OD6.0xL4.0",
+        "UA_SPACER_1_L:OD6.0xL4.0",
+        "UA_SPACER_1_R:OD6.0xL4.0",
+        "UA_SPACER_2_L:OD6.0xL4.0",
+        "UA_SPACER_2_R:OD6.0xL4.0",
         "J5_HOUSING_INS_1_1:OD6.0xL4.0",
         "J5_HOUSING_INS_1_2:OD6.0xL4.0",
         "J5_HOUSING_INS_2_1:OD6.0xL4.0",
         "J5_HOUSING_INS_2_2:OD6.0xL4.0",
         "J5_TOOL_CLAMP:OD6.0xL4.0",
-        "J2_HORN_1:OD6.0xL4.0",
-        "J2_HORN_2:OD6.0xL4.0",
-        "J3_HORN_1:OD6.0xL4.0",
-        "J3_HORN_2:OD6.0xL4.0",
+        "J2_BRIDGE_INS_1:OD6.0xL4.0",
+        "J2_BRIDGE_INS_2:OD6.0xL4.0",
+        "J2_BRIDGE_INS_3:OD6.0xL4.0",
+        "J2_BRIDGE_INS_4:OD6.0xL4.0",
         "J4_HORN_1:OD6.0xL4.0",
         "J4_HORN_2:OD6.0xL4.0"
       ]
@@ -77,62 +97,267 @@
         "BASE_M4_1:OD5.0xL6.0",
         "BASE_M4_2:OD5.0xL6.0",
         "BASE_M4_3:OD5.0xL6.0",
-        "BASE_M4_4:OD5.0xL6.0"
+        "BASE_M4_4:OD5.0xL6.0",
+        "J2_SERVO_1_1:OD5.0xL4.0",
+        "J2_SERVO_1_2:OD5.0xL4.0",
+        "J2_SERVO_2_1:OD5.0xL4.0",
+        "J2_SERVO_2_2:OD5.0xL4.0",
+        "J3_SERVO_1_1:OD5.0xL4.0",
+        "J3_SERVO_1_2:OD5.0xL4.0",
+        "J3_SERVO_2_1:OD5.0xL4.0",
+        "J3_SERVO_2_2:OD5.0xL4.0"
       ]
     },
     {
       "id": "AUD-FASTENER-LENGTH-ENGAGEMENT",
       "status": "PASS",
-      "evidence": "36 screws within inventory/purchase ranges"
+      "evidence": "49 screws within inventory/purchase ranges"
     },
     {
       "id": "AUD-TOOL-ACCESS",
       "status": "PASS",
-      "evidence": "36 screws define direction, >=8 mm clearance, and assembly stage"
+      "evidence": "49 screws define direction, >=8 mm clearance, and assembly stage"
+    },
+    {
+      "id": "AUD-SERVO-STEP-HOLE-AXIS",
+      "status": "PASS",
+      "evidence": "14 servo fastener axes match STEP hole/slot centers within 0.05 mm"
     },
     {
       "id": "AUD-PHYSICAL-CONNECTION-GRAPH",
-      "status": "PASS",
-      "evidence": "19 connection paths have physical witnesses"
+      "status": "FAIL",
+      "evidence": [
+        "C-J2-HORN-COUPLER:J2_SERVO_HORN",
+        "C-J2-HORN-COUPLER:J2_HORN_SHAFT_COUPLER",
+        "C-J3-ACTIVE:J3_SERVO_HORN",
+        "C-J3-ACTIVE:J3_HORN_M3_1",
+        "C-J3-ACTIVE:J3_HORN_1"
+      ]
     },
     {
       "id": "AUD-NO-MAGIC-FIXED-JOINTS",
       "status": "PASS",
       "evidence": "No FreeCAD constraint is credited as hardware"
+    },
+    {
+      "id": "AUD-INTEGRAL-SERVO-MOUNTS",
+      "status": "PASS",
+      "evidence": "J1-J5 cradle features are fused into one-solid structural hosts; no separate mount BOM items"
+    },
+    {
+      "id": "AUD-SERVO-HOST-NO-VOLUME-OVERLAP",
+      "status": "PASS",
+      "evidence": "All purchased servo cases have zero common volume with their printed hosts; seating is by ear faces"
+    },
+    {
+      "id": "AUD-EXACT-SERVO-HORN-GEOMETRY",
+      "status": "FAIL",
+      "evidence": [
+        "J2_SERVO_HORN",
+        "J3_SERVO_HORN"
+      ]
+    },
+    {
+      "id": "AUD-EXACT-SERVO-BODY-GEOMETRY",
+      "status": "PASS",
+      "evidence": "All five servo bodies trace to supplied STEP files"
+    },
+    {
+      "id": "AUD-PURCHASED-SERVO-UNMODIFIED",
+      "status": "PASS",
+      "evidence": "Placed servo B-rep volumes equal source volumes within 0.01 mm3"
+    },
+    {
+      "id": "AUD-PITCH-LOAD-CASES-SF",
+      "status": "PASS",
+      "evidence": [
+        {
+          "joint": "J2",
+          "stall_Nm": 1.6596,
+          "load_cases": {
+            "static": {
+              "demand_Nm": 0.517907,
+              "sf": 3.2044
+            },
+            "max_accel_120_deg_s2": {
+              "demand_Nm": 0.544641,
+              "sf": 3.0471
+            },
+            "emergency_stop_600_deg_s2": {
+              "demand_Nm": 0.65158,
+              "sf": 2.547
+            }
+          }
+        },
+        {
+          "joint": "J3",
+          "stall_Nm": 0.922,
+          "load_cases": {
+            "static": {
+              "demand_Nm": 0.247761,
+              "sf": 3.7213
+            },
+            "max_accel_120_deg_s2": {
+              "demand_Nm": 0.256204,
+              "sf": 3.5987
+            },
+            "emergency_stop_600_deg_s2": {
+              "demand_Nm": 0.289976,
+              "sf": 3.1796
+            }
+          }
+        },
+        {
+          "joint": "J4",
+          "stall_Nm": 0.177,
+          "load_cases": {
+            "static": {
+              "demand_Nm": 0.068699,
+              "sf": 2.5765
+            },
+            "max_accel_120_deg_s2": {
+              "demand_Nm": 0.069538,
+              "sf": 2.5454
+            },
+            "emergency_stop_600_deg_s2": {
+              "demand_Nm": 0.072896,
+              "sf": 2.4281
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "AUD-J2-PHYSICAL-2TO1-BELT",
+      "status": "PASS",
+      "evidence": {
+        "part": "BELT-J2-135-3GT-90",
+        "ratio": 2.0,
+        "efficiency": 0.9,
+        "pitch_mm": 3.0,
+        "width_mm": 9.0,
+        "length_mm": 135.0,
+        "wrap_deg": 151.0323,
+        "engaged_teeth": 6.7125
+      }
+    },
+    {
+      "id": "AUD-MUJOCO-TRANSMISSION-MATCH",
+      "status": "PASS",
+      "evidence": {
+        "motor": "J2_MG996R_16T_32T_3GT",
+        "gear_Nm": 1.6596,
+        "ratio": "2.0",
+        "efficiency": "0.90",
+        "transmission_id": "P-J2-BELT"
+      }
+    },
+    {
+      "id": "AUD-BELT-CAPACITY-PHYSICAL-COUPON",
+      "status": "FAIL",
+      "evidence": "3GT printed-tooth coupon and MISUMI capacity confirmation are required before manufacture approval"
+    },
+    {
+      "id": "AUD-PHYSICAL-VALIDATION",
+      "status": "FAIL",
+      "evidence": "Pending insert pull-out, bearing press-fit, 30 s hold, and 600 deg/s2 emergency-stop tests"
+    },
+    {
+      "id": "AUD-MOTION-SWEEP-CURRENT",
+      "status": "FAIL",
+      "evidence": "MuJoCo sweep must be rerun after exact-servo geometry and J5 axis relocation; local mujoco module unavailable"
     }
   ],
-  "feature_count": 137,
-  "total_arm_mass_g": 455.472,
+  "feature_count": 157,
+  "total_arm_mass_g": 558.568,
   "mass_by_body_g": {
-    "B0_BASE": 113.159,
+    "B0_BASE": 106.813,
     "B-1_FIXTURE": 1.442,
-    "B1_TURNTABLE": 141.643,
-    "B2_UPPER_ARM": 80.788,
-    "B3_FOREARM": 38.066,
-    "B4_WRIST_PITCH": 66.202,
-    "B5_TOOL": 15.614
+    "B1_TURNTABLE": 237.298,
+    "B2_UPPER_ARM": 97.406,
+    "B3_FOREARM": 31.415,
+    "B4_WRIST_PITCH": 69.627,
+    "B5_TOOL": 16.01
+  },
+  "center_of_mass_by_body_mm": {
+    "B0_BASE": [
+      0.580099,
+      -2e-06,
+      24.348133
+    ],
+    "B-1_FIXTURE": [
+      -0.0,
+      0.0,
+      -3.0
+    ],
+    "B1_TURNTABLE": [
+      19.501668,
+      3.291117,
+      68.81724
+    ],
+    "B2_UPPER_ARM": [
+      85.582056,
+      3.172469,
+      81.90853
+    ],
+    "B3_FOREARM": [
+      199.706003,
+      -1.301203,
+      81.554556
+    ],
+    "B4_WRIST_PITCH": [
+      265.341,
+      -7.261283,
+      80.114275
+    ],
+    "B5_TOOL": [
+      292.126825,
+      -0.068294,
+      81.899038
+    ]
   },
   "allowed_mating_intersections": [
     {
       "a": "BASE_PLATE",
-      "b": "J1_SERVO",
-      "volume_mm3": 47.996,
+      "b": "J1_SERVO_M2_1",
+      "volume_mm3": 3.142,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J1-SERVO"
+      ]
+    },
+    {
+      "a": "BASE_PLATE",
+      "b": "J1_SERVO_M2_2",
+      "volume_mm3": 3.142,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J1-SERVO"
       ]
     },
     {
       "a": "V8_R_J1_SunGear",
-      "b": "J1_HORN_NUT_M2_1",
-      "volume_mm3": 12.165,
+      "b": "J1_STOCK_HORN",
+      "volume_mm3": 4.846,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-SUN-HORN"
       ]
     },
     {
       "a": "V8_R_J1_SunGear",
-      "b": "J1_HORN_NUT_M2_2",
-      "volume_mm3": 12.165,
+      "b": "J1_HORN_INSERT_M2_1",
+      "volume_mm3": 17.459,
+      "reason": "press fit",
+      "connection_ids": [
+        "C-J1-SUN-HORN"
+      ]
+    },
+    {
+      "a": "V8_R_J1_SunGear",
+      "b": "J1_HORN_INSERT_M2_2",
+      "volume_mm3": 17.459,
+      "reason": "press fit",
       "connection_ids": [
         "C-J1-SUN-HORN"
       ]
@@ -141,6 +366,7 @@
       "a": "V8_R_J1_CarrierLower",
       "b": "J1_PLANET_SHAFT_1",
       "volume_mm3": 27.48,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -149,6 +375,7 @@
       "a": "V8_R_J1_CarrierLower",
       "b": "J1_PLANET_SHAFT_2",
       "volume_mm3": 27.48,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -157,6 +384,7 @@
       "a": "V8_R_J1_CarrierLower",
       "b": "J1_PLANET_SHAFT_3",
       "volume_mm3": 27.48,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -165,6 +393,7 @@
       "a": "V8_R_J1_CarrierUpper",
       "b": "V8_R_J1_M5Shaft",
       "volume_mm3": 1.944,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -173,6 +402,7 @@
       "a": "V8_R_J1_CarrierUpper",
       "b": "J1_PLANET_SHAFT_1",
       "volume_mm3": 27.48,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -181,6 +411,7 @@
       "a": "V8_R_J1_CarrierUpper",
       "b": "J1_PLANET_SHAFT_2",
       "volume_mm3": 27.48,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -189,6 +420,7 @@
       "a": "V8_R_J1_CarrierUpper",
       "b": "J1_PLANET_SHAFT_3",
       "volume_mm3": 27.48,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J1-TRANSMISSION"
       ]
@@ -196,47 +428,80 @@
     {
       "a": "V8_R_J1_Turntable",
       "b": "J1_OUTPUT_CLAMP_M3",
-      "volume_mm3": 56.549,
+      "volume_mm3": 77.754,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J1-OUTPUT-CLAMP"
       ]
     },
     {
       "a": "V8_R_J1_Turntable",
-      "b": "J2_SERVO_M3_1_1",
-      "volume_mm3": 56.549,
+      "b": "J2_SHAFT_CLAMP_M3_L",
+      "volume_mm3": 44.159,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
-        "C-J2-SERVO"
+        "C-J2-RETENTION"
       ]
     },
     {
       "a": "V8_R_J1_Turntable",
-      "b": "J2_SERVO_M3_1_2",
-      "volume_mm3": 56.549,
+      "b": "J2_SHAFT_CLAMP_M3_R",
+      "volume_mm3": 44.159,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
-        "C-J2-SERVO"
+        "C-J2-RETENTION"
       ]
     },
     {
       "a": "V8_R_J1_Turntable",
-      "b": "J2_SERVO_M3_2_1",
-      "volume_mm3": 56.549,
+      "b": "J2_BRIDGE_M3_1",
+      "volume_mm3": 14.137,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
-        "C-J2-SERVO"
+        "C-J2-INPUT-SUPPORT"
       ]
     },
     {
       "a": "V8_R_J1_Turntable",
-      "b": "J2_SERVO_M3_2_2",
-      "volume_mm3": 56.549,
+      "b": "J2_BRIDGE_M3_2",
+      "volume_mm3": 14.137,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
-        "C-J2-SERVO"
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "V8_R_J1_Turntable",
+      "b": "J2_BRIDGE_M3_3",
+      "volume_mm3": 14.137,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "V8_R_J1_Turntable",
+      "b": "J2_BRIDGE_M3_4",
+      "volume_mm3": 14.137,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J1_SERVO",
+      "b": "J1_STOCK_HORN",
+      "volume_mm3": 3.698,
+      "reason": "declared tooth/spline contact",
+      "connection_ids": [
+        "C-J1-SUN-HORN"
       ]
     },
     {
       "a": "J1_SERVO",
       "b": "J1_HORN_M2_1",
-      "volume_mm3": 25.133,
+      "volume_mm3": 4.284,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J1-SUN-HORN"
       ]
@@ -244,111 +509,36 @@
     {
       "a": "J1_SERVO",
       "b": "J1_HORN_M2_2",
-      "volume_mm3": 25.133,
+      "volume_mm3": 4.738,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J1-SUN-HORN"
       ]
     },
     {
       "a": "J1_SERVO",
-      "b": "J1_SERVO_1",
-      "volume_mm3": 9.96,
-      "connection_ids": [
-        "C-J1-SERVO"
-      ]
-    },
-    {
-      "a": "J1_SERVO",
-      "b": "J1_SERVO_2",
-      "volume_mm3": 9.96,
-      "connection_ids": [
-        "C-J1-SERVO"
-      ]
-    },
-    {
-      "a": "J1_HORN_M2_1",
-      "b": "J1_HORN_NUT_M2_1",
-      "volume_mm3": 5.027,
+      "b": "J1_HORN_CENTER_SCREW",
+      "volume_mm3": 2.869,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J1-SUN-HORN"
       ]
     },
     {
-      "a": "J1_HORN_M2_2",
-      "b": "J1_HORN_NUT_M2_2",
-      "volume_mm3": 5.027,
+      "a": "J4_SERVO",
+      "b": "J4_SERVO_HORN",
+      "volume_mm3": 3.698,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
-        "C-J1-SUN-HORN"
-      ]
-    },
-    {
-      "a": "J2_SERVO",
-      "b": "J2_HORN_M3_1",
-      "volume_mm3": 56.549,
-      "connection_ids": [
-        "C-J2-ACTIVE"
-      ]
-    },
-    {
-      "a": "J2_SERVO",
-      "b": "J2_HORN_M3_2",
-      "volume_mm3": 50.354,
-      "connection_ids": [
-        "C-J2-ACTIVE"
-      ]
-    },
-    {
-      "a": "J2_SERVO_HORN",
-      "b": "J2_HORN_M3_1",
-      "volume_mm3": 14.137,
-      "connection_ids": [
-        "C-J2-ACTIVE"
-      ]
-    },
-    {
-      "a": "J2_SERVO_HORN",
-      "b": "J2_HORN_M3_2",
-      "volume_mm3": 14.137,
-      "connection_ids": [
-        "C-J2-ACTIVE"
-      ]
-    },
-    {
-      "a": "J3_SERVO",
-      "b": "J3_HORN_M3_1",
-      "volume_mm3": 56.549,
-      "connection_ids": [
-        "C-J3-ACTIVE"
-      ]
-    },
-    {
-      "a": "J3_SERVO",
-      "b": "J3_HORN_M3_2",
-      "volume_mm3": 50.354,
-      "connection_ids": [
-        "C-J3-ACTIVE"
-      ]
-    },
-    {
-      "a": "J3_SERVO_HORN",
-      "b": "J3_HORN_M3_1",
-      "volume_mm3": 14.137,
-      "connection_ids": [
-        "C-J3-ACTIVE"
-      ]
-    },
-    {
-      "a": "J3_SERVO_HORN",
-      "b": "J3_HORN_M3_2",
-      "volume_mm3": 14.137,
-      "connection_ids": [
-        "C-J3-ACTIVE"
+        "C-J4-ACTIVE",
+        "C-J4-SERVO"
       ]
     },
     {
       "a": "J4_SERVO",
       "b": "J4_HORN_M3_1",
-      "volume_mm3": 56.549,
+      "volume_mm3": 15.614,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J4-ACTIVE"
       ]
@@ -356,47 +546,62 @@
     {
       "a": "J4_SERVO",
       "b": "J4_HORN_M3_2",
-      "volume_mm3": 50.354,
+      "volume_mm3": 31.559,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J4-ACTIVE"
       ]
     },
     {
-      "a": "J4_SERVO_HORN",
-      "b": "J4_HORN_M3_1",
-      "volume_mm3": 14.137,
+      "a": "J4_SERVO",
+      "b": "J4_HORN_CENTER_SCREW",
+      "volume_mm3": 2.869,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J4-ACTIVE"
       ]
     },
     {
-      "a": "J4_SERVO_HORN",
-      "b": "J4_HORN_M3_2",
-      "volume_mm3": 14.137,
+      "a": "UPPER_ARM_SPACER_1",
+      "b": "UA_SPACER_1_L",
+      "volume_mm3": 76.781,
+      "reason": "press fit",
       "connection_ids": [
-        "C-J4-ACTIVE"
+        "C-UA-CROSS"
       ]
     },
     {
-      "a": "J2_PASSIVE_STUB",
-      "b": "J2_COLLAR_SETSCREW",
-      "volume_mm3": 6.866,
+      "a": "UPPER_ARM_SPACER_1",
+      "b": "UA_SPACER_1_R",
+      "volume_mm3": 76.781,
+      "reason": "press fit",
       "connection_ids": [
-        "C-J2-PASSIVE"
+        "C-UA-CROSS"
       ]
     },
     {
-      "a": "J4_PASSIVE_STUB",
-      "b": "J4_COLLAR_SETSCREW",
-      "volume_mm3": 6.866,
+      "a": "UPPER_ARM_SPACER_2",
+      "b": "UA_SPACER_2_L",
+      "volume_mm3": 76.781,
+      "reason": "press fit",
       "connection_ids": [
-        "C-J4-PASSIVE"
+        "C-UA-CROSS"
+      ]
+    },
+    {
+      "a": "UPPER_ARM_SPACER_2",
+      "b": "UA_SPACER_2_R",
+      "volume_mm3": 76.781,
+      "reason": "press fit",
+      "connection_ids": [
+        "C-UA-CROSS"
       ]
     },
     {
       "a": "WRIST_PITCH_L",
       "b": "J5_HOUSING_INS_1_1",
       "volume_mm3": 39.142,
+      "reason": "press fit",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -405,6 +610,7 @@
       "a": "WRIST_PITCH_L",
       "b": "J5_HOUSING_M3_1_1",
       "volume_mm3": 39.493,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -413,6 +619,7 @@
       "a": "WRIST_PITCH_L",
       "b": "J5_HOUSING_INS_1_2",
       "volume_mm3": 39.142,
+      "reason": "press fit",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -421,6 +628,7 @@
       "a": "WRIST_PITCH_L",
       "b": "J5_HOUSING_M3_1_2",
       "volume_mm3": 39.493,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -429,6 +637,7 @@
       "a": "WRIST_PITCH_R",
       "b": "J5_HOUSING_INS_2_1",
       "volume_mm3": 39.142,
+      "reason": "press fit",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -437,6 +646,7 @@
       "a": "WRIST_PITCH_R",
       "b": "J5_HOUSING_M3_2_1",
       "volume_mm3": 39.493,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -445,6 +655,7 @@
       "a": "WRIST_PITCH_R",
       "b": "J5_HOUSING_INS_2_2",
       "volume_mm3": 39.142,
+      "reason": "press fit",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
@@ -453,38 +664,25 @@
       "a": "WRIST_PITCH_R",
       "b": "J5_HOUSING_M3_2_2",
       "volume_mm3": 39.493,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-HOUSING"
       ]
     },
     {
-      "a": "WRIST_PITCH_R",
-      "b": "J4_HORN_M3_1",
-      "volume_mm3": 7.069,
-      "connection_ids": [
-        "C-J4-ACTIVE"
-      ]
-    },
-    {
-      "a": "WRIST_PITCH_R",
-      "b": "J4_HORN_M3_2",
-      "volume_mm3": 7.069,
-      "connection_ids": [
-        "C-J4-ACTIVE"
-      ]
-    },
-    {
       "a": "J5_SERVO",
-      "b": "J5_HORN_M2_1",
-      "volume_mm3": 18.85,
+      "b": "J5_STOCK_HORN",
+      "volume_mm3": 3.698,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J5-ACTIVE"
       ]
     },
     {
       "a": "J5_SERVO",
-      "b": "J5_HORN_M2_2",
-      "volume_mm3": 18.85,
+      "b": "J5_HORN_CENTER_SCREW",
+      "volume_mm3": 2.869,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-ACTIVE"
       ]
@@ -492,39 +690,17 @@
     {
       "a": "J5_OUTPUT_SHAFT",
       "b": "J5_STOCK_HORN",
-      "volume_mm3": 16.659,
+      "volume_mm3": 11.084,
+      "reason": "declared tooth/spline contact",
       "connection_ids": [
         "C-J5-ACTIVE"
       ]
     },
     {
       "a": "J5_OUTPUT_SHAFT",
-      "b": "J5_HORN_M2_1",
-      "volume_mm3": 2.693,
-      "connection_ids": [
-        "C-J5-ACTIVE"
-      ]
-    },
-    {
-      "a": "J5_OUTPUT_SHAFT",
-      "b": "J5_HORN_NUT_M2_1",
-      "volume_mm3": 4.964,
-      "connection_ids": [
-        "C-J5-ACTIVE"
-      ]
-    },
-    {
-      "a": "J5_OUTPUT_SHAFT",
-      "b": "J5_HORN_M2_2",
-      "volume_mm3": 2.693,
-      "connection_ids": [
-        "C-J5-ACTIVE"
-      ]
-    },
-    {
-      "a": "J5_OUTPUT_SHAFT",
-      "b": "J5_HORN_NUT_M2_2",
-      "volume_mm3": 4.964,
+      "b": "J5_HORN_CENTER_SCREW",
+      "volume_mm3": 14.479,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-ACTIVE"
       ]
@@ -533,14 +709,43 @@
       "a": "J5_OUTPUT_SHAFT",
       "b": "J5_COLLAR_SETSCREW",
       "volume_mm3": 9.767,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-RETENTION"
       ]
     },
     {
+      "a": "J5_STOCK_HORN",
+      "b": "J5_HORN_SHAFT_ADAPTER",
+      "volume_mm3": 17.379,
+      "reason": "declared tooth/spline contact",
+      "connection_ids": [
+        "C-J5-ACTIVE"
+      ]
+    },
+    {
+      "a": "J5_STOCK_HORN",
+      "b": "J5_HORN_M2_1",
+      "volume_mm3": 9.425,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J5-ACTIVE"
+      ]
+    },
+    {
+      "a": "J5_STOCK_HORN",
+      "b": "J5_HORN_M2_2",
+      "volume_mm3": 9.425,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J5-ACTIVE"
+      ]
+    },
+    {
       "a": "J5_HORN_SHAFT_ADAPTER",
       "b": "J5_HORN_NUT_M2_1",
-      "volume_mm3": 10.404,
+      "volume_mm3": 15.08,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-ACTIVE"
       ]
@@ -548,7 +753,8 @@
     {
       "a": "J5_HORN_SHAFT_ADAPTER",
       "b": "J5_HORN_NUT_M2_2",
-      "volume_mm3": 10.404,
+      "volume_mm3": 15.08,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-ACTIVE"
       ]
@@ -557,25 +763,150 @@
       "a": "GRIPPER_CRADLE",
       "b": "J5_TOOL_CLAMP_M3",
       "volume_mm3": 52.047,
+      "reason": "threaded hardware engagement",
       "connection_ids": [
         "C-J5-TOOL"
       ]
     },
     {
-      "a": "J4_HORN_SPACER",
-      "b": "J4_HORN_1",
-      "volume_mm3": 36.356,
+      "a": "J2_INPUT_BEARING_BRIDGE",
+      "b": "F685_J2_INPUT_A",
+      "volume_mm3": 3.288,
+      "reason": "press fit",
       "connection_ids": [
-        "C-J4-ACTIVE"
+        "C-J2-INPUT-SUPPORT"
       ]
     },
     {
-      "a": "J4_HORN_SPACER",
-      "b": "J4_HORN_2",
-      "volume_mm3": 36.356,
+      "a": "J2_INPUT_BEARING_BRIDGE",
+      "b": "F685_J2_INPUT_B",
+      "volume_mm3": 3.288,
+      "reason": "press fit",
       "connection_ids": [
-        "C-J4-ACTIVE"
+        "C-J2-INPUT-SUPPORT"
       ]
+    },
+    {
+      "a": "J2_INPUT_BEARING_BRIDGE",
+      "b": "J2_BRIDGE_M3_1",
+      "volume_mm3": 10.077,
+      "reason": "press fit",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_INPUT_BEARING_BRIDGE",
+      "b": "J2_BRIDGE_M3_2",
+      "volume_mm3": 10.077,
+      "reason": "press fit",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_INPUT_BEARING_BRIDGE",
+      "b": "J2_BRIDGE_M3_3",
+      "volume_mm3": 10.077,
+      "reason": "press fit",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_INPUT_BEARING_BRIDGE",
+      "b": "J2_BRIDGE_M3_4",
+      "volume_mm3": 10.077,
+      "reason": "press fit",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "F685_J2_INPUT_A",
+      "b": "J2_BRIDGE_M3_1",
+      "volume_mm3": 18.493,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "F685_J2_INPUT_A",
+      "b": "J2_BRIDGE_M3_2",
+      "volume_mm3": 18.493,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "F685_J2_INPUT_B",
+      "b": "J2_BRIDGE_M3_3",
+      "volume_mm3": 18.493,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "F685_J2_INPUT_B",
+      "b": "J2_BRIDGE_M3_4",
+      "volume_mm3": 18.493,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_DRIVER_16T",
+      "b": "J2_BRIDGE_M3_1",
+      "volume_mm3": 1.523,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_DRIVER_16T",
+      "b": "J2_BRIDGE_M3_2",
+      "volume_mm3": 1.523,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_DRIVER_16T",
+      "b": "J2_BRIDGE_M3_3",
+      "volume_mm3": 1.523,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_DRIVER_16T",
+      "b": "J2_BRIDGE_M3_4",
+      "volume_mm3": 1.523,
+      "reason": "threaded hardware engagement",
+      "connection_ids": [
+        "C-J2-INPUT-SUPPORT"
+      ]
+    },
+    {
+      "a": "J2_BELT_135_3GT_90",
+      "b": "J2_BRIDGE_INS_1",
+      "volume_mm3": 0.062,
+      "reason": "press fit",
+      "connection_ids": []
+    },
+    {
+      "a": "J2_BELT_135_3GT_90",
+      "b": "J2_BRIDGE_INS_3",
+      "volume_mm3": 0.062,
+      "reason": "press fit",
+      "connection_ids": []
     }
   ],
   "forbidden_intersections": []

@@ -1,0 +1,67 @@
+{
+  "status": "PROTOTYPE_NOT_LOAD_APPROVED",
+  "source": "vendor/servo_cad/MG996R_SERVO.step",
+  "pulley": {
+    "teeth": 16,
+    "pitch_mm": 3.0,
+    "belt_width_mm": 9.0,
+    "socket_radial_clearance_mm": 0.1,
+    "mass_estimate_g_at_1_06_g_cm3": 1.675
+  },
+  "checks": [
+    {
+      "id": "DIRECT-PULLEY-BREP",
+      "pass": true,
+      "evidence": {
+        "solids": 1,
+        "volume_mm3": 1580.442
+      }
+    },
+    {
+      "id": "SPLINE-COUPON-BREP",
+      "pass": true,
+      "evidence": {
+        "solids": 1,
+        "volume_mm3": 3003.163
+      }
+    },
+    {
+      "id": "INSTALLED-SERVO-COMMON-VOLUME",
+      "pass": true,
+      "evidence": {
+        "common_volume_mm3": 0.0
+      }
+    },
+    {
+      "id": "STL-CLOSED-SOLIDS",
+      "pass": true,
+      "evidence": [
+        {
+          "file": "MG996R_DIRECT_16T_3GT_PULLEY.stl",
+          "facets": 16858,
+          "solid": true,
+          "bbox_mm": [
+            17.2,
+            17.195,
+            13.0
+          ]
+        },
+        {
+          "file": "MG996R_SPLINE_CLEARANCE_COUPON_005_010_015.stl",
+          "facets": 44120,
+          "solid": true,
+          "bbox_mm": [
+            48.0,
+            18.0,
+            7.2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PHYSICAL-FIT-AND-LOAD",
+      "pass": false,
+      "evidence": "Pending spline coupon, center-thread, runout, 30 s hold, belt tracking, servo-bearing play/temperature tests"
+    }
+  ]
+}
